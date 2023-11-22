@@ -1,4 +1,3 @@
-import React from 'react'
 import { useShoppingCart } from '../context/ShoppingCartContext'
 import { Offcanvas, Stack } from 'react-bootstrap'
 import CartItem from './CartItem'
