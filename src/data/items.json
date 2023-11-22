@@ -3,54 +3,54 @@
       "id": 1,
       "name": "Harry Potter Divination Crystal Ball",
       "price": 248.21,
-      "imgUrl": "/imgs/HarryPotter/divine_cristal.jpg"
+      "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/divine_cristal.jpg?raw=true"
     },
     {
       "id": 2,
       "name": "Wizarding World Dubby ",
       "price": 652.72,
-      "imgUrl": "/imgs/HarryPotter/dobby.jpg"
+      "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/dobby.jpg?raw=true"
     },
     {
       "id": 3,
       "name": "Harry Potter Gold Plated Golden Snitch",
       "price": 339.00,
-      "imgUrl": "/imgs/HarryPotter/golden-snitch-brazaleth.jpg"
+      "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/golden-snitch-brazaleth.jpg?raw=true"
     },
     {
       "id": 4,
       "name": "Harry Potter Golden Snitch Kit",
       "price": 263.19,
-      "imgUrl": "/imgs/HarryPotter/Golden-Snitch.jpg"
+      "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/Golden-Snitch.jpg?raw=true"
     },
     {
         "id": 5,
         "name": "LEGO Harry Potter Hogwarts Castle",
         "price": 9999.99,
-        "imgUrl": "/imgs/HarryPotter/Hogwarts_Castle.jpg"
+        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/Hogwarts_Castle.jpg?raw=true"
       },
       {
         "id": 6,
         "name": "Music box Harry Potter",
         "price": 386.25,
-        "imgUrl": "/imgs/HarryPotter/music_box.jpg"
+        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/music_box.jpg?raw=true"
       },
       {
         "id": 7,
         "name": "Gryffindor Scarf",
         "price": 7.50,
-        "imgUrl": "/imgs/HarryPotter/scarf.jpg"
+        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/scarf.jpg?raw=true"
       },
       {
         "id": 8,
         "name": "Harry Potter t-shirt",
         "price": 69999,
-        "imgUrl": "/imgs/HarryPotter/t-shirt.jpg"
+        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/t-shirt.jpg?raw=true"
       },  
       {
         "id": 9,
         "name": "Gryffindor costume",
         "price": 69999,
-        "imgUrl": "/imgs/HarryPotter/uniform.jpg"
+        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/uniform.jpg?raw=true"
       }
   ]
