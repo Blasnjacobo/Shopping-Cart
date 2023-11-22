@@ -1,0 +1,56 @@
+[
+    {
+      "id": 10,
+      "name": "Marvel Avengers Titan Hero HULK",
+      "price": 335.00,
+      "imgUrl": "/imgs/Avengers/Hulk.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Avengers Titan Hero Thor",
+      "price": 176.94,
+      "imgUrl": "/imgs/Avengers/thor.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Funko POP Marvel: Avengers Endgame - Thanos",
+      "price": 269.44,
+      "imgUrl": "/imgs/Avengers/thanos.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Funko - Avengers Endgame Pop Iron Man",
+      "price": 356.11,
+      "imgUrl": "/imgs/Avengers/ironman.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Infinity gauntlet",
+        "price": 1415.57,
+        "imgUrl": "/imgs/Avengers/InfinityGauntlet.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Spiderverse Magazine Ilustrated Guide",
+        "price": 529.00,
+        "imgUrl": "/imgs/Avengers/spiderverse.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Marvel Encyclopedia, New Edition",
+        "price": 378.31,
+        "imgUrl": "/imgs/Avengers/encyclopedia.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Marvel Tarot Deck and Guidebook",
+        "price": 450.16,
+        "imgUrl": "/imgs/Avengers/deck.jpg"
+      },  
+      {
+        "id": 18,
+        "name": "Spiderman halloween costume",
+        "price": 69999,
+        "imgUrl": "/imgs/Avengers/custome.jpg"
+      }
+  ]

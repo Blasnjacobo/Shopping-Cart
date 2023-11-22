@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "name": "Harry Potter Divination Crystal Ball",
+      "price": 248.21,
+      "imgUrl": "/imgs/HarryPotter/divine_cristal.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Wizarding World Dubby ",
+      "price": 652.72,
+      "imgUrl": "/imgs/HarryPotter/dobby.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Harry Potter Gold Plated Golden Snitch",
+      "price": 339.00,
+      "imgUrl": "/imgs/HarryPotter/golden-snitch-brazaleth.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Harry Potter Golden Snitch Kit",
+      "price": 263.19,
+      "imgUrl": "/imgs/HarryPotter/Golden-Snitch.jpg"
+    },
+    {
+        "id": 5,
+        "name": "LEGO Harry Potter Hogwarts Castle",
+        "price": 9999.99,
+        "imgUrl": "/imgs/HarryPotter/Hogwarts_Castle.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Music box Harry Potter",
+        "price": 386.25,
+        "imgUrl": "/imgs/HarryPotter/music_box.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Gryffindor Scarf",
+        "price": 7.50,
+        "imgUrl": "/imgs/HarryPotter/scarf.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Harry Potter t-shirt",
+        "price": 69999,
+        "imgUrl": "/imgs/HarryPotter/t-shirt.jpg"
+      },  
+      {
+        "id": 9,
+        "name": "Gryffindor costume",
+        "price": 69999,
+        "imgUrl": "/imgs/HarryPotter/uniform.jpg"
+      }
+  ]
