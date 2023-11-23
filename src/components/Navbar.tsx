@@ -8,15 +8,25 @@ const Navbar = () => {
   return (
     <NavbarBs sticky='top' className='bg-white shadow-sm mb-3'>
        <Container>
-        <Nav className='me-auto'>
-            <Nav.Link to='/shopping-cart' as={NavLink}>
+        <Nav className='me-auto d-flex gap-4 align-items-center justify-content-center'>
+            <Nav.Link to='/shopping-cart' as={NavLink} style={{color:'red'}}>
                 Home
             </Nav.Link>
-            <Nav.Link to='/shopping-cart/store' as={NavLink} style={{color:'red'}}>
+            <span style={{height:'2.5rem', width:'2px', backgroundColor:'gray'}}></span>
+            <Nav.Link to='/shopping-cart/harryPotter' as={NavLink}>
                 Harry Potter
             </Nav.Link>
-            <Nav.Link to='/shopping-cart/about' as={NavLink} style={{color:'blue'}}>
+            <Nav.Link to='/shopping-cart/avengers' as={NavLink}>
                 Avengers
+            </Nav.Link>
+            <Nav.Link to='/shopping-cart/friends' as={NavLink}>
+                Friends
+            </Nav.Link>
+            <Nav.Link to='/shopping-cart/starWars' as={NavLink}>
+                Star Wars
+            </Nav.Link>
+            <Nav.Link to='/shopping-cart/breakingBad' as={NavLink}>
+                Breaking Bad
             </Nav.Link>
         </Nav>
         {cartQuantity > 0 && (

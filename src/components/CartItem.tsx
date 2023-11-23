@@ -1,6 +1,9 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import storeItems from '../data/items.json'
 import storeItems2 from '../data/avengers.json'
+import storeItems3 from '../data/friends.json'
+import storeItems4 from '../data/starWars.json'
+import storeItems5 from '../data/breakingBad.json'
 import { useShoppingCart } from '../context/ShoppingCartContext'
 import { Button, Stack } from 'react-bootstrap'
 import { formatCurrency } from '../utilities/formatCurrency'
@@ -10,7 +13,7 @@ type CartItemProps = {
     quantity: number
 }
 
-const storeItemsTotal = storeItems.concat(storeItems2)
+const storeItemsTotal = storeItems.concat(storeItems2).concat(storeItems3).concat(storeItems4).concat(storeItems5)
 const CartItem = ({ id, quantity } : CartItemProps) => {
     const { removeFromCart } = useShoppingCart()
     const item = storeItemsTotal.find(i => i.id === id)

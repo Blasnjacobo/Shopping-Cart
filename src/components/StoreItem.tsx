@@ -20,7 +20,7 @@ const StoreItem = ({ id, name, price, imgUrl }: StoreItemProps) => {
     } = useShoppingCart()
     const quantity = getItemQuantity(id)
     return (
-        <Card className="h-100">
+        <Card className="h-100 m-3">
             <Card.Img 
                 variant="top"
                 src={imgUrl}
