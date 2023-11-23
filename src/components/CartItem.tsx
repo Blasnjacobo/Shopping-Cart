@@ -15,7 +15,11 @@ type CartItemProps = {
 
 const storeItemsTotal = storeItems.concat(storeItems2).concat(storeItems3).concat(storeItems4).concat(storeItems5)
 const CartItem = ({ id, quantity } : CartItemProps) => {
-    const { removeFromCart } = useShoppingCart()
+    const { 
+        removeFromCart, 
+        increaseCartQuantity,
+        decreaseCartQuantity
+    } = useShoppingCart()
     const item = storeItemsTotal.find(i => i.id === id)
     if (item == null) return null
     return (
@@ -32,13 +36,21 @@ const CartItem = ({ id, quantity } : CartItemProps) => {
                         x{quantity}
                         </span>
                     )}
-                </div>
+                </div>              
                 <div className='text-muted' style={{fontSize: '0.75rem'}}>
                     {formatCurrency(item.price)}
                 </div>
             </div>
-            <div>{formatCurrency(item.price*quantity)}</div>
-            <Button variant='outline-danger' size='sm' onClick={() => removeFromCart(item.id)}>&times;</Button>
+            <div style={{display:'flex', flexDirection:'column', gap:'1vh'}}>
+                <div style={{display:'flex', gap:'0.5vw', alignItems:'center'}}>
+                    <div>{formatCurrency(item.price*quantity)}</div>
+                    <Button variant='outline-danger' size='sm' style={{height:'2rem'}} onClick={() => removeFromCart(item.id)}>x</Button>
+                </div>
+                <div style={{display:'flex', alignItems:"center", justifyContent:'flex-end', gap:'0.5vw'}}>
+                    <Button size='sm' style={{ fontSize:'1 vw'}} onClick={() => increaseCartQuantity(id)}>+</Button>
+                    <Button size='sm' style={{ fontSize:'1 vw'}} onClick={() => decreaseCartQuantity(id)}>-</Button>
+                </div>  
+            </div>
         </Stack>
     )
 }
