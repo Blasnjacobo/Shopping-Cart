@@ -1,9 +1,9 @@
 [
     {
       "id": 1,
-      "name": "Harry Potter Divination Crystal Ball",
-      "price": 248.21,
-      "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/divine_cristal.jpg?raw=true"
+      "name": "Draco Malfoys Wand",
+      "price": 885.00,
+      "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/wand.jpg?raw=true"
     },
     {
       "id": 2,

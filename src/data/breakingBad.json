@@ -1,0 +1,56 @@
+[
+    {
+      "id": 37,
+      "name": "Breaking Bad Los Pollos Hermanos Yellow Tee",
+      "price": 599.99,
+      "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/pollos-tshirt.jpg?raw=true"
+    },
+    {
+      "id": 38,
+      "name": "Breaking Bad Walter White Bobble Head",
+      "price": 699.99,
+      "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/head.jpg?raw=true"
+    },
+    {
+      "id": 39,
+      "name": "Walter White Albuquerque Ink White Hoodie from Breaking Bad",
+      "price": 900.00,
+      "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/sweater.jpg?raw=true"
+    },
+    {
+      "id": 40,
+      "name": "Better Call Saul Don't Note Black Mug",
+      "price": 299.99,
+      "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/dont.jpg?raw=true"
+    },
+    {
+        "id": 41,
+        "name": "Heisenberg Institute of Cooking Unisex Black Tee",
+        "price": 449.99,
+        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/bb-tshirt.jpg?raw=true"
+      },
+      {
+        "id": 42,
+        "name": "Breaking Bad Los Pollos Hermanos White Tee",
+        "price": 599.99,
+        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/pollos.jpg?raw=true"
+      },
+      {
+        "id": 43,
+        "name": "Breaking Bad Walter White Adult Costume",
+        "price": 499.99,
+        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/bb-costum.jpg?raw=true"
+      },
+      {
+        "id": 44,
+        "name": "Walt & Jesse Youtooz",
+        "price": 800.00,
+        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/heads.jpg?raw=true"
+      },  
+      {
+        "id": 45,
+        "name": "World's 2nd Best Lawyer Personalized Beer Can Glass",
+        "price": 499.99,
+        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/cup.jpg?raw=true"
+      }
+  ]
