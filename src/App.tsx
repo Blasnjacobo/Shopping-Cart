@@ -8,6 +8,7 @@ import { ShoppingCartProvider } from './context/ShoppingCartContext'
 import Friends from './pages/Friends'
 import StarWars from './pages/StarWars'
 import BreakingBad from './pages/BreakingBad'
+//TO RUN THE PROGRAM THE COMMAND USED IS npm run dev
 
 function App() {
   return (
