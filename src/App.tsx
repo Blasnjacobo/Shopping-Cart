@@ -1,5 +1,4 @@
 import { Routes, Route } from 'react-router-dom'
-import { Container } from 'react-bootstrap'
 import Home from './pages/Home'
 import HarryPotter from './pages/HarryPotter'
 import Avengers from './pages/Avengers'
@@ -14,7 +13,7 @@ function App() {
   return (
     <ShoppingCartProvider>
       <Navbar />
-      <Container  className='mb-4'>
+      <div className='mb-4'>
         <Routes>
           <Route path='/shopping-cart' element={<Home />} />
           <Route path='/shopping-cart/harryPotter' element={<HarryPotter />} />
@@ -23,7 +22,7 @@ function App() {
           <Route path='/shopping-cart/starWars' element={<StarWars />} />
           <Route path='/shopping-cart/breakingBad' element={<BreakingBad />} />
         </Routes>
-      </Container>
+      </div>
     </ShoppingCartProvider>
   )
 }
