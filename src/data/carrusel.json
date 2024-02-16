@@ -4,7 +4,7 @@
         "name": "DOLCE & GABBANA Pour Homme",
         "description": "Un aroma sofisticado y delicioso. Representa totalmente una colonia Italiana, con acordes cítricos, amaderados y de tabaco ligeramente dulce. Perfecta como fragancia firma.",
         "price": 28,
-        "imgUrl": "https://elalambiquemx.com/cdn/shop/products/DSC_2239_5000x.jpg?v=1646419395"
+        "imgUrl": "https://github.com/Blasnjacobo/external-files/blob/main/shoppin-cart-mom/perfume1.jpg?raw=true"
     },
     {
         "id": 2,
@@ -33,5 +33,19 @@
         "description": "Nulla vitae elit libero, a pharetra augue mollis interdum.",
         "price": 28,
         "imgUrl": "https://github.com/Blasnjacobo/external-files/blob/main/shoppin-cart-mom/perfume5.jpg?raw=true"
+    },
+    {
+        "id": 6,
+        "name": "perfume5",
+        "description": "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+        "price": 28,
+        "imgUrl": "https://github.com/Blasnjacobo/external-files/blob/main/shoppin-cart-mom/perfume6.jpg?raw=true"
+    },
+    {
+        "id": 7,
+        "name": "perfume5",
+        "description": "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+        "price": 28,
+        "imgUrl": "https://github.com/Blasnjacobo/external-files/blob/main/shoppin-cart-mom/perfume7.jpg?raw=true"
     }
 ]

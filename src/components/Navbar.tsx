@@ -18,17 +18,17 @@ const Navbar = () => {
             <Nav.Link to='/shopping-cart' as={NavLink} style={{ color: 'red' }}>
               Home
             </Nav.Link>
-            <Nav.Link to='/shopping-cart/harryPotter' as={NavLink}>
+            <Nav.Link to='/shopping-cart/harryPotter' as={NavLink} style={{ fontWeight: 'bold' }}>
               Dama
             </Nav.Link>
-            <Nav.Link to='/shopping-cart/avengers' as={NavLink}>
+            <Nav.Link to='/shopping-cart/avengers' as={NavLink} style={{ fontWeight: 'bold' }}>
               Caballero
             </Nav.Link>
-            <Nav.Link to='/shopping-cart/friends' as={NavLink}>
+            <Nav.Link to='/shopping-cart/friends' as={NavLink} style={{ fontWeight: 'bold' }}>
               Juveniles
             </Nav.Link>
-            <Nav.Link to='/shopping-cart/starWars' as={NavLink}>
-              Nuevos lanzamientos
+            <Nav.Link to='/shopping-cart/starWars' as={NavLink} style={{ fontWeight: 'bold' }}>
+              Contactanos
             </Nav.Link>
           </Nav>
         </NavbarBs.Collapse>

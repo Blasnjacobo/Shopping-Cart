@@ -7,8 +7,8 @@ function Carrusel() {
         <Carousel nextIcon={<span style={{ color: 'black', backgroundColor: 'white' }}>Next</span>}
             prevIcon={<span style={{ color: 'black', backgroundColor: 'white' }}>Previous</span>}>
             {CarruselData.map((item) => (
-                <Carousel.Item key={item.id} style={{ maxHeight: '80vh', maxWidth: '80vw' }}>
-                    <div className="d-flex h-100 align-items-center justify-content-center">
+                <Carousel.Item key={item.id}>
+                    <div>
                         <div>
                             <CarruselItem
                                 id={item.id}

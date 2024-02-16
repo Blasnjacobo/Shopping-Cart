@@ -1,56 +1,74 @@
 [
-    {
-      "id": 1,
-      "name": "Draco Malfoys Wand",
-      "price": 885.00,
-      "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/wand.jpg?raw=true"
-    },
-    {
-      "id": 2,
-      "name": "Wizarding World Dubby ",
-      "price": 652.72,
-      "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/dobby.jpg?raw=true"
-    },
-    {
-      "id": 3,
-      "name": "Harry Potter Gold Plated Golden Snitch",
-      "price": 339.00,
-      "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/golden-snitch-brazaleth.jpg?raw=true"
-    },
-    {
-      "id": 4,
-      "name": "Harry Potter Golden Snitch Kit",
-      "price": 263.19,
-      "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/Golden-Snitch.jpg?raw=true"
-    },
-    {
-        "id": 5,
-        "name": "LEGO Harry Potter Hogwarts Castle",
-        "price": 9999.99,
-        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/Hogwarts_Castle.jpg?raw=true"
-      },
-      {
-        "id": 6,
-        "name": "Music box Harry Potter",
-        "price": 386.25,
-        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/music_box.jpg?raw=true"
-      },
-      {
-        "id": 7,
-        "name": "Gryffindor Scarf",
-        "price": 7.50,
-        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/scarf.jpg?raw=true"
-      },
-      {
-        "id": 8,
-        "name": "Harry Potter t-shirt",
-        "price": 69999,
-        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/t-shirt.jpg?raw=true"
-      },  
-      {
-        "id": 9,
-        "name": "Gryffindor costume",
-        "price": 69999,
-        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/uniform.jpg?raw=true"
-      }
-  ]
+  {
+    "id": 1,
+    "name": "La Vida Es Bella Eau D Parfum 100ml",
+    "price": 2499,
+    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+  },
+  {
+    "id": 2,
+    "name": "La Vida Es Bella Eau D Parfum 100ml",
+    "price": 2499,
+    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+  },
+  {
+    "id": 3,
+    "name": "La Vida Es Bella Eau D Parfum 100ml",
+    "price": 2499,
+    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+  },
+  {
+    "id": 4,
+    "name": "La Vida Es Bella Eau D Parfum 100ml",
+    "price": 2499,
+    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+  },
+  {
+    "id": 5,
+    "name": "La Vida Es Bella Eau D Parfum 100ml",
+    "price": 2499,
+    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+  },
+  {
+    "id": 6,
+    "name": "La Vida Es Bella Eau D Parfum 100ml",
+    "price": 2499,
+    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+  },
+  {
+    "id": 7,
+    "name": "La Vida Es Bella Eau D Parfum 100ml",
+    "price": 2499,
+    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+  },
+  {
+    "id": 8,
+    "name": "La Vida Es Bella Eau D Parfum 100ml",
+    "price": 2499,
+    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+  },
+  {
+    "id": 9,
+    "name": "La Vida Es Bella Eau D Parfum 100ml",
+    "price": 2499,
+    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+  },
+  {
+    "id": 10,
+    "name": "La Vida Es Bella Eau D Parfum 100ml",
+    "price": 2499,
+    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+  },
+  {
+    "id": 11,
+    "name": "La Vida Es Bella Eau D Parfum 100ml",
+    "price": 2499,
+    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+  },
+  {
+    "id": 12,
+    "name": "La Vida Es Bella Eau D Parfum 100ml",
+    "price": 2499,
+    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+  }
+]

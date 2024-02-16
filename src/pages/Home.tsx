@@ -3,10 +3,10 @@ import Etiqueta from "../components/Etiqueta"
 const Home = () => {
   return (
     <div>
-      <div className="row" style={{ maxWidth: '100vw' }}>
+      <div className="row">
         <Etiqueta />
       </div>
-      <div className="container" style={{ height: '100vh' }}>
+      <div className="container">
         <Carrusel />
       </div>
     </div>

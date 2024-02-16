@@ -10,14 +10,11 @@ type CarruselProps = {
 
 const CarruselItem = ({ id, name, description, price, imgUrl }: CarruselProps) => {
     return (
-        <div>
-            <Carousel.Caption className='bg-secondary' style={{ maxWidth: '100%', fontSize: '1rem' }}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} >
+            <img src={imgUrl} />
+            <Carousel.Caption style={{ fontSize: '1rem', backgroundColor: 'rgba(0, 0, 0, 0.4)' }}>
                 <h3>{name}</h3>
-
             </Carousel.Caption>
-            <img className="d-flex h-100 align-items-center justify-content-center bg-cover" src={imgUrl}
-
-            />
         </div>
     )
 }
