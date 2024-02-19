@@ -8,7 +8,7 @@ type CarruselProps = {
     imgUrl: string
 }
 
-const CarruselItem = ({ id, name, description, price, imgUrl }: CarruselProps) => {
+const CarruselItem = ({ name, imgUrl }: CarruselProps) => {
     return (
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} >
             <img src={imgUrl} style={{ maxWidth: '640px', height: '419px' }} />
