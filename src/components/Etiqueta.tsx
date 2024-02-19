@@ -4,10 +4,10 @@ const Etiqueta = () => {
     return (
         <div className="col-sm-12 my-3"
             style={{
-                backgroundColor: "palevioletred", color: 'white', fontSize: '2vw', textAlign: 'center',
-                padding: '0.5rem', display: 'inline'
+                backgroundColor: "black", color: 'white', fontSize: '18px', textAlign: 'center',
+                padding: '1rem', margin: '5px', display: 'inline'
             }}>
-            PERFUMES 100% ORIGINALES -ENVIO GRATIS - LOS MEJORES PRECIOS
+            PERFUMES 100% ORIGINALES - ENVIO GRATIS - LOS MEJORES PRECIOS
         </div>
     )
 }

@@ -1,11 +1,16 @@
 import Carousel from 'react-bootstrap/Carousel';
 import CarruselData from '../data/carrusel.json'
 import CarruselItem from './CarruselItem';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function Carrusel() {
     return (
-        <Carousel nextIcon={<span style={{ color: 'black', backgroundColor: 'white' }}>Next</span>}
-            prevIcon={<span style={{ color: 'black', backgroundColor: 'white' }}>Previous</span>}>
+        <Carousel nextIcon={<span style={{ color: 'black', backgroundColor: 'white' }}>
+            <i className="bi bi-arrow-right-circle-fill" style={{ fontSize: '3rem', backgroundColor: 'transparent' }}></i>
+        </span>}
+            prevIcon={<span style={{ color: 'black', backgroundColor: 'white' }}>
+                <i className="bi bi-arrow-left-circle-fill" style={{ fontSize: '3rem', backgroundColor: 'transparent' }}></i>
+            </span>}>
             {CarruselData.map((item) => (
                 <Carousel.Item key={item.id}>
                     <div>
