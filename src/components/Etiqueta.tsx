@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Etiqueta = () => {
     return (
         <div className="col-sm-12 my-3"
