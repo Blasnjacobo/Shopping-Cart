@@ -1,6 +1,5 @@
 import Carrusel from "../components/Carrusel"
 import Etiqueta from "../components/Etiqueta"
-import Footer from "../components/Footer"
 import Marcas from "../components/Marcas"
 const Home = () => {
   return (
@@ -13,7 +12,6 @@ const Home = () => {
         <hr className="hr" />
         <Marcas />
       </div>
-      <Footer />
     </div>
   )
 }

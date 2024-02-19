@@ -7,6 +7,7 @@ import { ShoppingCartProvider } from './context/ShoppingCartContext'
 import Friends from './pages/Friends'
 import StarWars from './pages/StarWars'
 import BreakingBad from './pages/BreakingBad'
+import Footer from './components/Footer'
 //TO RUN THE PROGRAM THE COMMAND USED IS npm run dev
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
           <Route path='/shopping-cart/starWars' element={<StarWars />} />
           <Route path='/shopping-cart/breakingBad' element={<BreakingBad />} />
         </Routes>
+        <hr className="hr" style={{ marginTop: '3rem' }} />
+        <Footer />
       </div>
     </ShoppingCartProvider>
   )
