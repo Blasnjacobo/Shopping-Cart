@@ -1,5 +1,5 @@
 import { Row, Col } from 'react-bootstrap'
-import storeItems from '../data/items.json'
+import storeItems from '../data/starWars.json'
 import StoreItem from '../components/StoreItem'
 
 const Unisex = () => {
