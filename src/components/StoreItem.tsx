@@ -14,7 +14,7 @@ type StoreItemProps = {
     imgUrl: string
 }
 
-const StoreItem = ({ id, name, price, type, aroma, imgUrl }: StoreItemProps) => {
+const StoreItem = ({ id, name, price, imgUrl }: StoreItemProps) => {
     const navigate = useNavigate()
 
     const handleItem = () => {
