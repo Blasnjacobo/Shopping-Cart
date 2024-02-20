@@ -1,6 +1,6 @@
-import Carrusel from "../components/Carrusel"
-import Etiqueta from "../components/Etiqueta"
-import Marcas from "../components/Marcas"
+import Carrusel from "../components/Home/Carrusel"
+import Etiqueta from "../components/Home/Etiqueta"
+import Marcas from "../components/Home/Marcas"
 const Home = () => {
   return (
     <div>

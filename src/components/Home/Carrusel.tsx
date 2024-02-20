@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import CarruselData from '../data/carrusel.json';
+import CarruselData from '../../data/carrusel.json';
 import CarruselItem from './CarruselItem';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 

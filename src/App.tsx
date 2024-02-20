@@ -7,6 +7,7 @@ import Dama from './pages/Dama'
 import Caballero from './pages/Caballero'
 import Unisex from './pages/Unisex'
 import About from './pages/About'
+import Item from './components/Item'
 //TO RUN THE PROGRAM THE COMMAND USED IS npm run dev
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path='/shopping-cart/caballero' element={<Caballero />} />
           <Route path='/shopping-cart/Unisex' element={<Unisex />} />
           <Route path='/shopping-cart/about' element={<About />} />
+          <Route path='/shopping-cart/:id' element={<Item />} />
         </Routes>
         <Footer />
       </div>

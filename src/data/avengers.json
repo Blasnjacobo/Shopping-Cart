@@ -1,56 +1,74 @@
 [
-    {
-      "id": 10,
-      "name": "Marvel Avengers Titan Hero HULK",
-      "price": 335.00,
-      "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/Hulk.jpg?raw=true"
-    },
-    {
-      "id": 11,
-      "name": "Avengers Titan Hero Thor",
-      "price": 176.94,
-      "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/thor.jpg?raw=true"
-    },
-    {
-      "id": 12,
-      "name": "Funko POP Marvel: Avengers Endgame - Thanos",
-      "price": 269.44,
-      "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/thanos.jpg?raw=true"
-    },
-    {
-      "id": 13,
-      "name": "Funko - Avengers Endgame Pop Iron Man",
-      "price": 356.11,
-      "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/ironman.jpg?raw=true"
-    },
-    {
-        "id": 14,
-        "name": "Infinity gauntlet",
-        "price": 1415.57,
-        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/InfinityGauntlet.jpg?raw=true"
-      },
-      {
-        "id": 15,
-        "name": "Spiderverse Magazine Ilustrated Guide",
-        "price": 529.00,
-        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/spiderverse.jpg?raw=true"
-      },
-      {
-        "id": 16,
-        "name": "Marvel Encyclopedia, New Edition",
-        "price": 378.31,
-        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/encyclopedia.jpg?raw=true"
-      },
-      {
-        "id": 17,
-        "name": "Marvel Tarot Deck and Guidebook",
-        "price": 450.16,
-        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/deck.jpg?raw=true"
-      },  
-      {
-        "id": 18,
-        "name": "Spiderman halloween costume",
-        "price": 69999,
-        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/custome.jpg?raw=true"
-      }
-  ]
+  {
+    "id": 10,
+    "name": "Marvel Avengers Titan Hero HULK",
+    "price": 335.00,
+    "type": "Solo",
+    "aroma": "Citrico",
+    "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/Hulk.jpg?raw=true"
+  },
+  {
+    "id": 11,
+    "name": "Avengers Titan Hero Thor",
+    "price": 176.94,
+    "type": "Solo",
+    "aroma": "Citrico",
+    "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/thor.jpg?raw=true"
+  },
+  {
+    "id": 12,
+    "name": "Funko POP Marvel: Avengers Endgame - Thanos",
+    "price": 269.44,
+    "type": "Solo",
+    "aroma": "Citrico",
+    "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/thanos.jpg?raw=true"
+  },
+  {
+    "id": 13,
+    "name": "Funko - Avengers Endgame Pop Iron Man",
+    "price": 356.11,
+    "type": "Solo",
+    "aroma": "Citrico",
+    "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/ironman.jpg?raw=true"
+  },
+  {
+    "id": 14,
+    "name": "Infinity gauntlet",
+    "price": 1415.57,
+    "type": "Solo",
+    "aroma": "Citrico",
+    "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/InfinityGauntlet.jpg?raw=true"
+  },
+  {
+    "id": 15,
+    "name": "Spiderverse Magazine Ilustrated Guide",
+    "price": 529.00,
+    "type": "Solo",
+    "aroma": "Citrico",
+    "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/spiderverse.jpg?raw=true"
+  },
+  {
+    "id": 16,
+    "name": "Marvel Encyclopedia, New Edition",
+    "price": 378.31,
+    "type": "Solo",
+    "aroma": "Citrico",
+    "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/encyclopedia.jpg?raw=true"
+  },
+  {
+    "id": 17,
+    "name": "Marvel Tarot Deck and Guidebook",
+    "price": 450.16,
+    "type": "Solo",
+    "aroma": "Citrico",
+    "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/deck.jpg?raw=true"
+  },
+  {
+    "id": 18,
+    "name": "Spiderman halloween costume",
+    "price": 69999,
+    "type": "Solo",
+    "aroma": "Citrico",
+    "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/custome.jpg?raw=true"
+  }
+]

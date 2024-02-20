@@ -5,13 +5,11 @@ import { formatCurrency } from '../utilities/formatCurrency';
 import storeItems from "../data/items.json";
 import storeItems2 from '../data/avengers.json';
 import storeItems3 from '../data/friends.json';
-import storeItems4 from '../data/starWars.json';
-import storeItems5 from '../data/breakingBad.json';
 
 type ShoppingCartProps = {
     isOpen: boolean;
 }
-const storeItemsTotal = storeItems.concat(storeItems2).concat(storeItems3).concat(storeItems4).concat(storeItems5);
+const storeItemsTotal = storeItems.concat(storeItems2).concat(storeItems3);
 
 const ShoppingCart = ({ isOpen }: ShoppingCartProps) => {
     const { closeCart, cartItems } = useShoppingCart();
@@ -34,8 +32,6 @@ const ShoppingCart = ({ isOpen }: ShoppingCartProps) => {
 
         message += `\nTotal: ${formatCurrency(total)}`;
 
-        // Replace the following with your actual WhatsApp API integration
-        // This is just a placeholder example
         const whatsappURL = `https://api.whatsapp.com/send?phone=17789176729&text=${encodeURIComponent(message)}`;
         window.open(whatsappURL, '_blank');
     };

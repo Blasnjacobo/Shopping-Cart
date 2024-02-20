@@ -1,56 +1,74 @@
 [
-    {
-      "id": 19,
-      "name": "Friends Clue Board Game",
-      "price": 975.99,
-      "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/clue.jpg?raw=true"
-    },
-    {
-      "id": 20,
-      "name": "Friends Logo Crewneck",
-      "price": 1250.00,
-      "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/crewneck.jpg?raw=true"
-    },
-    {
-      "id": 21,
-      "name": "Friends Water Bottle",
-      "price": 349.99,
-      "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/bottle.jpg?raw=true"
-    },
-    {
-      "id": 22,
-      "name": "Friends Central Perk Cappuccino Mug",
-      "price": 320.00,
-      "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/mug.jpg?raw=true"
-    },
-    {
-        "id": 23,
-        "name": "Friends Trivia Quiz",
-        "price": 200.00,
-        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/trivia.jpg?raw=true"
-      },
-      {
-        "id": 24,
-        "name": "Friends Short Sleeve Shirt",
-        "price": 1199.99,
-        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/tshirt.jpg?raw=true"
-      },
-      {
-        "id": 25,
-        "name": "Friends - Complete 9th Season DVD",
-        "price": 380.00,
-        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/cd.jpg?raw=true"
-      },
-      {
-        "id": 26,
-        "name": "Friends Custard, Jam, Meat Placemat",
-        "price": 99.99,
-        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/card.jpg?raw=true"
-      },  
-      {
-        "id": 27,
-        "name": "Friends - Complete Series Collection Blu-Ray",
-        "price": 4999.99,
-        "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/blueray.jpg?raw=true"
-      }
-  ]
+  {
+    "id": 19,
+    "name": "Friends Clue Board Game",
+    "price": 975.99,
+    "type": "Solo",
+    "aroma": "Citrico",
+    "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/clue.jpg?raw=true"
+  },
+  {
+    "id": 20,
+    "name": "Friends Logo Crewneck",
+    "price": 1250.00,
+    "type": "Solo",
+    "aroma": "Citrico",
+    "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/crewneck.jpg?raw=true"
+  },
+  {
+    "id": 21,
+    "name": "Friends Water Bottle",
+    "price": 349.99,
+    "type": "Solo",
+    "aroma": "Citrico",
+    "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/bottle.jpg?raw=true"
+  },
+  {
+    "id": 22,
+    "name": "Friends Central Perk Cappuccino Mug",
+    "price": 320.00,
+    "type": "Solo",
+    "aroma": "Citrico",
+    "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/mug.jpg?raw=true"
+  },
+  {
+    "id": 23,
+    "name": "Friends Trivia Quiz",
+    "price": 200.00,
+    "type": "Solo",
+    "aroma": "Citrico",
+    "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/trivia.jpg?raw=true"
+  },
+  {
+    "id": 24,
+    "name": "Friends Short Sleeve Shirt",
+    "price": 1199.99,
+    "type": "Solo",
+    "aroma": "Citrico",
+    "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/tshirt.jpg?raw=true"
+  },
+  {
+    "id": 25,
+    "name": "Friends - Complete 9th Season DVD",
+    "price": 380.00,
+    "type": "Solo",
+    "aroma": "Citrico",
+    "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/cd.jpg?raw=true"
+  },
+  {
+    "id": 26,
+    "name": "Friends Custard, Jam, Meat Placemat",
+    "price": 99.99,
+    "type": "Solo",
+    "aroma": "Citrico",
+    "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/card.jpg?raw=true"
+  },
+  {
+    "id": 27,
+    "name": "Friends - Complete Series Collection Blu-Ray",
+    "price": 4999.99,
+    "type": "Solo",
+    "aroma": "Citrico",
+    "imgUrl": "https://github.com/Blasnjacobo/hangman-game/blob/main/public/blueray.jpg?raw=true"
+  }
+]
