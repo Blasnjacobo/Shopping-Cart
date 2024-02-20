@@ -1,19 +1,39 @@
-import { Button, Container, Nav, Navbar as NavbarBs } from 'react-bootstrap'
-import { NavLink } from 'react-router-dom'
-import { useShoppingCart } from '../context/ShoppingCartContext'
-import logo from '../assets/logo.png'
+import React, { useState, useEffect, useRef } from 'react';
+import { Button, Container, Nav, Navbar as NavbarBs } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
+import { useShoppingCart } from '../context/ShoppingCartContext';
+import logo from '../assets/logo.png';
 
 const Navbar = () => {
-  const { openCart, cartQuantity } = useShoppingCart()
+  const { openCart, cartQuantity } = useShoppingCart();
+  const [isOpen, setIsOpen] = useState(false);
 
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  };
+
+  // Close navbar when clicking outside
+  const navbarRef = useRef<HTMLDivElement>(null); // Ref type is explicitly defined as HTMLDivElement
+  useEffect(() => {
+    const handleOutsideClick = (event: MouseEvent) => { // Event type is explicitly defined as MouseEvent
+      if (navbarRef.current && !navbarRef.current.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleOutsideClick);
+    return () => {
+      document.removeEventListener('mousedown', handleOutsideClick);
+    };
+  }, []);
   return (
     <NavbarBs sticky='top' expand="md" className='bg-white shadow-sm mb-3'>
-      <Container style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+      <Container ref={navbarRef} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <NavbarBs.Brand as={NavLink} to='/shopping-cart'>
           <img src={logo} alt="Logo" style={{ maxHeight: '3rem' }} />
         </NavbarBs.Brand>
-        <NavbarBs.Toggle aria-controls="navbarNav" />
-        <NavbarBs.Collapse id="navbarNav">
+        <NavbarBs.Toggle aria-controls="navbarNav" onClick={toggleNavbar} />
+        <NavbarBs.Collapse id="navbarNav" className={isOpen ? 'show' : ''}>
           <Nav className='me-auto d-flex gap-4 align-items-center justify-content-center'>
             <Nav.Link to='/shopping-cart' as={NavLink} style={{ color: 'red' }}>
               Home
@@ -66,4 +86,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
