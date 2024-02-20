@@ -2,7 +2,7 @@ import { Row, Col } from 'react-bootstrap'
 import storeItems from '../data/items.json'
 import StoreItem from '../components/StoreItem'
 
-const HarryPotter = () => {
+const Dama = () => {
   return (
     <div>
       <h1 className='container-fluid' style={{
@@ -28,4 +28,4 @@ const HarryPotter = () => {
   )
 }
 
-export default HarryPotter
+export default Dama

@@ -9,7 +9,6 @@ const Home = () => {
       </div>
       <div className="container">
         <Carrusel />
-        <hr className="hr" />
         <Marcas />
       </div>
     </div>

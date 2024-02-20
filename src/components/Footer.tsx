@@ -2,13 +2,14 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 
 export default function Footer() {
     return (
-        <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
+        <MDBFooter className='text-center text-lg-start'>
 
-            <section>
-                <MDBContainer className='text-center mt-5'>
-                    <MDBRow className='mt-3' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <MDBCol sm='12' md="3" lg="2.5" xl="4">
-                            <h6 className='text-uppercase fw-bold mb-4'>
+            <section style={{ backgroundColor: 'black', color: 'white', marginTop: '3rem', paddingTop: '1rem' }}>
+
+                <MDBContainer className='text-center '>
+                    <MDBRow style={{ display: 'flex', justifyContent: 'center' }}>
+                        <MDBCol sm='12' md="6" lg="4" xl="4">
+                            <h6 className='text-uppercase fw-bold mb-3'>
                                 <MDBIcon icon="gem" className="me-3" />
                                 SayMi Perfumes
                             </h6>
@@ -17,67 +18,50 @@ export default function Footer() {
                             </p>
                         </MDBCol>
 
-                        <MDBCol sm='12' md="9" lg="9.5" xl="8">
+                        <MDBCol sm='12' md="6" lg="6" xl="6">
                             <MDBRow>
-                                <MDBCol sm='3'>
-                                    <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
-                                    <p>
-                                        <a href='/shopping-cart/harryPotter' className='text-reset'>
-                                            Dama
-                                        </a>
-                                    </p>
-                                    <p>
-                                        <a href='#!' className='text-reset'>
-                                            Caballero
-                                        </a>
-                                    </p>
-                                    <p>
-                                        <a href='#!' className='text-reset'>
-                                            Juveniles
-                                        </a>
-                                    </p>
-                                    <p>
-                                        <a href='#!' className='text-reset'>
-                                            Lo más nuevo
-                                        </a>
-                                    </p>
+                                <MDBCol>
+                                    <h6 className='text-uppercase fw-bold mb-3'>Products</h6>
+                                    <MDBRow>
+                                        <MDBCol l="1">
+                                            <p>
+                                                <a href='#!' className='text-reset' style={{ textDecoration: 'none' }}>
+                                                    Dama
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <a href='#!' className='text-reset' style={{ textDecoration: 'none' }}>
+                                                    Caballero
+                                                </a>
+                                            </p>
+                                        </MDBCol>
+                                        <MDBCol>
+                                            <p>
+                                                <a href='#!' className='text-reset' style={{ textDecoration: 'none' }}>
+                                                    Juveniles
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <a href='#!' className='text-reset' style={{ textDecoration: 'none' }}>
+                                                    Nuevos productos
+                                                </a>
+                                            </p>
+                                        </MDBCol>
+                                    </MDBRow>
                                 </MDBCol>
 
-                                <MDBCol sm='3'>
-                                    <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
-                                    <p>
-                                        <a href='#!' className='text-reset'>
-                                            Conócenos
-                                        </a>
-                                    </p>
-                                    <p>
-                                        <a href='#!' className='text-reset'>
-                                            Contáctanos
-                                        </a>
-                                    </p>
-                                    <p>
-                                        <a href='#!' className='text-reset'>
-                                            Preguntas frecuentes
-                                        </a>
-                                    </p>
-                                    <p>
-                                        <a href='#!' className='text-reset'>
-                                            Adivinanza del dia
-                                        </a>
-                                    </p>
-                                </MDBCol>
-                                <MDBCol sm='6'>
-                                    <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+                                <MDBCol>
+                                    <h6 className='text-uppercase fw-bold mb-3'>Contact</h6>
                                     <p>
                                         <MDBIcon icon="home" className="me-2" />
-                                        Culiacán, Sinaloa, MX
+                                        Culiacan, Sinaloa, MX
+                                    </p>
+                                    <p>
+                                        <MDBIcon icon="phone" className="me-3" /> +52 667 327 3363
                                     </p>
                                     <p>
                                         <MDBIcon icon="envelope" className="me-3" />
                                         my_sandia@hotmail.com
-                                    </p>
-                                    <p>
-                                        <MDBIcon icon="phone" className="me-3" /> +52 667 327 3363
                                     </p>
                                 </MDBCol>
                             </MDBRow>
@@ -86,11 +70,8 @@ export default function Footer() {
                 </MDBContainer>
             </section>
 
-            <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-                © 2024 Copyright:
-                <a className='text-reset fw-bold' href='/'>
-                    SAYMI PERFUMES
-                </a>
+            <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+                © 2024 Copyright
             </div>
         </MDBFooter >
     );
