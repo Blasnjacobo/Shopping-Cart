@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import storeItems from '../data/items.json'
 import storeItems2 from '../data/avengers.json'
-import storeItems3 from '../data/friends.json'
+import storeItems3 from '../data/starWars.json'
 import { useShoppingCart } from '../context/ShoppingCartContext'
 import { Button, Stack } from 'react-bootstrap'
 import { formatCurrency } from '../utilities/formatCurrency'

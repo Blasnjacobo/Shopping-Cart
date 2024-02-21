@@ -31,17 +31,13 @@ const Item = () => {
                     <div className="col-md-4">
                         <img src={item.imgUrl} className="img-fluid rounded-start" alt="..." />
                     </div>
-                    <div className="col-md-8">
+                    <div className="col-md-8 bg-light">
                         <div className="card-body"
                             style={{ display: 'flex', flexDirection: 'column', justifyContent: "space-evenly", alignItems: "center", gap: "0.5rem", height: '100%' }}>
                             <div className="text-center">
                                 <h5 className="card-title">{item.name}</h5>
-                                <p className="card-text text-start">
-                                    Comparte la felicidad con La Vie Est Belle, la fragancia femenina más vendida en México.
-
-                                    El toque de refinamiento: un listón gris perlado está atado alrededor de su cuello, formando las alas de la libertad.
-
-                                    Descubre  los diferentes aromas en la familia La Vie Est Belle, la # 1 en México.</p>
+                                <p className="card-text text-start" style={{ width: '70%', margin: 'auto' }}>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt sit veniam, aspernatur modi enim excepturi ex ullam, dicta delectus distinctio iusto officia mollitia eius eveniet totam ad! Consequuntur, aspernatur atque.</p>
                             </div>
                             <div style={{ display: 'flex', justifyContent: "space-evenly", alignItems: "center", gap: "2rem" }}>
                                 <h6>Item ID: {item.id}</h6>

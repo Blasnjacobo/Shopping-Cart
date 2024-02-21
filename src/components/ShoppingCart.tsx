@@ -4,16 +4,17 @@ import CartItem from './CartItem';
 import { formatCurrency } from '../utilities/formatCurrency';
 import storeItems from "../data/items.json";
 import storeItems2 from '../data/avengers.json';
-import storeItems3 from '../data/friends.json';
+import storeItems3 from '../data/starWars.json';
 
 type ShoppingCartProps = {
     isOpen: boolean;
 }
 const storeItemsTotal = storeItems.concat(storeItems2).concat(storeItems3);
+console.log(storeItemsTotal)
 
 const ShoppingCart = ({ isOpen }: ShoppingCartProps) => {
     const { closeCart, cartItems } = useShoppingCart();
-
+    console.log(cartItems)
     // Function to handle sending WhatsApp message
     const sendWhatsAppMessage = () => {
         let message = "Cart Details:\n";
@@ -35,7 +36,6 @@ const ShoppingCart = ({ isOpen }: ShoppingCartProps) => {
         const whatsappURL = `https://api.whatsapp.com/send?phone=17789176729&text=${encodeURIComponent(message)}`;
         window.open(whatsappURL, '_blank');
     };
-
     return (
         <Offcanvas
             show={isOpen}

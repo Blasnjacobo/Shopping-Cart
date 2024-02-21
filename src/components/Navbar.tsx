@@ -5,6 +5,7 @@ import logo from '../assets/logo.png'
 
 const Navbar = () => {
   const { openCart, cartQuantity } = useShoppingCart()
+  console.log(cartQuantity)
 
   return (
     <NavbarBs sticky='top' expand="md" className='bg-white shadow-sm mb-3'>
