@@ -5,11 +5,12 @@ import { formatCurrency } from '../utilities/formatCurrency';
 import storeItems from "../data/items.json";
 import storeItems2 from '../data/avengers.json';
 import storeItems3 from '../data/starWars.json';
+import storeItems4 from '../data/friends.json';
 
 type ShoppingCartProps = {
     isOpen: boolean;
 }
-const storeItemsTotal = storeItems.concat(storeItems2).concat(storeItems3);
+const storeItemsTotal = storeItems.concat(storeItems2).concat(storeItems3).concat(storeItems4);
 console.log(storeItemsTotal)
 
 const ShoppingCart = ({ isOpen }: ShoppingCartProps) => {

@@ -62,6 +62,8 @@ const Navbar = () => {
             </div>
           </Button>
         )}
+
+        <i className="bi bi-person" style={{ fontSize: '1.5rem', marginLeft: '2rem', cursor: 'pointer' }}></i>
       </Container>
     </NavbarBs>
   )
