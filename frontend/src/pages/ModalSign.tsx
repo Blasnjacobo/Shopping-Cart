@@ -1,5 +1,8 @@
-import { Modal, Form, Button, Card } from 'react-bootstrap';
-
+import { Modal } from 'react-bootstrap';
+import Google from '../img/google.png'
+import Facebook from '../img/facebook.png'
+import Github from '../img/github.png'
+import '../pages/ModalSign.css'
 interface ShowProps {
     show: boolean;
     handleClose: () => void
@@ -7,37 +10,40 @@ interface ShowProps {
 
 const ModalSign: React.FC<ShowProps> = ({ show, handleClose }) => {
 
+    const google = () => {
+        window.open("http://localhost:5000/auth/google", "_self");
+    }
+
     return (
         <>
-            <Modal show={show} onHide={handleClose} centered>
-                <Modal.Body>
-                    <Card>
-                        <Card.Body>
-                            <h2 className="text-center">Sign In</h2>
-                            <Form>
-                                <Form.Group controlId="formBasicEmail">
-                                    <Form.Label>Email address</Form.Label>
-                                    <Form.Control type="email" placeholder="Enter email" />
-                                </Form.Group>
-
-                                <Form.Group controlId="formBasicPassword" style={{ marginTop: '1rem' }}>
-                                    <Form.Label>Password</Form.Label>
-                                    <Form.Control type="password" placeholder="Password" />
-                                </Form.Group>
-
-                                <div className="text-center" style={{ marginTop: '2rem' }}>
-                                    <Button variant="dark" type="submit" onClick={handleClose}>
-                                        Log In
-                                    </Button>
-                                </div>
-                            </Form>
-
-                            <div className="mt-3 text-center">
-                                <a href="#" style={{ color: 'black', textDecoration: 'none' }}>Forgot password?</a>
+            <Modal show={show} onHide={handleClose} >
+                <div className="login">
+                    <div className="wrapper">
+                        <div className="left">
+                            <div className="loginButton google" onClick={google}>
+                                <img src={Google} alt="" className="icon" />
+                                Google
                             </div>
-                        </Card.Body>
-                    </Card>
-                </Modal.Body>
+                            <div className="loginButton facebook" >
+                                <img src={Facebook} alt="" className="icon" />
+                                Facebook
+                            </div>
+                            <div className="loginButton github">
+                                <img src={Github} alt="" className="icon" />
+                                Github
+                            </div>
+                        </div>
+                        <div className="center">
+                            <div className="line" />
+                            <div className="or">OR</div>
+                        </div>
+                        <div className="inputs">
+                            <input type="text" placeholder="Username" />
+                            <input type="text" placeholder="Password" />
+                            <button className="submit">Login</button>
+                        </div>
+                    </div>
+                </div>
             </Modal>
         </>
     );

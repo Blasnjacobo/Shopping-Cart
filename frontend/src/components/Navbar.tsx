@@ -10,7 +10,7 @@ const Navbar = () => {
     <NavbarBs sticky='top' expand="md" className='bg-white shadow-sm mb-3'>
       <Container style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <NavbarBs.Brand as={NavLink} to='/shopping-cart'>
-          <img src={logo} alt="Logo" style={{ maxHeight: '3rem' }} />
+          <img src={logo} alt="" style={{ maxWidth: '20vw', maxHeight: '7vh' }} />
         </NavbarBs.Brand>
         <NavbarBs.Toggle aria-controls="navbarNav" />
         <NavbarBs.Collapse id="navbarNav">

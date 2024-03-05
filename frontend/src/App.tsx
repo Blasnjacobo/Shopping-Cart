@@ -8,9 +8,34 @@ import Caballero from './pages/Caballero'
 import Unisex from './pages/Unisex'
 import About from './pages/About'
 import Item from './components/Item'
+import { useEffect, useState } from 'react';
 //TO RUN THE PROGRAM THE COMMAND USED IS npm run dev
 
 function App() {
+  const [user, setUser] = useState(null)
+
+  useEffect(() => {
+    const getUser = () => {
+      fetch('http://localhost:5000/auth/login/success', {
+        method: 'GET',
+        credentials: 'include',
+        headers: {
+          Accept: 'application/json',
+          'Content-Type': 'application/json',
+        }
+      }).then(response => {
+        if (response.status === 200) return response.json();
+        throw new Error('Authentication has failed!');
+      }).then(resObject => {
+        setUser(resObject.user);
+      }).catch(err => {
+        console.log(err);
+      });
+    };
+    getUser();
+  }, []);
+
+  console.log(user)
   return (
     <ShoppingCartProvider>
       <Navbar />

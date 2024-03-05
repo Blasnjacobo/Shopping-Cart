@@ -1,40 +1,39 @@
-import express from "express"
-import mongoose from "mongoose"
-import dotenv from 'dotenv'
-import cors from 'cors'
+import express from "express";
+import mongoose from "mongoose";
+import cors from 'cors';
+import cookieSession from "cookie-session";
+import passport from "passport";
+import passportSetup from './passport.js';
+import dotenv from 'dotenv';
+import authRoute from './routes/auth.js'
+dotenv.config();
+
+const app = express();
 
 
-const app = express()
+app.use(cookieSession({
+    name: 'session',
+    keys: ['Blas'],
+    maxAge: 24 * 60 * 60 * 1000 
+}));
 
-dotenv.config()
+app.use(passport.initialize());
+app.use(passport.session());
 
-app.use(
-    cors({
-        origin: 'http://localhost:5173/shopping-cart/',
-        methods: ['GET', 'POST', 'PUT', 'DELETE'],
-        allowedHeaders: ['Content-Type']
-    })
-)
+app.use(cors({
+    origin: 'http://localhost:5173', 
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type'],
+    credentials: true
+}));
 
-
-// Middleware para permitir el análisis de JSON en las solicitudes
-app.use(express.json());
-
-/* ROUTES WITH FILES */
-
-/* ROUTES */
-// app.use('/books', booksRoutes)
+app.use('/auth', authRoute)
 
 const PORT = process.env.PORT
-
 mongoose
-    .connect(process.env.mongoDBURL)
-    .then(() => {
-        console.log('App connected to database');
-        app.listen(PORT, () => {
-            console.log(`App is running at PORT: ${PORT}`);
-        });
-    })
-    .catch((error) => {
-        console.error(error);
-    });
+  .connect(process.env.mongoDBURL, {
+  })
+  .then(() => {
+    app.listen(PORT, () => console.log(`Server Port: ${PORT}`))
+  })
+  .catch((error) => console.log(`${error} did ot connect`))
