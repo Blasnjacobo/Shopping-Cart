@@ -1,6 +1,6 @@
 import { Modal } from 'react-bootstrap';
 import Google from '../img/google.png'
-import Facebook from '../img/facebook.png'
+// import Facebook from '../img/facebook.png'
 import Github from '../img/github.png'
 import '../app.css'
 interface ShowProps {
@@ -14,9 +14,9 @@ const ModalSign: React.FC<ShowProps> = ({ show, handleClose }) => {
         window.open("http://localhost:5000/auth/google", "_self");
     }
 
-    const facebook = () => {
-        window.open("http://localhost:5000/auth/facebook", "_self");
-    }
+    // const facebook = () => {
+    //     window.open("http://localhost:5000/auth/facebook", "_self");
+    // }
 
     const github = () => {
         window.open("http://localhost:5000/auth/github", "_self");

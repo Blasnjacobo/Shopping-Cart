@@ -4,14 +4,12 @@ import logo from '../assets/logo.png'
 import CollapseNavbar from './CollapseNavbar'
 import Cart from './Cart'
 import SignInIcon from './LogIcon'
-import { User } from '../type/User'
 import SignOutUser from './SignOutUser'
+import { useUser } from '../context/User';
 
-interface userPromp {
-  user: User
-}
 
-const Navbar = ({ user }: userPromp) => {
+const Navbar = () => {
+  const user = useUser()
   return (
     <NavbarBs sticky='top' expand="md" className='bg-white shadow-sm mb-3'>
       <Container style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
