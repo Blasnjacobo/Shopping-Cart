@@ -32,7 +32,6 @@ export const UserProvider: React.FC<UserProviderProps> = ({ children }) => {
         };
         getUser();
     }, []);
-    console.log(user)
 
     return (
         <UserContext.Provider value={user}>
