@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Navbar as NavbarBs } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
-import ModalSign from '../pages/ModalSign'
+import ModalSign from '../pages/LogIn'
 
 const SignInIcon = () => {
     const [show, setShow] = useState(false);

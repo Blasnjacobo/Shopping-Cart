@@ -3,9 +3,15 @@ import { NavLink } from 'react-router-dom'
 import logo from '../assets/logo.png'
 import CollapseNavbar from './CollapseNavbar'
 import Cart from './Cart'
-import SignInIcon from './SignInIcon'
+import SignInIcon from './LogIcon'
+import { User } from '../type/User'
+import SignOutUser from './SignOutUser'
 
-const Navbar = () => {
+interface userPromp {
+  user: User
+}
+
+const Navbar = ({ user }: userPromp) => {
   return (
     <NavbarBs sticky='top' expand="md" className='bg-white shadow-sm mb-3'>
       <Container style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -17,7 +23,9 @@ const Navbar = () => {
           <CollapseNavbar />
         </NavbarBs.Collapse>
         <Cart />
-        <SignInIcon />
+        {
+          !user ? <SignInIcon /> : <SignOutUser user={user} />
+        }
       </Container>
     </NavbarBs>
   )

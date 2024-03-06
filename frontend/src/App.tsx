@@ -9,10 +9,11 @@ import Unisex from './pages/Unisex'
 import About from './pages/About'
 import Item from './components/Item'
 import { useEffect, useState } from 'react';
+import { User } from './type/User'
 //TO RUN THE PROGRAM THE COMMAND USED IS npm run dev
 
 function App() {
-  const [user, setUser] = useState(null)
+  const [user, setUser] = useState<User | null>(null);
 
   useEffect(() => {
     const getUser = () => {
@@ -38,7 +39,7 @@ function App() {
   console.log(user)
   return (
     <ShoppingCartProvider>
-      <Navbar />
+      <Navbar user={user} />
       <div>
         <Routes>
           <Route path='/shopping-cart' element={<Home />} />
