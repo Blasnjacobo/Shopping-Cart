@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const passport = require("passport");
-const CLIENT_URL = 'http://localhost:5173/shopping-cart/'
+const CLIENT_URL = 'https://blasnjacobo.github.io/shopping-cart/'
 
 router.get("/login/success", (req, res) => {
   if (req.user) {
