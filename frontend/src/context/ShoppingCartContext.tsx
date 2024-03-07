@@ -20,6 +20,7 @@ type ShoppingCartContext = {
   removeFromCart: (id: number) => void
   cartQuantity: number
   cartItems: CartItem[]
+  selectPerfume: (perfumeId: number) => void
 }
 
 const ShoppingCartContext = createContext({} as ShoppingCartContext)
@@ -80,6 +81,27 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
     })
   }
 
+  // Función para seleccionar un perfume y enviar la solicitud al backend
+  async function selectPerfume(perfumeId: number) {
+    try {
+      const response = await fetch('/select-perfume', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ perfumeId })
+      })
+      if (!response.ok) {
+        throw new Error('Failed to select perfume')
+      }
+      // Actualizar el estado local del carrito si es necesario
+      // ...
+    } catch (error) {
+      console.error('Error selecting perfume:', error)
+      // Manejar el error
+    }
+  }
+
   return (
     <ShoppingCartContext.Provider
       value={{
@@ -91,6 +113,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
         closeCart,
         cartItems,
         cartQuantity,
+        selectPerfume
       }}
     >
       {children}

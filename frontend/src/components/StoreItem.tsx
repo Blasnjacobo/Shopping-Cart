@@ -5,17 +5,13 @@ import { useNavigate } from "react-router-dom"
 import { formatCurrency } from "../utilities/formatCurrency"
 import { useShoppingCart } from "../context/ShoppingCartContext"
 import { useUser } from '../context/User';
+import { Perfume } from "../type/Perfume";
 
 type StoreItemProps = {
-    id: number
-    name: string
-    price: number
-    type: string
-    aroma: string
-    imgUrl: string
+    perfume: Perfume
 }
 
-const StoreItem = ({ id, name, price, imgUrl }: StoreItemProps) => {
+const StoreItem = ({ id, name, price, imgUrl }: StoreItemProps['perfume']) => {
     const navigate = useNavigate()
     const user = useUser()
 

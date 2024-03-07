@@ -1,6 +1,8 @@
-const router = require("express").Router();
-const passport = require("passport");
-const CLIENT_URL = 'https://blasnjacobo.github.io/shopping-cart/'
+import { Router } from "express";
+import passport from "passport";
+
+const router = Router();
+const CLIENT_URL = 'http://localhost:5173/shopping-cart/'
 
 router.get("/login/success", (req, res) => {
   if (req.user) {
@@ -24,7 +26,7 @@ router.get("/logout", (req, res) => {
   res.redirect(CLIENT_URL);
 });
 
-router.get("/google", passport.authenticate("google", { scope: ["profile"] }));
+router.get("/google", passport.authenticate("google", { scope: ["profile", "email"] }));
 
 router.get(
   "/google/callback",
@@ -44,4 +46,4 @@ router.get(
   })
 );
 
-module.exports = router
+export default router
