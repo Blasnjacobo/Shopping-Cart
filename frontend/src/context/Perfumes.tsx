@@ -38,6 +38,7 @@ export const PerfumesProvider = ({ children }: { children: ReactNode }) => {
         };
         fetchStoreItems();
     }, []);
+    console.log(perfumes)
     return (
         <PerfumesContext.Provider value={{ perfumes, loading }}>
             {children}

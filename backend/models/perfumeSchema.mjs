@@ -2,10 +2,6 @@ import mongoose from "mongoose";
 
 const perfumeSchema = mongoose.Schema(
     {
-        id: {
-            type: String,
-            required: true
-        },
         name: {
             type: String,
             required: true
@@ -19,6 +15,10 @@ const perfumeSchema = mongoose.Schema(
             required: true
         },
         aroma: {
+            type: String,
+            required: true
+        },
+        categoria: {
             type: String,
             required: true
         },

@@ -1,8 +1,8 @@
-import { useShoppingCart } from '../context/ShoppingCartContext';
+import { useShoppingCart } from '../../context/ShoppingCartContext';
 import { Offcanvas, Stack, Button } from 'react-bootstrap';
 import CartItem from './CartItem';
-import { formatCurrency } from '../utilities/formatCurrency';
-import { usePerfumes } from '../context/Perfumes';
+import { formatCurrency } from '../../utilities/formatCurrency';
+import { usePerfumes } from '../../context/Perfumes';
 
 type ShoppingCartProps = {
     isOpen: boolean;

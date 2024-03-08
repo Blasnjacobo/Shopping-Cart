@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar/Navbar'
 import { ShoppingCartProvider } from './context/ShoppingCartContext'
-import Footer from './components/Footer'
+import Footer from './components/Footer/Footer'
 import Dama from './pages/Dama'
 import Caballero from './pages/Caballero'
 import Unisex from './pages/Unisex'
@@ -26,7 +26,7 @@ function App() {
               <Route path='/shopping-cart/caballero' element={<Caballero />} />
               <Route path='/shopping-cart/Unisex' element={<Unisex />} />
               <Route path='/shopping-cart/about' element={<About />} />
-              <Route path='/shopping-cart/:id' element={<Item />} />
+              <Route path='/shopping-cart/:_id' element={<Item />} />
             </Routes>
             <Footer />
           </div>

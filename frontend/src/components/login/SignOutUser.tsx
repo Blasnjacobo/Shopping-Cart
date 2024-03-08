@@ -1,5 +1,5 @@
-import '../app.css'
-import { User } from '../type/User'
+import '../../app.css'
+import { User } from '../../type/User'
 
 interface userPromp {
     user: User

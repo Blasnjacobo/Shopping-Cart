@@ -1,8 +1,8 @@
 import { Button, Card } from "react-bootstrap"
 import { useNavigate } from "react-router-dom"
-import { formatCurrency } from "../utilities/formatCurrency"
-import { useShoppingCart } from "../context/ShoppingCartContext"
-import { useUser } from '../context/User';
+import { formatCurrency } from "../../utilities/formatCurrency"
+import { useShoppingCart } from "../../context/ShoppingCartContext"
+import { useUser } from '../../context/User';
 
 interface StoreItemProps {
     _id: string;
@@ -43,8 +43,8 @@ const StoreItem = ({ _id, name, price, imgUrl }: StoreItemProps) => {
             />
             <Card.Body className="d-flex flex-column">
                 <Card.Title className="d-flex justify-content-space-between align-items-center mb-4 text-muted gap-5">
-                    <span className="fs-0.5">{name}</span> {/* Optional chaining to handle undefined perfume object */}
-                    <span className="ms-2">{formatCurrency(price)}</span> {/* Optional chaining to handle undefined perfume object */}
+                    <span className="fs-0.5">{name}</span>
+                    <span className="ms-2">{formatCurrency(price)}</span>
                 </Card.Title>
                 {user ? (
                     <div className="mt-auto">

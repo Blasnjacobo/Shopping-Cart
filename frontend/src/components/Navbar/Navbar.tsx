@@ -1,11 +1,11 @@
 import { Container, Navbar as NavbarBs } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
-import logo from '../assets/logo.png'
+import logo from './logo.png'
 import CollapseNavbar from './CollapseNavbar'
-import Cart from './Cart'
-import SignInIcon from './LogIcon'
-import SignOutUser from './SignOutUser'
-import { useUser } from '../context/User';
+import Cart from '../Cart/Cart'
+import SignInIcon from '../login/LogIcon'
+import SignOutUser from '../login/SignOutUser'
+import { useUser } from '../../context/User';
 
 
 const Navbar = () => {

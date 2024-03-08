@@ -2,7 +2,7 @@ import { Perfume } from "../models/perfumeSchema.mjs";
 
 export const getAllPerfumes = async (request, response) => {
     try {
-        const perfumes = await Perfume.find({});
+        const perfumes = await Perfume.find();
         return response.status(200).json({
             count: perfumes.length,
             data: perfumes

@@ -1,7 +1,7 @@
-import { useShoppingCart } from '../context/ShoppingCartContext'
+import { useShoppingCart } from '../../context/ShoppingCartContext'
 import { Button, Stack } from 'react-bootstrap'
-import { formatCurrency } from '../utilities/formatCurrency'
-import { usePerfumes } from '../context/Perfumes';
+import { formatCurrency } from '../../utilities/formatCurrency'
+import { usePerfumes } from '../../context/Perfumes';
 
 type CartItemProps = {
     id: string

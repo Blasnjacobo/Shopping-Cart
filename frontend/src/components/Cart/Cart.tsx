@@ -1,5 +1,5 @@
 import { Button } from 'react-bootstrap'
-import { useShoppingCart } from '../context/ShoppingCartContext'
+import { useShoppingCart } from '../../context/ShoppingCartContext'
 const Cart = () => {
     const { openCart, cartQuantity } = useShoppingCart()
     return (

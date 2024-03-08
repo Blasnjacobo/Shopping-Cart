@@ -4,5 +4,6 @@ export interface Perfume {
     price: number;
     type: string;
     aroma: string;
+    categoria: string;
     imgUrl: string;
 }
