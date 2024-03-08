@@ -1,35 +1,10 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Row, Col } from 'react-bootstrap';
 import StoreItem from '../components/StoreItem';
-import { useEffect, useState } from 'react';
-import { Perfume } from '../type/Perfume';
-
-interface Perfumes {
-  perfume: Perfume;
-}
+import { usePerfumes } from '../context/Perfumes';
 
 const Dama = () => {
-  const [dama, setDama] = useState<Perfumes[]>([]);
-  const [loading, setLoading] = useState(false);
-
-  useEffect(() => {
-    const fetchStoreItems = async () => {
-      setLoading(true);
-      try {
-        const response = await fetch('http://localhost:5000/perfumes/dama');
-        if (!response.ok) {
-          throw new Error('Failed to fetch data from the server');
-        }
-        const data = await response.json();
-        setDama(data.data);
-      } catch (error) {
-        console.error('Error fetching store items:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
-    fetchStoreItems();
-  }, []);
-
+  const { perfumes, loading } = usePerfumes();
   return (
     <div>
       {loading ? (
@@ -55,9 +30,9 @@ const Dama = () => {
             style={{ display: 'block', margin: '2rem auto' }}></iframe>
           <h2 style={{ marginLeft: '1rem' }}>Descubre nuestra nueva coleccion</h2>
           <Row xs={1} md={2} lg={3} className='g-3'>
-            {dama.map((item, index) => (
-              <Col key={index}>
-                <StoreItem {...item.perfume} />
+            {perfumes.map((perfume) => (
+              <Col key={perfume._id}>
+                <StoreItem {...perfume} />
               </Col>
             ))}
           </Row>

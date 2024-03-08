@@ -2,33 +2,28 @@ import { useShoppingCart } from '../context/ShoppingCartContext';
 import { Offcanvas, Stack, Button } from 'react-bootstrap';
 import CartItem from './CartItem';
 import { formatCurrency } from '../utilities/formatCurrency';
-import storeItems from "../data/items.json";
-import storeItems2 from '../data/avengers.json';
-import storeItems3 from '../data/starWars.json';
-import storeItems4 from '../data/friends.json';
+import { usePerfumes } from '../context/Perfumes';
 
 type ShoppingCartProps = {
     isOpen: boolean;
 }
-const storeItemsTotal = storeItems.concat(storeItems2).concat(storeItems3).concat(storeItems4);
-console.log(storeItemsTotal)
 
 const ShoppingCart = ({ isOpen }: ShoppingCartProps) => {
     const { closeCart, cartItems } = useShoppingCart();
-    console.log(cartItems)
+    const { perfumes } = usePerfumes();
     // Function to handle sending WhatsApp message
     const sendWhatsAppMessage = () => {
         let message = "Cart Details:\n";
 
         cartItems.forEach(item => {
-            const storeItem = storeItemsTotal.find(i => i.id === item.id);
+            const storeItem = perfumes.find(i => i._id === item.id);
             if (storeItem) {
                 message += `${storeItem.name}: ${item.quantity} x ${formatCurrency(storeItem.price)}\n`;
             }
         });
 
         const total = cartItems.reduce((total, cartItem) => {
-            const storeItem = storeItemsTotal.find(i => i.id === cartItem.id);
+            const storeItem = perfumes.find(i => i._id === cartItem.id);
             return total + (storeItem?.price || 0) * cartItem.quantity;
         }, 0);
 
@@ -55,7 +50,7 @@ const ShoppingCart = ({ isOpen }: ShoppingCartProps) => {
                         Total {' '}
                         {formatCurrency(
                             cartItems.reduce((total, cartItem) => {
-                                const item = storeItemsTotal.find(i => i.id === cartItem.id)
+                                const item = perfumes.find(i => i._id === cartItem.id)
                                 return total + (item?.price || 0) * cartItem.quantity
                             }, 0)
                         )}

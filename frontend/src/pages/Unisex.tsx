@@ -1,24 +1,32 @@
-import { Row, Col } from 'react-bootstrap'
-import storeItems from '../data/starWars.json'
-import StoreItem from '../components/StoreItem'
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import { Row, Col } from 'react-bootstrap';
+import StoreItem from '../components/StoreItem';
+import { usePerfumes } from '../context/Perfumes';
 
-const Unisex = () => {
+const Caballero = () => {
+  const { perfumes, loading } = usePerfumes();
   return (
     <div>
-      <h1 style={{ marginLeft: '1rem', textAlign: "center" }}>- Unisex -</h1>
-      <iframe width="97%" height="315"
-        src="https://www.youtube.com/embed/e2FvWGSSXTY?si=UkSXYBKUswWATKUU"
-        style={{ display: 'block', margin: ' 2rem auto' }} />
-      <h2 style={{ marginLeft: '1rem' }}>From boardgames to apparels</h2>
-      <Row xs={1} md={2} lg={3} className='g-3'>
-        {storeItems.map(item => (
-          <Col key={item.id}>
-            <StoreItem {...item} />
-          </Col>
-        ))}
-      </Row>
+      {loading ? (
+        <h1>Loading</h1>
+      ) : (
+        <div>
+          <h1 style={{ marginLeft: '1rem', textAlign: "center" }}>- Unisex -</h1>
+          <iframe width="97%" height="315"
+            src="https://www.youtube.com/embed/e2FvWGSSXTY?si=UkSXYBKUswWATKUU"
+            style={{ display: 'block', margin: ' 2rem auto' }} />
+          <h2 style={{ marginLeft: '1rem' }}>From boardgames to apparels</h2>
+          {/* <Row xs={1} md={2} lg={3} className='g-3'>
+            {perfumes.map((perfume) => (
+              <Col key={perfume._id}>
+                <StoreItem {...(perfume)} />
+              </Col>
+            ))}
+          </Row> */}
+        </div>
+      )}
     </div>
-  )
-}
+  );
+};
 
-export default Unisex
+export default Caballero;

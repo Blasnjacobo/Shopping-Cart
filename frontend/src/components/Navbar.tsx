@@ -10,7 +10,6 @@ import { useUser } from '../context/User';
 
 const Navbar = () => {
   const user = useUser()
-  console.log(user)
   return (
     <NavbarBs sticky='top' expand="md" className='bg-white shadow-sm mb-3'>
       <Container style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
