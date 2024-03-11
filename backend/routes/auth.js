@@ -1,8 +1,8 @@
-import { Router } from "express";
-import passport from "passport";
+const express = require('express');
+const router = express.Router();
+const passport = require('passport');
 
-const router = Router();
-const CLIENT_URL = 'http://localhost:5173/shopping-cart/'
+const CLIENT_URL = "http://localhost:5173/shopping-cart/";
 
 router.get("/login/success", (req, res) => {
   if (req.user) {
@@ -10,6 +10,7 @@ router.get("/login/success", (req, res) => {
       success: true,
       message: "successfull",
       user: req.user,
+      //   cookies: req.cookies
     });
   }
 });
@@ -26,7 +27,7 @@ router.get("/logout", (req, res) => {
   res.redirect(CLIENT_URL);
 });
 
-router.get("/google", passport.authenticate("google", { scope: ["profile", "email"] }));
+router.get('/google', passport.authenticate('google', { scope: ['profile'] }));
 
 router.get(
   "/google/callback",
@@ -46,4 +47,14 @@ router.get(
   })
 );
 
-export default router
+router.get("/facebook", passport.authenticate("facebook", { scope: ["profile"] }));
+
+router.get(
+  "/facebook/callback",
+  passport.authenticate("facebook", {
+    successRedirect: CLIENT_URL,
+    failureRedirect: "/login/failed",
+  })
+);
+
+module.exports = router;

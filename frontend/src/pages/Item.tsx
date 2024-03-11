@@ -23,8 +23,7 @@ const Item = () => {
                     throw new Error('Failed to fetch data from the server');
                 }
                 const data = await response.json();
-                setPerfume(data.data);
-                console.log(perfume)
+                setPerfume(data);
             } catch (error) {
                 console.error('Error fetching store perfumes:', error);
             }
@@ -49,11 +48,11 @@ const Item = () => {
                                 <p className="card-text text-start" style={{ width: '70%', margin: 'auto' }}>
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt sit veniam, aspernatur modi enim excepturi ex ullam, dicta delectus distinctio iusto officia mollitia eius eveniet totam ad! Consequuntur, aspernatur atque.</p>
                             </div>
-                            <div style={{ display: 'flex', justifyContent: "space-evenly", alignItems: "center", gap: "2rem" }}>
-                                <h6>perfume ID: {perfume._id}</h6>
+                            <div className='item-variables'>
+                                <h6>Categoria: {perfume.categoria.charAt(0).toUpperCase() + perfume.categoria.slice(1)}</h6>
                                 <h6>Tipo: {perfume.type}</h6>
-                                <h6>Precio: ${perfume.price} MXN</h6>
                                 <h6>Aroma: {perfume.aroma}</h6>
+                                <h6 className="bg-secondary text-light p-2">Precio: ${perfume.price} MXN</h6>
                             </div>
                         </div>
                     </div>

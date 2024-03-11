@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Navbar as NavbarBs } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
-import ModalSign from '../../pages/LogIn'
+import Login from './Login';
 
 const SignInIcon = () => {
     const [show, setShow] = useState(false);
@@ -13,7 +13,7 @@ const SignInIcon = () => {
             <NavbarBs as={NavLink} to='/shopping-cart/'>
                 <i className="bi bi-person" onClick={handleShow} style={{ fontSize: '1.5rem', marginLeft: '2rem', cursor: 'pointer', color: 'black' }}></i>
             </NavbarBs>
-            <ModalSign show={show} handleClose={handleClose} />
+            <Login show={show} handleClose={handleClose} />
         </>
     )
 }

@@ -1,6 +1,6 @@
-import { Perfume } from "../models/perfumeSchema.mjs";
+const { Perfume } = require("../models/perfumeSchema.js");
 
-export const getAllPerfumes = async (request, response) => {
+module.exports.getAllPerfumes = async (request, response) => {
     try {
         const perfumes = await Perfume.find();
         return response.status(200).json({
@@ -13,10 +13,10 @@ export const getAllPerfumes = async (request, response) => {
     }
 };
 
-export const perfumeByID = async (request, response) => {
+module.exports.perfumeByID = async (request, response) => {
     try {
-        const { id } = request.params
-        const perfume = await Perfume.findById(id)
+        const { _id } = request.params
+        const perfume = await Perfume.findById(_id)
         return response.status(200).json(perfume)
     } catch (error) {
     console.log(error.message)

@@ -1,4 +1,3 @@
-import '../../app.css'
 import { User } from '../../type/User'
 
 interface userPromp {

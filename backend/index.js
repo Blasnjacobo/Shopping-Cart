@@ -1,12 +1,13 @@
-import express from "express";
-import mongoose from "mongoose";
-import cors from 'cors';
-import session from 'express-session';
-import passport from "passport";
-import dotenv from 'dotenv';
-import authRoute from './routes/auth.mjs'
-import perfumesRoute from './routes/perfumes.mjs'
+const express = require("express");
+const mongoose = require("mongoose");
+const cors = require('cors');
+const session = require('express-session');
+const passport = require("passport");
+const dotenv = require('dotenv');
+const auth = require('./routes/auth.js');
+const perfumes = require('./routes/perfumes.js');
 dotenv.config();
+const passportSetup = require("./passport.js");
 
 const app = express();
 
@@ -14,12 +15,11 @@ const app = express();
 app.use(session({
   secret: 'tu_secreto',
   resave: false,
-  saveUninitialized: false
+  saveUninitialized: false,
 }));
 
 app.use(passport.initialize());
 app.use(passport.session());
-
 app.use(cors({
     origin: 'http://localhost:5173', 
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
@@ -27,8 +27,8 @@ app.use(cors({
     credentials: true
 }));
 
-app.use('/auth', authRoute)
-app.use('/perfumes', perfumesRoute)
+app.use('/auth', auth)
+app.use('/perfumes', perfumes)
 
 const PORT = process.env.PORT
 mongoose

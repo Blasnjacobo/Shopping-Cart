@@ -1,18 +1,18 @@
 import { Modal } from 'react-bootstrap';
-import Google from '../img/google.png'
-// import Facebook from '../img/facebook.png'
-import Github from '../img/github.png'
-import '../app.css'
+import Google from '../../img/google.png'
+// import Facebook from '../../img/facebook.png'
+import Github from '../../img/github.png'
 interface ShowProps {
     show: boolean;
     handleClose: () => void
 }
 
-const ModalSign: React.FC<ShowProps> = ({ show, handleClose }) => {
+const Login: React.FC<ShowProps> = ({ show, handleClose }) => {
 
     const google = () => {
+        console.log('sending google')
         window.open("http://localhost:5000/auth/google", "_self");
-    }
+    };
 
     // const facebook = () => {
     //     window.open("http://localhost:5000/auth/facebook", "_self");
@@ -57,4 +57,4 @@ const ModalSign: React.FC<ShowProps> = ({ show, handleClose }) => {
     );
 };
 
-export default ModalSign;
+export default Login;

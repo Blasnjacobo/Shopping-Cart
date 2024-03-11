@@ -7,9 +7,10 @@ import Dama from './pages/Dama'
 import Caballero from './pages/Caballero'
 import Unisex from './pages/Unisex'
 import About from './pages/About'
-import Item from './components/Item'
+import Item from './pages/Item'
 import { UserProvider } from './context/User'
 import { PerfumesProvider } from './context/Perfumes'
+import './app.css'
 
 //TO RUN THE PROGRAM THE COMMAND USED IS npm run dev
 

@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 
 const perfumeSchema = mongoose.Schema(
     {
@@ -29,4 +29,4 @@ const perfumeSchema = mongoose.Schema(
     }
 )
 
-export const Perfume = mongoose.model('Perfume', perfumeSchema )
+module.exports.Perfume = mongoose.model('Perfume', perfumeSchema )
