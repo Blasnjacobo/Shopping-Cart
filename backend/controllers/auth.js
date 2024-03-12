@@ -13,8 +13,10 @@ const User =  require('../models/userSchema.js')
 module.exports.register = async (req, res) => {
   try {
     const {
-      displayName,
-      photos,
+      id,
+      name,
+      familyName,
+      photo,
       provider,
       _raw,
     } = req.body

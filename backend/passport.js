@@ -23,7 +23,9 @@ passport.use(
         } else {
           // Create a new user in the database
           const newUser = new User({
-            displayName: profile.displayName,
+            id: profile.id,
+            name: profile.name.givenName,
+            familyName: profile.name.familyName,
             photos: [{ value: profile.photos[0].value }],
             provider: profile.provider,
             _raw: profile._raw
@@ -46,7 +48,6 @@ passport.use(
       callbackURL: "/auth/github/callback",
     },
     async (request, accessToken, refreshToken, profile, done) => {
-      console.log(profile)
       try {
         // Check if user already exists in the database
         let user = await User.findOne({ displayName: profile.displayName });
@@ -55,7 +56,9 @@ passport.use(
         } else {
           // Create a new user in the database
           const newUser = new User({
-            displayName: profile.displayName,
+            id: (profile.id).toString(),
+            name: profile.displayName,
+            familyName: profile.username,
             photos: [{ value: profile.photos[0].value }],
             provider: profile.provider,
             _raw: profile._raw
@@ -75,9 +78,21 @@ passport.use(new JwtStrategy({
   jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
   secretOrKey: process.env.JWT_SECRET
 }, (jwtPayload, done) => {
-  // Here you would typically check if the user exists in your database
-  // You might also perform additional validation on the JWT payload
-  return done(null, jwtPayload.user);
+    // Retrieve user information from the JWT payload
+  const userId = jwtPayload.id;
+  User.findById(userId, (err, user) => {
+    if (err) {
+        return done(err, false); // Error handling
+    }
+    if (!user) {
+        return done(null, false); // User not found
+    }
+    // Attach user information to the request object for use in subsequent middleware or route handlers
+    // For example, you might want to attach the user object itself or just specific user attributes
+    // Here, we're attaching the user object to the request as req.user
+    req.user = user;
+    return done(null, user); // Pass the user object to the next middleware or route handler
+});
 }));
 
 

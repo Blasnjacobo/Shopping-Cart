@@ -24,8 +24,11 @@ export const UserProvider: React.FC<UserProviderProps> = ({ children }) => {
             }).then(response => {
                 if (response.status === 200) return response.json();
                 throw new Error('Authentication has failed!');
-            }).then(resObject => {
-                setUser(resObject.user);
+            }).then(data => {
+                console.log(data)
+                setUser(data.user);
+                const token = data.token;
+                localStorage.setItem('jwtToken', token);
             }).catch(err => {
                 console.log(err);
             });
