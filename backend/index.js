@@ -8,14 +8,17 @@ const auth = require('./routes/auth.js');
 const perfumes = require('./routes/perfumes.js');
 dotenv.config();
 const passportSetup = require("./passport.js");
+const { register } = require('./controllers/auth.js')
 
-const app = express();
-
+const app = express();;
 
 app.use(session({
-  secret: 'tu_secreto',
-  resave: false,
-  saveUninitialized: false,
+  secret: 'tu_secreto', 
+  resave: false, 
+  saveUninitialized: false, 
+  cookie: {
+    maxAge: 24 * 60 * 60 * 1000
+  }
 }));
 
 app.use(passport.initialize());
@@ -27,6 +30,7 @@ app.use(cors({
     credentials: true
 }));
 
+app.post('/auth/register', register)
 app.use('/auth', auth)
 app.use('/perfumes', perfumes)
 

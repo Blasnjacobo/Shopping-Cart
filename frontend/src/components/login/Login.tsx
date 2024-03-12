@@ -10,7 +10,6 @@ interface ShowProps {
 const Login: React.FC<ShowProps> = ({ show, handleClose }) => {
 
     const google = () => {
-        console.log('sending google')
         window.open("http://localhost:5000/auth/google", "_self");
     };
 
