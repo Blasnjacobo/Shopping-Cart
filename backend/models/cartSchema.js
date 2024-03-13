@@ -6,6 +6,14 @@ const cartSchema = new mongoose.Schema({
     ref: 'User',
     required: true
   },
+  name: {
+    type: String,
+    required: true
+  },
+  username: {
+    type: String,
+    required: true
+  },
   items: [{
     perfume: {
       type: mongoose.Schema.Types.ObjectId,

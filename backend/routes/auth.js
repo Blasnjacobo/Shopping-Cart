@@ -10,12 +10,13 @@ router.get("/login/success", (req, res) => {
     // Create a JWT token
     const token = jwt.sign({ id: req.user.id }, process.env.JWT_SECRET, { expiresIn: '1h' });
     // Send the JWT token back to the client
+    console.log(req)
     res.status(200).json({
       success: true,
       message: "Successfully logged in",
       token: token,
-      user: req.user,
-      cart: req.cart
+      user: req.user.user,
+      cart: req.user.cart
     });
   } else {
     res.status(401).json({
@@ -37,7 +38,7 @@ router.get("/logout", (req, res) => {
   res.redirect(CLIENT_URL);
 });
 
-router.get('/google', passport.authenticate('google', { scope: ['profile'] }));
+router.get('/google', passport.authenticate('google', { scope: ['profile', 'email'] }));
 
 router.get(
   "/google/callback",
@@ -47,7 +48,7 @@ router.get(
   })
 );
 
-router.get("/github", passport.authenticate("github", { scope: ["profile"] }));
+router.get("/github", passport.authenticate("github", { scope: ["profile", 'email'] }));
 
 router.get(
   "/github/callback",

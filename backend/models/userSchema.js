@@ -3,12 +3,11 @@ const mongoose = require("mongoose");
 const userSchema = new mongoose.Schema({
   id : String,
   name: String,
-  familyName: String,
+  username: String,
   photos: [{
     value: String
   }],
-  provider: String,
-  _raw: String
+  provider: String
   },
   {
     timestamps: true
