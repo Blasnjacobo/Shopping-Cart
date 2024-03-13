@@ -4,6 +4,7 @@ const JwtStrategy = require('passport-jwt').Strategy;
 const { ExtractJwt } = require('passport-jwt');
 const passport = require("passport");
 const { User } = require('./models/userSchema')
+const Cart = require('./models/cartSchema');
 require('dotenv').config()
 
 passport.use(
@@ -14,11 +15,11 @@ passport.use(
       callbackURL: "http://localhost:5000/auth/google/callback"
     },
     async (request, accessToken, refreshToken, profile, done) => {
-      console.log(profile)
       try {
         // Check if user already exists in the database
-        let user = await User.findOne({ displayName: profile.displayName });
+        let user = await User.findOne({ id: profile.id });
         if (user) {
+          // If user already exists, return it
           return done(null, user);
         } else {
           // Create a new user in the database
@@ -30,8 +31,21 @@ passport.use(
             provider: profile.provider,
             _raw: profile._raw
           });
+
+          // Save the new user
           await newUser.save();
-          return done(null, newUser);
+
+          // Create a new cart for the user
+          const newCart = new Cart({
+            userID: newUser,
+            items: []
+          });
+
+          // Save the new cart
+          await newCart.save();
+
+          // Return the new user and cart
+          return done(null, newUser, newCart);
         }
       } catch (error) {
         return done(error);
@@ -39,6 +53,7 @@ passport.use(
     }
   )
 );
+
 
 passport.use(
   new GithubStrategy(
@@ -50,7 +65,7 @@ passport.use(
     async (request, accessToken, refreshToken, profile, done) => {
       try {
         // Check if user already exists in the database
-        let user = await User.findOne({ displayName: profile.displayName });
+        let user = await User.findOne({ id: profile.id });
         if (user) {
           return done(null, user);
         } else {
@@ -64,7 +79,14 @@ passport.use(
             _raw: profile._raw
           });
           await newUser.save();
-          return done(null, newUser);
+
+          const newCart = new Cart({
+            user: newUser,
+            items: []
+          });
+          await newUser.save();
+          await newCart.save();
+          return done(null, newUser, newCart);
         }
       } catch (error) {
         return done(error);

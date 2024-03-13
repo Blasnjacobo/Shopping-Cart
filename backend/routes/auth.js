@@ -9,13 +9,13 @@ router.get("/login/success", (req, res) => {
   if (req.user) {
     // Create a JWT token
     const token = jwt.sign({ id: req.user.id }, process.env.JWT_SECRET, { expiresIn: '1h' });
-
     // Send the JWT token back to the client
     res.status(200).json({
       success: true,
       message: "Successfully logged in",
       token: token,
       user: req.user,
+      cart: req.cart
     });
   } else {
     res.status(401).json({
