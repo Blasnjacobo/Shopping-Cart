@@ -4,7 +4,6 @@ import { usePerfumes } from '../context/Perfumes';
 
 const Caballero = () => {
   const { perfumes, loading } = usePerfumes();
-  console.log(perfumes)
   return (
     <div>
       {loading ? (

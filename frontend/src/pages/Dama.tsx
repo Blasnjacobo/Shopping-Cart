@@ -5,7 +5,6 @@ import { usePerfumes } from '../context/Perfumes';
 
 const Dama = () => {
   const { perfumes, loading } = usePerfumes();
-  console.log(perfumes)
   return (
     <div>
       {loading ? (

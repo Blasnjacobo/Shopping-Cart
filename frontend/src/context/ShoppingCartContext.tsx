@@ -1,6 +1,9 @@
 import { createContext, ReactNode, useContext, useState } from "react"
 import { useLocalStorage } from "../hooks/useLocalStorage"
 import ShoppingCart from "../components/Cart/ShoppingCart"
+import TotalQuantity from "../components/Cart/dbCart/TotalQuantity"
+import ItemQuantity from "../components/Cart/dbCart/ItemQuantity"
+import IncreaseQuantity from "../components/Cart/dbCart/IncreaseQuantity"
 
 type ShoppingCartProviderProps = {
   children: ReactNode
@@ -14,17 +17,17 @@ type CartItem = {
 type ShoppingCartContext = {
   openCart: () => void
   closeCart: () => void
-  getItemQuantity: (id: string) => number
-  increaseCartQuantity: (id: string) => void
+  itemQuantity: (id: string) => number | null
+  increaseQuantity: (id: string) => void
   decreaseCartQuantity: (id: string) => void
   removeFromCart: (id: string) => void
-  cartQuantity: number
+  totalQuantity: () => number
   cartItems: CartItem[]
-  selectPerfume: (perfumeId: string) => void
 }
 
 const ShoppingCartContext = createContext({} as ShoppingCartContext)
 
+// eslint-disable-next-line react-refresh/only-export-components
 export function useShoppingCart() {
   return useContext(ShoppingCartContext)
 }
@@ -35,31 +38,16 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
     []
   )
 
-  const cartQuantity = cartItems.reduce(
-    (quantity, item) => item.quantity + quantity,
-    0
-  )
+  const totalQuantity = () => TotalQuantity()
 
   const openCart = () => setIsOpen(true)
   const closeCart = () => setIsOpen(false)
-  function getItemQuantity(id: string) {
-    return cartItems.find(item => item.id === id)?.quantity || 0
-  }
-  function increaseCartQuantity(id: string) {
-    setCartItems(currItems => {
-      if (currItems.find(item => item.id === id) == null) {
-        return [...currItems, { id, quantity: 1 }]
-      } else {
-        return currItems.map(item => {
-          if (item.id === id) {
-            return { ...item, quantity: item.quantity + 1 }
-          } else {
-            return item
-          }
-        })
-      }
-    })
-  }
+
+  const itemQuantity = (_id: string) => ItemQuantity(_id)
+
+  const increaseQuantity = (_id: string) => IncreaseQuantity(_id)
+
+
   function decreaseCartQuantity(id: string) {
     setCartItems(currItems => {
       if (currItems.find(item => item.id === id)?.quantity === 1) {
@@ -81,39 +69,17 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
     })
   }
 
-  // Función para seleccionar un perfume y enviar la solicitud al backend
-  async function selectPerfume(perfumeId: string) {
-    try {
-      const response = await fetch('/select-perfume', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ perfumeId })
-      })
-      if (!response.ok) {
-        throw new Error('Failed to select perfume')
-      }
-      // Actualizar el estado local del carrito si es necesario
-      // ...
-    } catch (error) {
-      console.error('Error selecting perfume:', error)
-      // Manejar el error
-    }
-  }
-
   return (
     <ShoppingCartContext.Provider
       value={{
-        getItemQuantity,
-        increaseCartQuantity,
+        itemQuantity,
+        increaseQuantity,
         decreaseCartQuantity,
         removeFromCart,
         openCart,
         closeCart,
         cartItems,
-        cartQuantity,
-        selectPerfume
+        totalQuantity,
       }}
     >
       {children}

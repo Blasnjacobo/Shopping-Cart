@@ -2,8 +2,7 @@ const mongoose = require('mongoose');
 
 const cartSchema = new mongoose.Schema({
   userID: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'User',
+    type: String,
     required: true
   },
   name: {
@@ -16,8 +15,7 @@ const cartSchema = new mongoose.Schema({
   },
   items: [{
     perfume: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'Perfume',
+      type: String,
       required: false
     },
     quantity: {

@@ -1,16 +1,16 @@
-const express = require("express");
-const mongoose = require("mongoose");
-const cors = require('cors');
-const session = require('express-session');
-const passport = require("passport");
-const dotenv = require('dotenv');
-const auth = require('./routes/auth.js');
-const perfumes = require('./routes/perfumes.js');
-dotenv.config();
-const passportSetup = require("./passport.js");
-const { register } = require('./controllers/auth.js')
+const express = require("express")
+const mongoose = require("mongoose")
+const cors = require('cors')
+const session = require('express-session')
+const passport = require("passport")
+const passportSetup = require("./passport.js")
+const dotenv = require('dotenv')
+dotenv.config()
+const perfumes = require('./routes/perfumes.js')
+const auth = require('./routes/auth.js')
+const cart = require('./routes/cart.js')
 
-const app = express();;
+const app = express()
 
 app.use(session({
   secret: 'tu_secreto', 
@@ -30,9 +30,9 @@ app.use(cors({
     credentials: true
 }));
 
-app.post('/auth/register', register)
 app.use('/auth', auth)
 app.use('/perfumes', perfumes)
+app.use('/cart', cart)
 
 const PORT = process.env.PORT
 mongoose

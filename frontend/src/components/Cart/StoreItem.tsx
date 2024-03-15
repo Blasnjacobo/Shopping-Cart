@@ -10,6 +10,7 @@ interface StoreItemProps {
     price: number;
     type: string;
     aroma: string;
+    categoria: string;
     imgUrl: string;
 }
 
@@ -24,19 +25,19 @@ const StoreItem = ({ _id, name, price, imgUrl }: StoreItemProps) => {
     }
 
     const {
-        getItemQuantity,
-        increaseCartQuantity,
+        itemQuantity,
+        increaseQuantity,
         decreaseCartQuantity,
         removeFromCart
     } = useShoppingCart()
 
-    const quantity = name ? getItemQuantity(_id) : 0; // Check if perfume object is defined
-
+    const quantity = name ? itemQuantity(_id) : 0;
+    console.log(quantity)
     return (
         <Card className="h-100 m-3">
             <Card.Img
                 variant="top"
-                src={imgUrl} // Optional chaining to handle undefined perfume object
+                src={imgUrl}
                 height='200px'
                 style={{ objectFit: 'contain', marginTop: '1.5rem' }}
                 onClick={() => handleItem()}
@@ -49,7 +50,7 @@ const StoreItem = ({ _id, name, price, imgUrl }: StoreItemProps) => {
                 {user ? (
                     <div className="mt-auto">
                         {quantity === 0 ? (
-                            <Button className="w-100" onClick={() => increaseCartQuantity(_id)}>+ Add To Card</Button>
+                            <Button className="w-100" onClick={() => increaseQuantity(_id)}>+ Add To Card</Button>
                         ) : (
                             <div className="d-flex align-items-center flex-column" style={{ gap: '0.5rem' }}>
                                 <div className="d-flex align-items-center justify-content-center" style={{ gap: '0.5rem' }}>
@@ -58,7 +59,7 @@ const StoreItem = ({ _id, name, price, imgUrl }: StoreItemProps) => {
                                         <span className="fs-3">{quantity}</span>
                                         in cart
                                     </div>
-                                    <Button onClick={() => increaseCartQuantity(_id)}>+</Button>
+                                    <Button onClick={() => increaseQuantity(_id)}>+</Button>
                                 </div>
                                 <Button
                                     variant="danger"

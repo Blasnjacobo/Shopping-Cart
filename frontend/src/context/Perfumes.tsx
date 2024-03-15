@@ -26,7 +26,7 @@ export const PerfumesProvider = ({ children }: { children: ReactNode }) => {
             try {
                 const response = await fetch('http://localhost:5000/perfumes/');
                 if (!response.ok) {
-                    throw new Error('Failed to fetch data from the server');
+                    throw new Error('Failed to fetch perfums from the server');
                 }
                 const data = await response.json();
                 setPerfumes(data.data);
@@ -38,7 +38,6 @@ export const PerfumesProvider = ({ children }: { children: ReactNode }) => {
         };
         fetchStoreItems();
     }, []);
-    console.log(perfumes)
     return (
         <PerfumesContext.Provider value={{ perfumes, loading }}>
             {children}

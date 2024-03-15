@@ -1,3 +1,4 @@
-export interface Cart {
-
+export interface CartItem {
+    perfume: string;
+    quantity: number
 }

@@ -17,7 +17,7 @@ passport.use(
     async (request, accessToken, refreshToken, profile, done) => {
       try {
         // Check if user already exists in the database
-        let user = await User.findOne({ username: profile.username });
+        let user = await User.findOne({ id: profile.id });
         let cart = await Cart.findOne({ username: profile.username });
         if (user) {
           // If user already exists, return it
@@ -31,22 +31,15 @@ passport.use(
             photos: [{ value: profile.photos[0].value }],
             provider: profile.provider
           });
-
-          // Save the new user
           await newUser.save();
-
           // Create a new cart for the user
           const newCart = new Cart({
-            userID: newUser,
+            userID: newUser.id,
             name: profile.name.givenName,
             username: profile.emails[0].value,
             items: []
           });
-
-          // Save the new cart
           await newCart.save();
-
-          // Return the new user and cart
           return done(null, {user: newUser, cart: newCart});
         }
       } catch (error) {
@@ -66,13 +59,11 @@ passport.use(
     },
     async (request, accessToken, refreshToken, profile, done) => {
       try {
-        // Check if user already exists in the database
         let user = await User.findOne({ username: profile.username });
         let cart = await Cart.findOne({ username: profile.username });
         if (user) {
           return done(null, {user: user, cart: cart});
         } else {
-          // Create a new user in the database
           const newUser = new User({
             id: (profile.id).toString(),
             name: profile.displayName,
@@ -81,14 +72,12 @@ passport.use(
             provider: profile.provider
           });
           await newUser.save();
-
           const newCart = new Cart({
-            userID: newUser,
+            userID: newUser.id,
             name: profile.displayName,
             username: profile.username,
             items: []
           });
-          await newUser.save();
           await newCart.save();
           return done(null, {user: newUser, cart: newCart});
         }
