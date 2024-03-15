@@ -1,6 +1,6 @@
 const Cart = require("../../models/cartSchema")
 
-module.exports.totalQuantity = async (request, response) => {
+const totalQuantity = async (request, response) => {
     try {
         const { user } = request.params
         const cartID = await Cart.findOne(user.username)
@@ -10,3 +10,5 @@ module.exports.totalQuantity = async (request, response) => {
         response.status(500).send({ message: error.message })
     }
 }
+
+module.exports = totalQuantity

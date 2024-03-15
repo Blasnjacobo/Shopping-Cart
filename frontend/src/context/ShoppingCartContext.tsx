@@ -17,10 +17,10 @@ type CartItem = {
 type ShoppingCartContext = {
   openCart: () => void
   closeCart: () => void
-  itemQuantity: (id: string) => number | null
-  increaseQuantity: (id: string) => void
-  decreaseCartQuantity: (id: string) => void
-  removeFromCart: (id: string) => void
+  itemQuantity: (_id: string) => number
+  increaseQuantity: (_id: string) => void
+  decreaseCartQuantity: (_id: string) => void
+  removeFromCart: (_id: string) => void
   totalQuantity: () => number
   cartItems: CartItem[]
 }
@@ -45,7 +45,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
 
   const itemQuantity = (_id: string) => ItemQuantity(_id)
 
-  const increaseQuantity = (_id: string) => IncreaseQuantity(_id)
+  const increaseQuantity = (_id: string) => <IncreaseQuantity id={_id} />
 
 
   function decreaseCartQuantity(id: string) {

@@ -31,6 +31,7 @@ const ItemQuantity = (_id: string) => {
     useEffect(() => {
         // console.log(_id + ' has ' + itemQuantity + ' items');
     }, [itemQuantity]);
+
     return itemQuantity;
 };
 

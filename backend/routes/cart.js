@@ -1,7 +1,7 @@
 const express = require('express')
-const { totalQuantity } = require('../controllers/cart/totalQuantity')
-const { itemQuantity } = require('../controllers/cart/itemQuantity')
-const { increaseQuantity } = require('../controllers/cart/increaseQuantity')
+const totalQuantity = require('../controllers/cart/totalQuantity')
+const itemQuantity = require('../controllers/cart/itemQuantity')
+const increaseQuantity = require('../controllers/cart/increaseQuantity')
  
 const router = express.Router()
 

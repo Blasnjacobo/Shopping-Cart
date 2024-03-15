@@ -1,6 +1,6 @@
 const Cart = require('../../models/cartSchema')
 
-module.exports.itemQuantity = async (req, res) => {
+const itemQuantity = async (req, res) => {
     try {
         const { username, _id } = req.params;
         const cart = await Cart.findOne({ username: username });
@@ -12,7 +12,7 @@ module.exports.itemQuantity = async (req, res) => {
         
         if (cart.items){
             cart.items.forEach(item => {
-                if (item.perfume.equals(_id)) {
+                if (item.perfume === (_id)) {
                     totalQuantity += item.quantity;
                 }
             });
@@ -23,3 +23,5 @@ module.exports.itemQuantity = async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 }
+
+module.exports = itemQuantity;
