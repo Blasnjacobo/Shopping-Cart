@@ -2,8 +2,7 @@ const Cart = require('../../models/cartSchema')
 
 const increaseQuantity = async (req, res) => {
     try {
-        const { username, _id } = req.params;
-        console.log(req.params)
+        const { _id, username } = req.params;
         const cart = await Cart.findOne({ username: username });
         if (!cart) {
             return res.status(404).json({ message: 'Cart not found for user' });
@@ -14,7 +13,6 @@ const increaseQuantity = async (req, res) => {
         } else {
             item.quantity += 1;
         }
-        console.log(cart)
         await cart.save();
         res.status(200);
     } catch(error) {

@@ -12,19 +12,16 @@ const TotalQuantity = () => {
         if (!user) {
           return console.log('user not found')
         }
-        console.log(user)
         const response = await fetch(`http://localhost:5000/cart/${user}`)
         if (!response.ok) {
           throw new Error('Failed to fetch cart from server')
         }
         const data = await response.json()
-        console.log(data.items)
         setCartById(data.items)
       } catch (error) {
         console.log('Error fetching quantity cart', error)
       }
     }
-
     fetchCart()
   }, [])
   if (!cartById) {

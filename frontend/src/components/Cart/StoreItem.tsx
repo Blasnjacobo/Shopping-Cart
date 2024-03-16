@@ -1,10 +1,8 @@
-import { useState } from 'react';
-import { Button, Card } from 'react-bootstrap';
-import { useNavigate } from 'react-router-dom';
-import { formatCurrency } from '../../utilities/formatCurrency';
-import { useShoppingCart } from '../../context/ShoppingCartContext';
+import { Button, Card } from "react-bootstrap"
+import { useNavigate } from "react-router-dom"
+import { formatCurrency } from "../../utilities/formatCurrency"
+import { useShoppingCart } from "../../context/ShoppingCartContext"
 import { useUser } from '../../context/User';
-import IncreaseQuantity from '../../components/Cart/dbCart/IncreaseQuantity';
 
 interface StoreItemProps {
     _id: string;
@@ -19,7 +17,6 @@ interface StoreItemProps {
 const StoreItem = ({ _id, name, price, imgUrl }: StoreItemProps) => {
     const navigate = useNavigate();
     const user = useUser();
-    const [showIncreaseQuantity, setShowIncreaseQuantity] = useState(false); // State to control rendering of IncreaseQuantity component
 
     const handleItem = () => {
         if (_id) {
@@ -27,9 +24,15 @@ const StoreItem = ({ _id, name, price, imgUrl }: StoreItemProps) => {
         }
     }
 
-    const { itemQuantity, decreaseCartQuantity, removeFromCart } = useShoppingCart();
-    const quantity = name ? itemQuantity(_id) : 0;
+    const {
+        itemQuantity,
+        increaseQuantity,
+        decreaseQuantity,
+        removeFromCart
+    } = useShoppingCart()
 
+    const quantity = name ? itemQuantity(_id) : 0;
+    console.log(quantity)
     return (
         <Card className="h-100 m-3">
             <Card.Img
@@ -47,37 +50,30 @@ const StoreItem = ({ _id, name, price, imgUrl }: StoreItemProps) => {
                 {user ? (
                     <div className="mt-auto">
                         {quantity === 0 ? (
-                            <Button className="w-100" onClick={() => setShowIncreaseQuantity(true)}>
-                                + Add To Card
-                            </Button>
+                            <Button className="w-100" onClick={() => increaseQuantity(_id, user.username)}>+ Add To Card</Button>
                         ) : (
                             <div className="d-flex align-items-center flex-column" style={{ gap: '0.5rem' }}>
                                 <div className="d-flex align-items-center justify-content-center" style={{ gap: '0.5rem' }}>
-                                    <Button onClick={() => decreaseCartQuantity(_id)}>-</Button>
+                                    <Button onClick={() => decreaseQuantity(_id, user.username)}>-</Button>
                                     <div>
                                         <span className="fs-3">{quantity}</span>
                                         in cart
                                     </div>
-                                    <Button onClick={() => setShowIncreaseQuantity(true)}>+</Button>
+                                    <Button onClick={() => increaseQuantity(_id, user.username)}>+</Button>
                                 </div>
                                 <Button
                                     variant="danger"
                                     size="sm"
                                     style={{ borderRadius: 10 }}
                                     onClick={() => removeFromCart(_id)}
-                                >
-                                    Remove
-                                </Button>
+                                >Remove</Button>
                             </div>
                         )}
                     </div>
                 ) : <div></div>}
-                {showIncreaseQuantity && (
-                    <IncreaseQuantity id={_id} />
-                )}
             </Card.Body>
         </Card>
-    );
+    )
 }
 
 export default StoreItem;

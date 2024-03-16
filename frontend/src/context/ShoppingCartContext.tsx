@@ -4,6 +4,7 @@ import ShoppingCart from "../components/Cart/ShoppingCart"
 import TotalQuantity from "../components/Cart/dbCart/TotalQuantity"
 import ItemQuantity from "../components/Cart/dbCart/ItemQuantity"
 import IncreaseQuantity from "../components/Cart/dbCart/IncreaseQuantity"
+import DecreaseQuantity from "../components/Cart/dbCart/DecreaseQuantity"
 
 type ShoppingCartProviderProps = {
   children: ReactNode
@@ -18,8 +19,8 @@ type ShoppingCartContext = {
   openCart: () => void
   closeCart: () => void
   itemQuantity: (_id: string) => number
-  increaseQuantity: (_id: string) => void
-  decreaseCartQuantity: (_id: string) => void
+  increaseQuantity: (_id: string, username: string) => void
+  decreaseQuantity: (_id: string, username: string) => void
   removeFromCart: (_id: string) => void
   totalQuantity: () => number
   cartItems: CartItem[]
@@ -37,7 +38,6 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
     "shopping-cart",
     []
   )
-
   const totalQuantity = () => TotalQuantity()
 
   const openCart = () => setIsOpen(true)
@@ -45,24 +45,10 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
 
   const itemQuantity = (_id: string) => ItemQuantity(_id)
 
-  const increaseQuantity = (_id: string) => <IncreaseQuantity id={_id} />
+  const increaseQuantity = (_id: string, username: string) => IncreaseQuantity(_id, username)
 
+  const decreaseQuantity = (_id: string, username: string) => DecreaseQuantity(_id, username)
 
-  function decreaseCartQuantity(id: string) {
-    setCartItems(currItems => {
-      if (currItems.find(item => item.id === id)?.quantity === 1) {
-        return currItems.filter(item => item.id !== id)
-      } else {
-        return currItems.map(item => {
-          if (item.id === id) {
-            return { ...item, quantity: item.quantity - 1 }
-          } else {
-            return item
-          }
-        })
-      }
-    })
-  }
   function removeFromCart(id: string) {
     setCartItems(currItems => {
       return currItems.filter(item => item.id !== id)
@@ -74,7 +60,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
       value={{
         itemQuantity,
         increaseQuantity,
-        decreaseCartQuantity,
+        decreaseQuantity,
         removeFromCart,
         openCart,
         closeCart,
