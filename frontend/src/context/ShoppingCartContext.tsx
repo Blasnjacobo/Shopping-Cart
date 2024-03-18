@@ -5,6 +5,7 @@ import TotalQuantity from "../components/Cart/dbCart/TotalQuantity"
 import ItemQuantity from "../components/Cart/dbCart/ItemQuantity"
 import IncreaseQuantity from "../components/Cart/dbCart/IncreaseQuantity"
 import DecreaseQuantity from "../components/Cart/dbCart/DecreaseQuantity"
+import RemoveFromCart from "../components/Cart/dbCart/RemoveFromCart"
 
 type ShoppingCartProviderProps = {
   children: ReactNode
@@ -21,7 +22,7 @@ type ShoppingCartContext = {
   itemQuantity: (_id: string) => number
   increaseQuantity: (_id: string, username: string) => void
   decreaseQuantity: (_id: string, username: string) => void
-  removeFromCart: (_id: string) => void
+  removeFromCart: (_id: string, username: string) => void
   totalQuantity: () => number
   cartItems: CartItem[]
 }
@@ -49,11 +50,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
 
   const decreaseQuantity = (_id: string, username: string) => DecreaseQuantity(_id, username)
 
-  function removeFromCart(id: string) {
-    setCartItems(currItems => {
-      return currItems.filter(item => item.id !== id)
-    })
-  }
+  const removeFromCart = (_id: string, username: string) => RemoveFromCart(_id, username)
 
   return (
     <ShoppingCartContext.Provider
