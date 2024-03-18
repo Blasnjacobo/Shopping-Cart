@@ -1,37 +1,21 @@
-import { useEffect, useState } from 'react'
-import { useUser } from '../../../context/User'
-import { CartItem } from '../../../type/Cart'
-
-const TotalQuantity = () => {
-  const [cartById, setCartById] = useState<CartItem[] | undefined>()
-  let totalQuantity = 0
-  const user = useUser()
-  useEffect(() => {
-    const fetchCart = async () => {
-      try {
-        if (!user) {
-          return console.log('user not found')
-        }
-        const response = await fetch(`http://localhost:5000/cart/${user}`)
-        if (!response.ok) {
-          throw new Error('Failed to fetch cart from server')
-        }
-        const data = await response.json()
-        setCartById(data.items)
-      } catch (error) {
-        console.log('Error fetching quantity cart', error)
-      }
-    }
-    fetchCart()
-  }, [])
-  if (!cartById) {
-    console.log('No cartById added')
-  } else {
-    cartById.forEach((item: CartItem) => {
-      totalQuantity += item.quantity
-    });
+const TotalQuantity = async (username: string): Promise<number> => {
+  if (!username) {
+    console.log('User not found');
+    return 0;
   }
-  return totalQuantity
-}
 
-export default TotalQuantity
+  try {
+    const response = await fetch(`http://localhost:5000/cart/totalQuantity/${username}`);
+    if (!response.ok) {
+      throw new Error('Failed to fetch cart from server');
+    }
+    const total = await response.json();
+    console.log('after: ' + total);
+    return total;
+  } catch (error) {
+    console.log('Error fetching quantity cart', error);
+    return 0;
+  }
+};
+
+export default TotalQuantity;

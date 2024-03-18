@@ -23,7 +23,7 @@ type ShoppingCartContext = {
   increaseQuantity: (_id: string, username: string) => void
   decreaseQuantity: (_id: string, username: string) => void
   removeFromCart: (_id: string, username: string) => void
-  totalQuantity: () => number
+  totalQuantity: (username: string) => Promise<number>
   cartItems: CartItem[]
 }
 
@@ -39,10 +39,11 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
     "shopping-cart",
     []
   )
-  const totalQuantity = () => TotalQuantity()
 
   const openCart = () => setIsOpen(true)
   const closeCart = () => setIsOpen(false)
+
+  const totalQuantity = (username: string) => TotalQuantity(username)
 
   const itemQuantity = (_id: string) => ItemQuantity(_id)
 

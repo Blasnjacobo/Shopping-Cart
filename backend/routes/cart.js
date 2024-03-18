@@ -7,7 +7,7 @@ const removeFromCart = require('../controllers/cart/removeFromCart')
 const cartItems = require('../controllers/cart/cartItems')
  
 const router = express.Router()
-router.get('/:user', totalQuantity)
+router.get('/totalQuantity/:username', totalQuantity)
 router.get('/:username/:_id', itemQuantity)
 router.post('/increase/:_id/:username', increaseQuantity)
 router.post('/decrease/:_id/:username', decreaseQuantity)
