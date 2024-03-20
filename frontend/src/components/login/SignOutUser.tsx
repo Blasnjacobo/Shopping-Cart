@@ -5,6 +5,7 @@ interface userPromp {
 }
 
 const SignOutUser = ({ user }: userPromp) => {
+    console.log(user)
     const logout = () => {
         window.open("http://localhost:5000/auth/logout", "_self");
     };

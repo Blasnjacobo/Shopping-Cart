@@ -8,8 +8,6 @@ const Cart = () => {
     const { openCart, totalQuantity } = useShoppingCart();
     const [quantity, setQuantity] = useState(0);
 
-    user ? console.log(totalQuantity(user.username)) : console.log('nada')
-
     useEffect(() => {
         const fetchQuantity = async () => {
             if (user) {
@@ -24,7 +22,6 @@ const Cart = () => {
 
         fetchQuantity();
     }, [user, totalQuantity]);
-
     console.log(quantity)
 
     return (

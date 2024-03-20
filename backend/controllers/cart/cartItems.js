@@ -11,7 +11,8 @@ const cartItems = async (req, res) => {
 
         let cartItemsArray = [];
         cart.items.forEach((item) => {
-            cartItemsArray.push({ id: item._id, quantity: item.quantity });
+            console.log(item)
+            cartItemsArray.push({ perfumeID: item.perfume, quantity: item.quantity });
         });
 
         res.status(200).json(cartItemsArray);

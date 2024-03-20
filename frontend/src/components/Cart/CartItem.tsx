@@ -5,11 +5,11 @@ import { usePerfumes } from '../../context/Perfumes';
 import { useUser } from '../../context/User'
 
 type CartItemProps = {
-    id: string
+    perfumeID: string
     quantity: number
 }
 
-const CartItem = ({ id, quantity }: CartItemProps) => {
+const CartItem = ({ perfumeID, quantity }: CartItemProps) => {
     const { perfumes } = usePerfumes();
     const user = useUser()
     const {
@@ -17,7 +17,7 @@ const CartItem = ({ id, quantity }: CartItemProps) => {
         increaseQuantity,
         decreaseQuantity
     } = useShoppingCart()
-    const item = perfumes.find(i => i._id === id)
+    const item = perfumes.find(i => i._id === perfumeID)
     if (item == null) return null
     return (
         user ? (
@@ -45,8 +45,8 @@ const CartItem = ({ id, quantity }: CartItemProps) => {
                         <Button variant='outline-danger' size='sm' style={{ height: '2rem' }} onClick={() => removeFromCart(item._id, user.username)}>x</Button>
                     </div>
                     <div style={{ display: 'flex', alignItems: "center", justifyContent: 'flex-end', gap: '0.5vw' }}>
-                        <Button size='sm' style={{ fontSize: '1 vw' }} onClick={() => increaseQuantity(id, user.username)}>+</Button>
-                        <Button size='sm' style={{ fontSize: '1 vw' }} onClick={() => decreaseQuantity(id, user.username)}>-</Button>
+                        <Button size='sm' style={{ fontSize: '1 vw' }} onClick={() => increaseQuantity(perfumeID, user.username)}>+</Button>
+                        <Button size='sm' style={{ fontSize: '1 vw' }} onClick={() => decreaseQuantity(perfumeID, user.username)}>-</Button>
                     </div>
                 </div>
             </Stack>) : <div></div>
