@@ -1,14 +1,15 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { Row, Col } from 'react-bootstrap';
 import StoreItem from '../components/Cart/StoreItem';
-import { usePerfumes } from '../context/Perfumes';
+import usePerfumes from '../context/Perfumes/usePerfumes';
 
 const Dama = () => {
   const { perfumes, loading } = usePerfumes();
+  console.log(perfumes)
   return (
     <div>
       {loading ? (
-        <h1>Loading</h1>
+        <h1></h1>
       ) : (
         <div>
           <h1

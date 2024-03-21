@@ -1,22 +1,8 @@
-import { createContext, useContext, useEffect, useState, ReactNode } from 'react';
-import { Perfume } from '../type/Perfume';
-
-
-// Define the context
-const PerfumesContext = createContext({} as PerfumesContextType);
-
-
-// Define the type for the context
-type PerfumesContextType = {
-    perfumes: Perfume[];
-    loading: boolean;
-};
-
-// Custom hook to use the context
-export const usePerfumes = () => useContext(PerfumesContext);
-
+import { useEffect, useState, ReactNode } from 'react';
+import { Perfume } from '../../type/Perfume';
+import PerfumesContext from './PerfumeContext';
 // Provider component to wrap your application
-export const PerfumesProvider = ({ children }: { children: ReactNode }) => {
+export default function PerfumesProvider({ children }: { children: ReactNode }) {
     const [perfumes, setPerfumes] = useState<Perfume[]>([]);
     const [loading, setLoading] = useState(false);
 
@@ -43,4 +29,4 @@ export const PerfumesProvider = ({ children }: { children: ReactNode }) => {
             {children}
         </PerfumesContext.Provider>
     );
-};
+}

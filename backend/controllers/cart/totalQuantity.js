@@ -8,7 +8,6 @@ const totalQuantity = async (request, response) => {
             return res.status(404).json({ message: 'Cart not found for user' });
         }
         let total = cart.items.reduce((accum, currentValue) => accum + currentValue.quantity, 0)
-        console.log(total)
         return response.status(200).json(total)
     } catch (error) {
         console.log('Error for totalQuantity', error)

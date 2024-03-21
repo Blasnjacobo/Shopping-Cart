@@ -1,15 +1,15 @@
 import { Routes, Route } from 'react-router-dom'
+import ShoppingCartProvider from './context/Cart/Cart'
+import PerfumesProvider from './context/Perfumes/Perfumes'
+import UserProvider from './context/Users/User'
 import Home from './pages/Home'
 import Navbar from './components/Navbar/Navbar'
-import { ShoppingCartProvider } from './context/ShoppingCartContext'
 import Footer from './components/Footer/Footer'
 import Dama from './pages/Dama'
 import Caballero from './pages/Caballero'
 import Unisex from './pages/Unisex'
 import About from './pages/About'
 import Item from './pages/Item'
-import { UserProvider } from './context/User'
-import { PerfumesProvider } from './context/Perfumes'
 import './app.css'
 
 //TO RUN THE PROGRAM THE COMMAND USED IS npm run dev

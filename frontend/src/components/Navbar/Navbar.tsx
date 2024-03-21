@@ -5,7 +5,7 @@ import CollapseNavbar from './CollapseNavbar'
 import Cart from '../Cart/Cart'
 import SignInIcon from '../login/LogIcon'
 import SignOutUser from '../login/SignOutUser'
-import { useUser } from '../../context/User';
+import useUser from '../../context/Users/useUser';
 
 
 const Navbar = () => {

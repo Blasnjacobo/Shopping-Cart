@@ -3,7 +3,6 @@ const Cart = require('../../models/cartSchema')
 const removeFromCart = async (req, res) => {
     try {
         const { _id, username } = req.params;
-        console.log(_id, username)
         const cart = await Cart.findOne({ username: username });
         if (!cart) {
             return res.status(404).json({ message: 'Cart not found for user' });

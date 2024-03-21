@@ -1,6 +1,6 @@
 import { Button } from 'react-bootstrap';
-import { useShoppingCart } from '../../context/ShoppingCartContext';
-import { useUser } from '../../context/User';
+import useShoppingCart from '../../context/Cart/useShoppingCart';
+import useUser from '../../context/Users/useUser';
 import { useState, useEffect } from 'react';
 
 const Cart = () => {
@@ -22,7 +22,6 @@ const Cart = () => {
 
         fetchQuantity();
     }, [user, totalQuantity]);
-    console.log(quantity)
 
     return (
         <div>

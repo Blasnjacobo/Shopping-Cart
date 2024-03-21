@@ -1,15 +1,12 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
-import { User } from '../type/User';
-
-const UserContext = createContext<User | undefined>(undefined);
-
-export const useUser = () => useContext(UserContext);
+import React, { useState, useEffect } from 'react';
+import { User } from '../../type/User';
+import userContext from './userContext';
 
 interface UserProviderProps {
     children: React.ReactNode;
 }
 
-export const UserProvider: React.FC<UserProviderProps> = ({ children }) => {
+export default function UserProvider({ children }: UserProviderProps): JSX.Element {
     const [user, setUser] = useState<User | undefined>(undefined);
 
     useEffect(() => {
@@ -25,7 +22,6 @@ export const UserProvider: React.FC<UserProviderProps> = ({ children }) => {
                 if (response.status === 200) return response.json();
                 throw new Error('Authentication has failed!');
             }).then(data => {
-                console.log(data)
                 setUser(data.user);
                 const token = data.token;
                 localStorage.setItem('jwtToken', token);
@@ -37,8 +33,8 @@ export const UserProvider: React.FC<UserProviderProps> = ({ children }) => {
     }, []);
 
     return (
-        <UserContext.Provider value={user}>
+        <userContext.Provider value={user}>
             {children}
-        </UserContext.Provider>
+        </userContext.Provider>
     );
-};
+}

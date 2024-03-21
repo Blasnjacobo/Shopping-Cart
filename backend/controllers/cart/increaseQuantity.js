@@ -14,7 +14,7 @@ const increaseQuantity = async (req, res) => {
             item.quantity += 1;
         }
         await cart.save();
-        res.status(200);
+        res.status(200).json(item.quantity)
     } catch(error) {
         console.log('Error incrementing quantity', error);
         res.status(500).json({ message: 'Internal server error' });

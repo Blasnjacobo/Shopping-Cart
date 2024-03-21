@@ -1,8 +1,9 @@
+import { useState, useEffect } from "react"
 import { Button, Card } from "react-bootstrap"
 import { useNavigate } from "react-router-dom"
 import { formatCurrency } from "../../utilities/formatCurrency"
-import { useShoppingCart } from "../../context/ShoppingCartContext"
-import { useUser } from '../../context/User';
+import useShoppingCart from "../../context/Cart/useShoppingCart"
+import useUser from '../../context/Users/useUser';
 
 interface StoreItemProps {
     _id: string;
@@ -31,8 +32,57 @@ const StoreItem = ({ _id, name, price, imgUrl }: StoreItemProps) => {
         removeFromCart
     } = useShoppingCart()
 
-    const quantity = name ? itemQuantity(_id) : 0;
-    console.log(quantity)
+    // Use async/await to resolve the promise
+    const getQuantity = async () => {
+        if (user) {
+            return await itemQuantity(_id, user.username);
+        }
+        return 0;
+    }
+
+    // Render the component asynchronously
+    const [quantity, setQuantity] = useState<number | null>(null);
+
+    useEffect(() => {
+        getQuantity().then((result) => {
+            setQuantity(result);
+        }).catch((error) => {
+            console.error("Error fetching quantity:", error);
+            setQuantity(0);
+        });
+    }, []);
+
+    if (quantity === null) {
+        return <div></div>;
+    }
+
+    const handleIncreaseQuantity = async () => {
+        if (user) {
+            setQuantity(quantity + 1)
+            await increaseQuantity(_id, user.username)
+            const updatedQuantity = await getQuantity()
+            setQuantity(updatedQuantity)
+        }
+    }
+
+    const handleDecreaseQuantity = async () => {
+        if (user) {
+            setQuantity(quantity - 1)
+            await decreaseQuantity(_id, user.username)
+            const updatedQuantity = await getQuantity()
+            setQuantity(updatedQuantity)
+        }
+    }
+
+    const handleRemoveFromCart = async () => {
+        if (user) {
+            setQuantity(0)
+            await removeFromCart(_id, user.username)
+            const updatedQuantity = await getQuantity()
+            setQuantity(updatedQuantity)
+        }
+    }
+
     return (
         <Card className="h-100 m-3">
             <Card.Img
@@ -50,22 +100,22 @@ const StoreItem = ({ _id, name, price, imgUrl }: StoreItemProps) => {
                 {user ? (
                     <div className="mt-auto">
                         {quantity === 0 ? (
-                            <Button className="w-100" onClick={() => increaseQuantity(_id, user.username)}>+ Add To Card</Button>
+                            <Button className="w-100" onClick={handleIncreaseQuantity}>+ Add To Card</Button>
                         ) : (
                             <div className="d-flex align-items-center flex-column" style={{ gap: '0.5rem' }}>
                                 <div className="d-flex align-items-center justify-content-center" style={{ gap: '0.5rem' }}>
-                                    <Button onClick={() => decreaseQuantity(_id, user.username)}>-</Button>
+                                    <Button onClick={handleDecreaseQuantity}>-</Button>
                                     <div>
                                         <span className="fs-3">{quantity}</span>
                                         in cart
                                     </div>
-                                    <Button onClick={() => increaseQuantity(_id, user.username)}>+</Button>
+                                    <Button onClick={handleIncreaseQuantity}>+</Button>
                                 </div>
                                 <Button
                                     variant="danger"
                                     size="sm"
                                     style={{ borderRadius: 10 }}
-                                    onClick={() => removeFromCart(_id, user.username)}
+                                    onClick={handleRemoveFromCart}
                                 >Remove</Button>
                             </div>
                         )}
@@ -73,7 +123,7 @@ const StoreItem = ({ _id, name, price, imgUrl }: StoreItemProps) => {
                 ) : <div></div>}
             </Card.Body>
         </Card>
-    )
+    );
 }
 
 export default StoreItem;

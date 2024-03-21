@@ -1,13 +1,13 @@
 import { Row, Col } from 'react-bootstrap';
 import StoreItem from '../components/Cart/StoreItem';
-import { usePerfumes } from '../context/Perfumes';
+import usePerfumes from '../context/Perfumes/usePerfumes';
 
 const Caballero = () => {
   const { perfumes, loading } = usePerfumes();
   return (
     <div>
       {loading ? (
-        <h1>Loading</h1>
+        <h1></h1>
       ) : (
         <div>
           <h1 style={{ marginLeft: '1rem', textAlign: "center" }}>- Caballero -</h1>
