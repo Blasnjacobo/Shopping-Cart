@@ -2,7 +2,7 @@ import { Container, Navbar as NavbarBs } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
 import logo from './logo.png'
 import CollapseNavbar from './CollapseNavbar'
-import Cart from '../Cart/Cart'
+import CarritoLogo from '../Cart/CarritoLogo'
 import SignInIcon from '../login/LogIcon'
 import SignOutUser from '../login/SignOutUser'
 import useUser from '../../context/Users/useUser';
@@ -20,7 +20,7 @@ const Navbar = () => {
         <NavbarBs.Collapse id="navbarNav">
           <CollapseNavbar />
         </NavbarBs.Collapse>
-        <Cart />
+        <CarritoLogo />
         {
           !user ? <SignInIcon /> : <SignOutUser user={user} />
         }

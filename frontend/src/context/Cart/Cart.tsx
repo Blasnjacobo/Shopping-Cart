@@ -1,6 +1,6 @@
 import { ReactNode, useState } from "react";
 import ShoppingCartContext from "./ShoppingCartContext";
-import ShoppingCart from "../../components/Cart/ShoppingCart";
+import Carrito from "../../components/Cart/Carrito";
 
 type ShoppingCartProviderProps = {
   children: ReactNode;
@@ -43,7 +43,6 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
         throw new Error('Failed to fetch total quantity from server');
       }
       const total = await response.json();
-      console.log(total)
       return total;
     } catch (error) {
       console.log('Error fetching total quantity', error);
@@ -131,6 +130,8 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
       if (!response.ok) {
         throw new Error('Failed to remove item from cart on server');
       }
+      const data = await response.json()
+      return data
     } catch (error) {
       console.log('Error removing item from cart', error);
     }
@@ -150,7 +151,7 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
       }}
     >
       {children}
-      <ShoppingCart isOpen={isOpen} />
+      <Carrito isOpen={isOpen} />
     </ShoppingCartContext.Provider>
   );
 }

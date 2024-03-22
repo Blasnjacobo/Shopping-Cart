@@ -1,11 +1,17 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Row, Col } from 'react-bootstrap';
-import StoreItem from '../components/Cart/StoreItem';
+import { useState } from 'react';
+import Perfume from '../components/Cart/Perfume';
 import usePerfumes from '../context/Perfumes/usePerfumes';
 
 const Dama = () => {
   const { perfumes, loading } = usePerfumes();
-  console.log(perfumes)
+  const [triggerEffect, setTriggerEffect] = useState(true);
+
+  function transfer() {
+    setTriggerEffect(!triggerEffect);
+    console.log(triggerEffect)
+  }
+
   return (
     <div>
       {loading ? (
@@ -33,7 +39,7 @@ const Dama = () => {
           <Row xs={1} md={2} lg={3} className='g-3'>
             {perfumes.filter(element => element.categoria === 'dama').map((perfume) => (
               <Col key={perfume._id}>
-                <StoreItem {...perfume} />
+                <Perfume {...perfume} transfer={transfer} />
               </Col>
             ))}
           </Row>

@@ -4,7 +4,7 @@ import useUser from '../../context/Users/useUser';
 import { formatCurrency } from '../../utilities/formatCurrency';
 import { Offcanvas, Stack, Button } from 'react-bootstrap';
 import { useEffect, useState } from 'react';
-import CartItem from './CartItem';
+import CarritoItem from './CarritoItem';
 
 type ShoppingCartProps = {
     isOpen: boolean;
@@ -15,13 +15,12 @@ interface ShoppingCartItem {
     quantity: number;
 }
 
-const ShoppingCart = ({ isOpen }: ShoppingCartProps) => {
+const Carrito = ({ isOpen }: ShoppingCartProps) => {
     const { closeCart, cartItems } = useShoppingCart();
     const [cartItem, setCartItem] = useState<ShoppingCartItem[]>([]);
     const [triggerEffect, setTriggerEffect] = useState(false);
     const { perfumes } = usePerfumes();
     const user = useUser()
-    console.log(user)
 
     useEffect(() => {
         const fetchCartItems = async () => {
@@ -69,7 +68,7 @@ const ShoppingCart = ({ isOpen }: ShoppingCartProps) => {
             <Offcanvas.Body>
                 <Stack gap={3}>
                     {cartItem?.map(item => (
-                        <CartItem key={item.perfumeID} {...item}
+                        <CarritoItem key={item.perfumeID} {...item}
                             triggerEffect={triggerEffect} setTriggerEffect={setTriggerEffect} />
                     ))}
                     <div className='ms-auto fw-bold fs-5'>
@@ -88,4 +87,4 @@ const ShoppingCart = ({ isOpen }: ShoppingCartProps) => {
     );
 }
 
-export default ShoppingCart;
+export default Carrito;

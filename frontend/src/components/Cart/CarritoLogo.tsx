@@ -3,7 +3,7 @@ import useShoppingCart from '../../context/Cart/useShoppingCart';
 import useUser from '../../context/Users/useUser';
 import { useState, useEffect } from 'react';
 
-const Cart = () => {
+const CarritoLogo = () => {
     const user = useUser();
     const { openCart, totalQuantity } = useShoppingCart();
     const [quantity, setQuantity] = useState(0);
@@ -62,4 +62,4 @@ const Cart = () => {
     );
 }
 
-export default Cart;
+export default CarritoLogo;

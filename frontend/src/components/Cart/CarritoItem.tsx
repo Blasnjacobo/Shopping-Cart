@@ -12,7 +12,7 @@ type CartItemProps = {
     triggerEffect: boolean
 };
 
-const CartItem = ({ perfumeID, quantity, setTriggerEffect, triggerEffect }: CartItemProps) => {
+const CarritoItem = ({ perfumeID, quantity, setTriggerEffect, triggerEffect }: CartItemProps) => {
     const { perfumes } = usePerfumes();
     const user = useUser();
     const {
@@ -22,6 +22,8 @@ const CartItem = ({ perfumeID, quantity, setTriggerEffect, triggerEffect }: Cart
         itemQuantity
     } = useShoppingCart();
     const [updatedQuantity, setUpdatedQuantity] = useState(quantity)
+
+
 
     useEffect(() => {
         setUpdatedQuantity(quantity)
@@ -89,4 +91,4 @@ const CartItem = ({ perfumeID, quantity, setTriggerEffect, triggerEffect }: Cart
     );
 };
 
-export default CartItem;
+export default CarritoItem;

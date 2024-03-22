@@ -1,5 +1,5 @@
 import { Row, Col } from 'react-bootstrap';
-import StoreItem from '../components/Cart/StoreItem';
+import Perfume from '../components/Cart/Perfume';
 import usePerfumes from '../context/Perfumes/usePerfumes';
 
 const Caballero = () => {
@@ -18,7 +18,7 @@ const Caballero = () => {
           <Row xs={1} md={2} lg={3} className='g-3'>
             {perfumes.filter(element => element.categoria === 'caballero').map((perfume) => (
               <Col key={perfume._id}>
-                <StoreItem {...perfume} />
+                <Perfume {...perfume} />
               </Col>
             ))}
           </Row>

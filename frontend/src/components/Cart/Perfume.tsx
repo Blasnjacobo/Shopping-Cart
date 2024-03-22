@@ -13,9 +13,10 @@ interface StoreItemProps {
     aroma: string;
     categoria: string;
     imgUrl: string;
+    transfer: () => void
 }
 
-const StoreItem = ({ _id, name, price, imgUrl }: StoreItemProps) => {
+const Perfume = ({ _id, name, price, imgUrl, transfer }: StoreItemProps) => {
     const navigate = useNavigate();
     const user = useUser();
 
@@ -58,28 +59,27 @@ const StoreItem = ({ _id, name, price, imgUrl }: StoreItemProps) => {
 
     const handleIncreaseQuantity = async () => {
         if (user) {
-            setQuantity(quantity + 1)
             await increaseQuantity(_id, user.username)
             const updatedQuantity = await getQuantity()
-            setQuantity(updatedQuantity)
+            await setQuantity(updatedQuantity)
         }
     }
 
     const handleDecreaseQuantity = async () => {
         if (user) {
-            setQuantity(quantity - 1)
             await decreaseQuantity(_id, user.username)
             const updatedQuantity = await getQuantity()
-            setQuantity(updatedQuantity)
+            await setQuantity(updatedQuantity)
         }
     }
 
     const handleRemoveFromCart = async () => {
         if (user) {
-            setQuantity(0)
             await removeFromCart(_id, user.username)
+            await transfer()
             const updatedQuantity = await getQuantity()
-            setQuantity(updatedQuantity)
+            await setQuantity(updatedQuantity)
+            await console.log('quantity after removing: ' + quantity)
         }
     }
 
@@ -126,4 +126,4 @@ const StoreItem = ({ _id, name, price, imgUrl }: StoreItemProps) => {
     );
 }
 
-export default StoreItem;
+export default Perfume;
