@@ -2,9 +2,17 @@
 import { Row, Col } from 'react-bootstrap';
 import Perfume from '../components/Cart/Perfume';
 import usePerfumes from '../context/Perfumes/usePerfumes';
+import { useState } from 'react';
 
 const Caballero = () => {
   const { perfumes, loading } = usePerfumes();
+  const [triggerEffect, setTriggerEffect] = useState(true);
+
+  function transfer() {
+    setTriggerEffect(!triggerEffect);
+    console.log(triggerEffect)
+  }
+
   return (
     <div>
       {loading ? (
@@ -19,7 +27,7 @@ const Caballero = () => {
           <Row xs={1} md={2} lg={3} className='g-3'>
             {perfumes.filter(element => element.categoria === 'unisex').map((perfume) => (
               <Col key={perfume._id}>
-                <Perfume {...(perfume)} />
+                <Perfume {...(perfume)} transfer={transfer} />
               </Col>
             ))}
           </Row>

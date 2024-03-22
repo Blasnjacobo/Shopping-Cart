@@ -14,7 +14,7 @@ const removeFromCart = async (req, res) => {
             cart.items = cart.items.filter(item => item.perfume !== _id)
         }
         await cart.save();
-        res.status(200).json(item);
+        res.status(200).json(item.quantity);
     } catch(error) {
         console.log('Error removing item', error);
         res.status(500).json({ message: 'Internal server error' });

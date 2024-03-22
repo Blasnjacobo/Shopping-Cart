@@ -1,6 +1,7 @@
-import { ReactNode, useState } from "react";
+import { ReactNode, useEffect, useState } from "react";
 import ShoppingCartContext from "./ShoppingCartContext";
 import Carrito from "../../components/Cart/Carrito";
+import useUser from '../Users/useUser';
 
 type ShoppingCartProviderProps = {
   children: ReactNode;
@@ -8,6 +9,42 @@ type ShoppingCartProviderProps = {
 
 export default function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
   const [isOpen, setIsOpen] = useState(false);
+  const user = useUser()
+
+  const totalQuantity = async (username: string) => {
+    if (!username) {
+      console.log('User not found');
+      return 0;
+    }
+
+    try {
+      const response = await fetch(`http://localhost:5000/cart/totalQuantity/${username}`);
+      if (!response.ok) {
+        throw new Error('Failed to fetch total quantity from server');
+      }
+      const total = await response.json();
+      return total;
+    } catch (error) {
+      console.log('Error fetching total quantity', error);
+      return 0;
+    }
+  };
+
+  const [quantity, setQuantity] = useState<number>(0);
+
+  useEffect(() => {
+    const fetchQuantity = async () => {
+      if (user) {
+        try {
+          const userQuantity = await totalQuantity(user.username);
+          setQuantity(userQuantity);
+        } catch (error) {
+          console.error('Error fetching quantity cart', error);
+        }
+      }
+    };
+    fetchQuantity();
+  }, [user]);
 
   const openCart = () => setIsOpen(true);
 
@@ -28,25 +65,6 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
     } catch (error) {
       console.log('Error fetching cart items', error);
       throw error;
-    }
-  };
-
-  const totalQuantity = async (username: string) => {
-    if (!username) {
-      console.log('User not found');
-      return 0;
-    }
-
-    try {
-      const response = await fetch(`http://localhost:5000/cart/totalQuantity/${username}`);
-      if (!response.ok) {
-        throw new Error('Failed to fetch total quantity from server');
-      }
-      const total = await response.json();
-      return total;
-    } catch (error) {
-      console.log('Error fetching total quantity', error);
-      return 0;
     }
   };
 
@@ -84,9 +102,8 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
         throw new Error('Failed to increase quantity on server');
       }
       const data = await response.json();
-      console.log(data);
-      return data;
-
+      setQuantity(prevQuantity => prevQuantity + data)
+      return quantity;
     } catch (error) {
       console.log('Error increasing quantity', error);
     }
@@ -108,8 +125,9 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
       if (!response.ok) {
         throw new Error('Failed to decrease quantity on server');
       }
-      const data = response.json()
-      return data
+      const data = await response.json()
+      setQuantity(prevQuantity => prevQuantity - data)
+      return quantity
     } catch (error) {
       console.log('Error decreasing quantity', error);
     }
@@ -131,7 +149,8 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
         throw new Error('Failed to remove item from cart on server');
       }
       const data = await response.json()
-      return data
+      setQuantity(prevQuantity => prevQuantity - data)
+      return quantity
     } catch (error) {
       console.log('Error removing item from cart', error);
     }
@@ -147,7 +166,7 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
         openCart,
         closeCart,
         cartItems,
-        totalQuantity
+        quantity
       }}
     >
       {children}

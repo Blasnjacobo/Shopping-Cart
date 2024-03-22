@@ -51,7 +51,7 @@ const Perfume = ({ _id, name, price, imgUrl, transfer }: StoreItemProps) => {
             console.error("Error fetching quantity:", error);
             setQuantity(0);
         });
-    }, []);
+    }, [increaseQuantity, decreaseQuantity, removeFromCart]);
 
     if (quantity === null) {
         return <div></div>;
@@ -79,7 +79,6 @@ const Perfume = ({ _id, name, price, imgUrl, transfer }: StoreItemProps) => {
             await transfer()
             const updatedQuantity = await getQuantity()
             await setQuantity(updatedQuantity)
-            await console.log('quantity after removing: ' + quantity)
         }
     }
 

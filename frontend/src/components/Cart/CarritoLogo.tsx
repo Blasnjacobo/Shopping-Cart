@@ -1,27 +1,15 @@
 import { Button } from 'react-bootstrap';
 import useShoppingCart from '../../context/Cart/useShoppingCart';
 import useUser from '../../context/Users/useUser';
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 
 const CarritoLogo = () => {
     const user = useUser();
-    const { openCart, totalQuantity } = useShoppingCart();
-    const [quantity, setQuantity] = useState(0);
+    const { openCart, quantity } = useShoppingCart();
 
     useEffect(() => {
-        const fetchQuantity = async () => {
-            if (user) {
-                try {
-                    const userQuantity = await totalQuantity(user.username);
-                    setQuantity(userQuantity);
-                } catch (error) {
-                    console.error('Error fetching quantity cart', error);
-                }
-            }
-        };
-
-        fetchQuantity();
-    }, [user, totalQuantity]);
+        console.log('Quantity changed:', quantity);
+    }, [quantity]);
 
     return (
         <div>

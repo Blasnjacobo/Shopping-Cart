@@ -18,7 +18,7 @@ const decreaseQuantity = async (req, res) => {
             item.quantity -= 1;
         }
         await cart.save();
-        res.status(200).json({ message: 'Quantity decreased successfully' });
+        res.status(200).json(1);
     } catch(error) {
         console.log('Error decreasing quantity', error);
         res.status(500).json({ message: 'Internal server error' });

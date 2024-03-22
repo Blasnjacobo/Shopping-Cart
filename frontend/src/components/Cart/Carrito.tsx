@@ -16,7 +16,7 @@ interface ShoppingCartItem {
 }
 
 const Carrito = ({ isOpen }: ShoppingCartProps) => {
-    const { closeCart, cartItems } = useShoppingCart();
+    const { closeCart, cartItems, increaseQuantity, decreaseQuantity, removeFromCart } = useShoppingCart();
     const [cartItem, setCartItem] = useState<ShoppingCartItem[]>([]);
     const [triggerEffect, setTriggerEffect] = useState(false);
     const { perfumes } = usePerfumes();
@@ -33,7 +33,7 @@ const Carrito = ({ isOpen }: ShoppingCartProps) => {
         };
 
         fetchCartItems();
-    }, [user, cartItems, triggerEffect]);
+    }, [user, cartItems, triggerEffect, increaseQuantity, decreaseQuantity, removeFromCart]);
 
     // Function to handle sending WhatsApp message
     const sendWhatsAppMessage = () => {
