@@ -37,22 +37,24 @@ const Item = () => {
         <div className="container">
             <div className="card mb-3" style={{ maxWidth: '90vw' }}>
                 <div className="row g-0">
-                    <div className="col-md-4">
-                        <img src={perfume.imgUrl} className="img-fluid rounded-start" alt="..." style={{ maxHeight: '500px' }} />
+                    <div className="col-md-5 d-flex justify-content-center align-items-center">
+                        <img src={perfume.imgUrl} className="rounded-start item-page" alt="..." style={{ maxHeight: '500px' }} />
                     </div>
-                    <div className="col-md-8 bg-light">
-                        <div className="card-body"
-                            style={{ display: 'flex', flexDirection: 'column', justifyContent: "space-evenly", alignItems: "center", gap: "0.5rem", height: '100%' }}>
+                    <div className="col-md-7 bg-light">
+                        <div className="card-body">
                             <div className="text-center">
                                 <h5 className="card-title">{perfume.name}</h5>
-                                <p className="card-text text-start" style={{ width: '70%', margin: 'auto' }}>
+                                <p className="card-text text-start" style={{ margin: 'auto' }}>
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt sit veniam, aspernatur modi enim excepturi ex ullam, dicta delectus distinctio iusto officia mollitia eius eveniet totam ad! Consequuntur, aspernatur atque.</p>
                             </div>
-                            <div className='item-variables'>
-                                <h6>Categoria: {perfume.categoria.charAt(0).toUpperCase() + perfume.categoria.slice(1)}</h6>
-                                <h6>Tipo: {perfume.type}</h6>
-                                <h6>Aroma: {perfume.aroma}</h6>
-                                <h6 className="bg-secondary text-light p-2">Precio: ${perfume.price} MXN</h6>
+                            <div className="perfume-description-carrito">
+                                <div>
+                                    <h6>Categoria: {perfume.categoria.charAt(0).toUpperCase() + perfume.categoria.slice(1)}</h6>
+                                    <h6>Tipo: {perfume.type}</h6>
+                                    <h6>Aroma: {perfume.aroma}</h6>
+                                    <h6 className="bg-secondary text-light p-2">Precio: ${perfume.price} MXN</h6>
+                                </div>
+                                <button>Añadir al carrito <i className="bi bi-cart"></i></button>
                             </div>
                         </div>
                     </div>

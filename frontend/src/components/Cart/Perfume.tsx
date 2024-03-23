@@ -88,25 +88,25 @@ const Perfume = ({ _id, name, price, imgUrl, transfer }: StoreItemProps) => {
                 variant="top"
                 src={imgUrl}
                 height='200px'
-                style={{ objectFit: 'contain', marginTop: '1.5rem' }}
+                style={{ objectFit: 'contain', marginTop: '1rem' }}
                 onClick={() => handleItem()}
             />
             <Card.Body className="d-flex flex-column">
-                <Card.Title className="d-flex justify-content-space-between align-items-center mb-4 text-muted gap-5">
-                    <span className="fs-0.5">{name}</span>
+                <Card.Title className="d-flex justify-content-space-between align-items-center mb-2 gap-2">
+                    <span className="fs-0.5 w-100">{name}</span>
                     <span className="ms-2">{formatCurrency(price)}</span>
                 </Card.Title>
                 {user ? (
-                    <div className="mt-auto">
+                    <div className="w-100">
                         {quantity === 0 ? (
-                            <Button className="w-100" onClick={handleIncreaseQuantity}>+ Add To Card</Button>
+                            <Button className="w-100" onClick={handleIncreaseQuantity}>+ Añadir al carrito <i className="bi bi-cart"></i></Button>
                         ) : (
                             <div className="d-flex align-items-center flex-column" style={{ gap: '0.5rem' }}>
                                 <div className="d-flex align-items-center justify-content-center" style={{ gap: '0.5rem' }}>
                                     <Button onClick={handleDecreaseQuantity}>-</Button>
                                     <div>
-                                        <span className="fs-3">{quantity}</span>
-                                        in cart
+                                        <span className="fs-3">{quantity} </span>
+                                        en el <i className="bi bi-cart"></i>
                                     </div>
                                     <Button onClick={handleIncreaseQuantity}>+</Button>
                                 </div>
