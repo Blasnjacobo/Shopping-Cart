@@ -10,7 +10,7 @@ const Navbar = () => {
   const user = useUser()
   return (
     <NavbarBs sticky='top' expand="md" className='bg-white shadow-sm mb-3'>
-      <Container style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+      <Container>
         <NavbarBs.Toggle aria-controls="navbarNav" />
         <NavbarBs.Collapse id="navbarNav">
           <CollapseNavbar />
