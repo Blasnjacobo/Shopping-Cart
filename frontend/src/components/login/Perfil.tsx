@@ -4,7 +4,7 @@ interface userPromp {
     user: User
 }
 
-const SignOutUser = ({ user }: userPromp) => {
+const Perfil = ({ user }: userPromp) => {
     const logout = () => {
         window.open("http://localhost:5000/auth/logout", "_self");
     };
@@ -27,4 +27,4 @@ const SignOutUser = ({ user }: userPromp) => {
     )
 }
 
-export default SignOutUser
+export default Perfil
