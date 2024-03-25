@@ -5,7 +5,7 @@ const totalQuantity = async (request, response) => {
         const { username } = request.params
         const cart = await Cart.findOne({username: username })
         if (!cart) {
-            return res.status(404).json({ message: 'Cart not found for user' });
+            return ressponse.status(404).json({ message: 'Cart not found for user' });
         }
         let total = cart.items.reduce((accum, currentValue) => accum + currentValue.quantity, 0)
         return response.status(200).json(total)

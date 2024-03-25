@@ -8,13 +8,14 @@ const SignOutUser = ({ user }: userPromp) => {
     const logout = () => {
         window.open("http://localhost:5000/auth/logout", "_self");
     };
+    console.log(user)
     return (
         <div>
             <ul className="list">
                 <li className="listItem">
                     <img
                         src={user.photos[0].value}
-                        alt=""
+                        alt={user.name}
                         className="avatar"
                     />
                 </li>
