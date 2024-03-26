@@ -13,7 +13,7 @@ const cart = require('./routes/cart.js')
 const app = express()
 
 app.use(session({
-  secret: 'tu_secreto', 
+  secret: process.env.SESSION_SECRET, 
   resave: false, 
   saveUninitialized: false, 
   cookie: {
