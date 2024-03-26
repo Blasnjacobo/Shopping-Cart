@@ -12,6 +12,8 @@ const cart = require('./routes/cart.js')
 
 const app = express()
 
+console.log("SESSION_SECRET from .env:", process.env.SESSION_SECRET);
+
 app.use(session({
   secret: process.env.SESSION_SECRET, 
   resave: false, 
