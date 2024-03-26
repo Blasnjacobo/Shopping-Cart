@@ -6,7 +6,7 @@ interface userPromp {
 
 const Perfil = ({ user }: userPromp) => {
     const logout = () => {
-        window.open("http://localhost:5000/auth/github", "_self");
+        window.open("https://shopping-cart-production-4ea1.up.railway.app/auth/github", "_self");
     };
     console.log(user)
     return (

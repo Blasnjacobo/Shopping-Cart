@@ -12,9 +12,6 @@ const cart = require('./routes/cart.js')
 
 const app = express()
 
-console.log("SESSION_SECRET from .env:", process.env.SESSION_SECRET);
-console.log("mongoDBURL from .env:", process.env.mongoDBURL);
-
 app.use(session({
   secret: process.env.SESSION_SECRET, 
   resave: false, 
@@ -27,7 +24,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(cors({
-    origin: 'http://localhost:5173', 
+    origin: ['http://localhost:5173', 'https://blasnjacobo.github.io/shopping-cart/'], 
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type'],
     credentials: true

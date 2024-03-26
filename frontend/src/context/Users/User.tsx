@@ -11,7 +11,7 @@ export default function UserProvider({ children }: UserProviderProps): JSX.Eleme
 
     useEffect(() => {
         const getUser = () => {
-            fetch('http://localhost:5000/auth/login/success', {
+            fetch('https://shopping-cart-production-4ea1.up.railway.app/auth/login/success', {
                 method: 'GET',
                 credentials: 'include',
                 headers: {
