@@ -14,7 +14,7 @@ const Login: React.FC<ShowProps> = ({ show, handleClose }) => {
     };
 
     // const facebook = () => {
-    // window.open("https://shopping-cart-production-4ea1.up.railway.app/auth/github", "_self");
+    // window.open("https://shopping-cart-production-4ea1.up.railway.app/auth/facebook", "_self");
     // }
 
     const github = () => {
