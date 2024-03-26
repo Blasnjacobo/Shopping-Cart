@@ -33,7 +33,9 @@ app.use(cors({
 app.use('/auth', auth)
 app.use('/perfumes', perfumes)
 app.use('/cart', cart)
-
+app.get('/', (req, res) => {
+  res.send('Hello, World!');
+});
 const PORT = process.env.PORT
 mongoose
   .connect(process.env.mongoDBURL, {
