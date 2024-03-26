@@ -14,7 +14,7 @@ const Login: React.FC<ShowProps> = ({ show, handleClose }) => {
     };
 
     // const facebook = () => {
-    //     window.open("http://localhost:5000/auth/facebook", "_self");
+    // window.open("http://localhost:5000/auth/github", "_self");
     // }
 
     const github = () => {
