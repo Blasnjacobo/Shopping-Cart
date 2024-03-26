@@ -13,6 +13,7 @@ const cart = require('./routes/cart.js')
 const app = express()
 
 console.log("SESSION_SECRET from .env:", process.env.SESSION_SECRET);
+console.log("mongoDBURL from .env:", process.env.mongoDBURL);
 
 app.use(session({
   secret: process.env.SESSION_SECRET, 
@@ -45,4 +46,4 @@ mongoose
   .then(() => {
     app.listen(PORT, () => console.log(`Server Port: ${PORT}, you are conected to database`))
   })
-  .catch((error) => console.log(`${error} did ot connect`))
+  .catch((error) => console.log(`${error} did not connect`))
