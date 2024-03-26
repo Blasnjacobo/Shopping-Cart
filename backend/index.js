@@ -13,6 +13,7 @@ const cart = require('./routes/cart.js')
 const app = express()
 
 app.use(session({
+  secret: process.env.SESSION_SECRET, 
   resave: false, 
   saveUninitialized: false, 
   cookie: {
@@ -28,7 +29,7 @@ app.use(cors({
     allowedHeaders: ['Content-Type'],
     credentials: true
 }));
-console.log('Hola')
+
 app.use('/auth', auth)
 app.use('/perfumes', perfumes)
 app.use('/cart', cart)
