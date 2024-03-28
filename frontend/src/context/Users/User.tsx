@@ -14,6 +14,7 @@ export default function UserProvider({ children }: UserProviderProps): JSX.Eleme
             console.log('hola')
             fetch('https://shopping-cart-production-4ea1.up.railway.app/auth/login/success', {
                 method: 'GET',
+                credentials: 'include',
                 headers: {
                     Accept: 'application/json',
                     'Content-Type': 'application/json',

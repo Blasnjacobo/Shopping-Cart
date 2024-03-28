@@ -1,5 +1,7 @@
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
 const GithubStrategy = require("passport-github2").Strategy;
+const JwtStrategy = require("passport-jwt").Strategy;
+const { ExtractJwt } = require("passport-jwt");
 const passport = require("passport");
 const { User } = require("./models/userSchema");
 const Cart = require("./models/cartSchema");
@@ -83,6 +85,33 @@ passport.use(
       } catch (error) {
         return done(error);
       }
+    }
+  )
+);
+
+// Configure JWT strategy
+passport.use(
+  new JwtStrategy(
+    {
+      jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
+      secretOrKey: process.env.JWT_SECRET,
+    },
+    (jwtPayload, done) => {
+      // Retrieve user information from the JWT payload
+      const userId = jwtPayload.id;
+      User.findById(userId, (err, user) => {
+        if (err) {
+          return done(err, false); // Error handling
+        }
+        if (!user) {
+          return done(null, false); // User not found
+        }
+        // Attach user information to the request object for use in subsequent middleware or route handlers
+        // For example, you might want to attach the user object itself or just specific user attributes
+        // Here, we're attaching the user object to the request as req.user
+        req.user = user;
+        return done(null, user); // Pass the user object to the next middleware or route handler
+      });
     }
   )
 );
