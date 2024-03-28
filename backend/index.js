@@ -36,7 +36,6 @@ app.use(
     credentials: true,
   })
 );
-
 app.use("/auth", auth);
 app.use("/perfumes", perfumes);
 app.use("/cart", cart);
