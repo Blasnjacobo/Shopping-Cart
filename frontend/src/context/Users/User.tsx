@@ -13,11 +13,7 @@ export default function UserProvider({ children }: UserProviderProps): JSX.Eleme
         const getUser = () => {
             console.log('hola')
             fetch('https://shopping-cart-production-4ea1.up.railway.app/auth/login/success', {
-                method: 'GET',
-                headers: {
-                    Accept: 'application/json',
-                    'Content-Type': 'application/json',
-                }
+                method: 'GET'
             }).then(response => {
                 if (response.status === 200) return response.json();
                 throw new Error('Authentication has failed!');
