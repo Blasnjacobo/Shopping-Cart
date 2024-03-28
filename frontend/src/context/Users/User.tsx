@@ -11,7 +11,7 @@ export default function UserProvider({ children }: UserProviderProps): JSX.Eleme
 
     useEffect(() => {
         const getUser = () => {
-            console.log(user)
+            console.log('hola')
             fetch('https://shopping-cart-production-4ea1.up.railway.app/auth/login/success', {
                 method: 'GET',
                 credentials: 'include',
@@ -23,6 +23,7 @@ export default function UserProvider({ children }: UserProviderProps): JSX.Eleme
                 if (response.status === 200) return response.json();
                 throw new Error('Authentication has failed!');
             }).then(data => {
+                console.log(data)
                 setUser(data.user);
                 const token = data.token;
                 localStorage.setItem('jwtToken', token);
