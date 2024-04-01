@@ -28,7 +28,10 @@ app.use(passport.session());
 // Set up CORS middleware
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL.split(","), // Allow multiple origins if provided
+    origin: [
+      "http://localhost:5173",
+      "https://blasnjacobo.github.io/shopping-cart/",
+    ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type"],
     credentials: true,
