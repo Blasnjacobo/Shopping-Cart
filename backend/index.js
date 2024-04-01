@@ -2,6 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const session = require("express-session");
+const MongoStore = require("connect-mongo")(session);
 const passport = require("passport");
 const passportSetup = require("./passport.js");
 const dotenv = require("dotenv");
@@ -16,6 +17,7 @@ app.use(
   session({
     secret: process.env.SESSION_SECRET,
     resave: false,
+    store: new MongoStore(options),
     saveUninitialized: false,
     cookie: {
       maxAge: 24 * 60 * 60 * 1000,
