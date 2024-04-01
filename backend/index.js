@@ -21,11 +21,6 @@ app.use(
     // httpOnly: true, // Uncomment this line if you don't need access to the cookie on the client-side
   })
 );
-// Get current backend base URL
-app.get("/backend-url", (req, res) => {
-  const backendBaseUrl = `${req.protocol}://${req.get("host")}`;
-  res.json({ backendBaseUrl });
-});
 
 app.use(passport.initialize());
 app.use(passport.session());
@@ -40,6 +35,13 @@ app.use(
     credentials: true,
   })
 );
+
+// Get current backend base URL
+app.get("/backend-url", (req, res) => {
+  const backendBaseUrl = `${req.protocol}://${req.get("host")}`;
+  res.json({ backendBaseUrl });
+});
+
 app.use("/auth", auth);
 app.use("/perfumes", perfumes);
 app.use("/cart", cart);
