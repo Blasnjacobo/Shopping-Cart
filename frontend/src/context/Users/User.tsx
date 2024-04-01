@@ -20,6 +20,7 @@ export default function UserProvider({ children }: UserProviderProps): JSX.Eleme
                     'Content-Type': 'application/json',
                 }
             }).then(response => {
+                console.log(response)
                 if (response.status === 200) return response.json();
                 throw new Error('Authentication has failed!');
             }).then(data => {

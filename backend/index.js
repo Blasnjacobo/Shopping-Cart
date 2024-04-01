@@ -5,6 +5,7 @@ const session = require("express-session");
 const passport = require("passport");
 const passportSetup = require("./passport.js");
 const dotenv = require("dotenv");
+const MongoStore = require("connect-mongo")(session); // Import connect-mongo
 dotenv.config();
 const perfumes = require("./routes/perfumes.js");
 const auth = require("./routes/auth.js");
@@ -12,6 +13,7 @@ const cart = require("./routes/cart.js");
 
 const app = express();
 
+// Use connect-mongo to store sessions in MongoDB
 app.use(
   session({
     secret: process.env.SESSION_SECRET,
@@ -20,6 +22,7 @@ app.use(
     cookie: {
       maxAge: 24 * 60 * 60 * 1000,
     },
+    store: new MongoStore({ mongooseConnection: mongoose.connection }), // Configure MongoStore
   })
 );
 
