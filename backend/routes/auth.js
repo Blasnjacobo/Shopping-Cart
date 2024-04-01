@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const passport = require("passport");
-const jwt = require("jsonwebtoken"); //* Give us a way to send a user a web token that they can use for authorization
+const jwt = require("jsonwebtoken");
 
 const CLIENT_URL = "http://localhost:5173/shopping-cart/";
 

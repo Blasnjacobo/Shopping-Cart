@@ -22,7 +22,7 @@ passport.use(
         let cart = await Cart.findOne({ username: profile.username });
         if (user) {
           // If user already exists, return it
-          console.log("User already created");
+          console.log("User already created", user);
           return done(null, { user: user, cart: cart });
         } else {
           // Create a new user in the database
