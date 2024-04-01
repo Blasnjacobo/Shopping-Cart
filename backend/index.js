@@ -15,13 +15,12 @@ const app = express();
 
 app.use(
   session({
-    secret: process.env.SESSION_SECRET,
+    cookie: { maxAge: 86400000 },
+    store: new MemoryStore({
+      checkPeriod: 86400000, // prune expired entries every 24h
+    }),
     resave: false,
-    store: new MongoStore(options),
-    saveUninitialized: false,
-    cookie: {
-      maxAge: 24 * 60 * 60 * 1000,
-    },
+    secret: process.env.SESSION_SECRET,
   })
 );
 
