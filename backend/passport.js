@@ -120,9 +120,16 @@ passport.use(
 );
 
 passport.serializeUser((user, done) => {
+  console.log("SerializeUser ");
+
+  console.log("user: " + user);
+  console.log("done: " + done);
   done(null, user);
 });
 
 passport.deserializeUser((user, done) => {
+  console.log("deserializeUser ");
+  console.log("user: " + user);
+  console.log("done: " + done);
   done(null, user);
 });
