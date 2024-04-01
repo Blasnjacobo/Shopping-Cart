@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
-const session = require("cookie-session"); // Import cookie-session
+const session = require("express-session");
 const passport = require("passport");
 const passportSetup = require("./passport.js");
 const dotenv = require("dotenv");
@@ -14,11 +14,12 @@ const app = express();
 
 app.use(
   session({
-    name: "session",
-    keys: [process.env.SESSION_SECRET],
-    maxAge: 24 * 60 * 60 * 1000, // 24 hours
-    Secure: true, // Uncomment this line if you're using HTTPS
-    HttpOnly: true, // Uncomment this line if you don't need access to the cookie on the client-side
+    secret: process.env.SESSION_SECRET,
+    resave: false,
+    saveUninitialized: false,
+    cookie: {
+      maxAge: 24 * 60 * 60 * 1000,
+    },
   })
 );
 
