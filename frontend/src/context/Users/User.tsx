@@ -12,7 +12,7 @@ export default function UserProvider({ children }: UserProviderProps): JSX.Eleme
     useEffect(() => {
         const getUser = () => {
             console.log('hola')
-            fetch('https://shopping-cart-production-4ea1.up.railway.app/backend-url', {
+            fetch('https://shopping-cart-production-4ea1.up.railway.app/auth/login/success', {
                 method: 'GET',
                 credentials: 'include',
                 headers: {
