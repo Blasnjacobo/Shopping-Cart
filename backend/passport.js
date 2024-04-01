@@ -99,6 +99,7 @@ passport.use(
     (jwtPayload, done) => {
       // Retrieve user information from the JWT payload
       const userId = jwtPayload.id;
+      console.log(userId);
       User.findById(userId, (err, user) => {
         if (err) {
           return done(err, false); // Error handling
