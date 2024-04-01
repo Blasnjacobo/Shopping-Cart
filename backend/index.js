@@ -1,28 +1,24 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
-const session = require("express-session");
+const session = require("cookie-session"); // Import cookie-session
 const passport = require("passport");
 const passportSetup = require("./passport.js");
 const dotenv = require("dotenv");
-const connectMongo = require("connect-mongo");
 dotenv.config();
 const perfumes = require("./routes/perfumes.js");
 const auth = require("./routes/auth.js");
 const cart = require("./routes/cart.js");
 
 const app = express();
-const MongoStore = connectMongo(session);
 
 app.use(
   session({
-    secret: process.env.SESSION_SECRET,
-    resave: false,
-    saveUninitialized: false,
-    cookie: {
-      maxAge: 24 * 60 * 60 * 1000,
-    },
-    store: new MongoStore({ mongooseConnection: mongoose.connection }),
+    name: "session",
+    keys: [process.env.SESSION_SECRET],
+    maxAge: 24 * 60 * 60 * 1000, // 24 hours
+    // Secure: true, // Uncomment this line if you're using HTTPS
+    // HttpOnly: true, // Uncomment this line if you don't need access to the cookie on the client-side
   })
 );
 
