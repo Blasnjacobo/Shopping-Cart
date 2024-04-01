@@ -38,8 +38,10 @@ app.use(
 
 // Get current backend base URL
 app.get("/backend-url", (req, res) => {
-  const backendBaseUrl = `${req.protocol}://${req.get("host")}`;
-  res.json({ backendBaseUrl });
+  res.status(200).json({
+    success: true,
+    message: "Hola",
+  });
 });
 
 app.use("/auth", auth);
