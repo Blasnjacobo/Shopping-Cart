@@ -38,6 +38,7 @@ app.use(
 
 // Get current backend base URL
 app.get("/backend-url", (req, res) => {
+  console.log("hola");
   res.status(200).json({
     success: true,
     message: "Hola",
