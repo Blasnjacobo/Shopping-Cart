@@ -24,6 +24,7 @@ app.use(
 
 app.use(passport.initialize());
 app.use(passport.session());
+
 app.use(
   cors({
     origin: [
@@ -36,21 +37,10 @@ app.use(
   })
 );
 
-// Get current backend base URL
-app.get("/auth/login/success", (req, res) => {
-  console.log("hola");
-  res.status(200).json({
-    success: true,
-    message: "Hola",
-  });
-});
-
 app.use("/auth", auth);
 app.use("/perfumes", perfumes);
 app.use("/cart", cart);
-app.get("/", (req, res) => {
-  res.send("Hello, World!");
-});
+
 const PORT = process.env.PORT;
 mongoose
   .connect(process.env.mongoDBURL, {})
