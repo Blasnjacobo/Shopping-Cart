@@ -7,16 +7,9 @@ const CLIENT_URL = "http://localhost:5173/shopping-cart/";
 
 router.get("/login/success", (req, res) => {
   if (req.user) {
-    // Create a JWT token
-    console.log(req.user);
-    const token = jwt.sign({ id: req.user.id }, process.env.JWT_SECRET, {
-      expiresIn: "1h",
-    });
-    // Send the JWT token back to the client
     res.status(200).json({
       success: true,
       message: "Successfully logged in",
-      token: token,
       user: req.user.user,
       cart: req.user.cart,
     });
