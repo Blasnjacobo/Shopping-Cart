@@ -12,9 +12,8 @@ const auth = require("./routes/auth.js");
 const cart = require("./routes/cart.js");
 
 const app = express();
-const MongoStore = connectMongo(session); // Instantiate MongoStore correctly
+const MongoStore = connectMongo(session);
 
-// Use connect-mongo to store sessions in MongoDB
 app.use(
   session({
     secret: process.env.SESSION_SECRET,
@@ -23,7 +22,7 @@ app.use(
     cookie: {
       maxAge: 24 * 60 * 60 * 1000,
     },
-    store: new MongoStore({ mongooseConnection: mongoose.connection }), // Configure MongoStore
+    store: new MongoStore({ mongooseConnection: mongoose.connection }),
   })
 );
 
