@@ -1,8 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
-const session = require("express-session");
-const MongoStore = require("connect-mongo")(session);
+const cookieSession = require("cookie-session"); // Import cookie-session
 const passport = require("passport");
 const passportSetup = require("./passport.js");
 const dotenv = require("dotenv");
@@ -13,17 +12,13 @@ const cart = require("./routes/cart.js");
 
 const app = express();
 
-const mongoStoreOptions = {
-  mongooseConnection: mongoose.connection,
-  collection: "sessions", // Optional: specify the name of the collection to store sessions
-};
-
 app.use(
-  session({
-    cookie: { maxAge: 86400000 },
-    store: new MongoStore(mongoStoreOptions), // Use new keyword when instantiating MongoStore
-    resave: false,
-    secret: process.env.SESSION_SECRET,
+  cookieSession({
+    name: "session",
+    keys: [process.env.SESSION_SECRET],
+    maxAge: 24 * 60 * 60 * 1000, // 24 hours
+    // secure: true, // Uncomment this line if you're using HTTPS
+    // httpOnly: true, // Uncomment this line if you don't need access to the cookie on the client-side
   })
 );
 
@@ -51,7 +46,7 @@ mongoose
   .connect(process.env.mongoDBURL, {})
   .then(() => {
     app.listen(PORT, () =>
-      console.log(`Server Port: ${PORT}, you are connected to the database`)
+      console.log(`Server Port: ${PORT}, you are connected to database`)
     );
   })
   .catch((error) => console.log(`${error} did not connect`));
