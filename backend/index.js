@@ -27,10 +27,7 @@ app.use(passport.session());
 
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      "https://blasnjacobo.github.io/shopping-cart/",
-    ],
+    origin: ["http://localhost:5173", "https://blasnjacobo.github.io"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type"],
     credentials: true,

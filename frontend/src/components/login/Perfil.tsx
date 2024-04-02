@@ -6,7 +6,7 @@ interface userPromp {
 
 const Perfil = ({ user }: userPromp) => {
     const logout = () => {
-        window.open("https://shopping-cart-production-4ea1.up.railway.app/auth/logout", "_self");
+        window.open("http://localhost:5000/auth/logout", "_self");
     };
     console.log(user)
     return (
