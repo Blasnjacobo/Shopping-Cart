@@ -63,7 +63,7 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
       const cartItems = await response.json();
       return cartItems;
     } catch (error) {
-      console.log('Error fetching cart items', error);
+      console.log('Error fetching carts items', error);
       throw error;
     }
   };
