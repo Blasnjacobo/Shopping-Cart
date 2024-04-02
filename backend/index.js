@@ -40,6 +40,9 @@ app.use(
 app.use("/auth", auth);
 app.use("/perfumes", perfumes);
 app.use("/cart", cart);
+app.get("/", (req, res) => {
+  res.send("Hola");
+});
 
 const PORT = process.env.PORT;
 mongoose
