@@ -18,7 +18,7 @@ const Item = () => {
     useEffect(() => {
         const fetchSelectByID = async () => {
             try {
-                const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/perfumes/${_id}`)
+                const response = await fetch(`http://localhost:5000/perfumes/${_id}`)
                 if (!response.ok) {
                     throw new Error('Failed to fetch data from the server');
                 }

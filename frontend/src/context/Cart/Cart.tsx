@@ -18,7 +18,7 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
     }
 
     try {
-      const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/cart/totalQuantity/${username}`);
+      const response = await fetch(`http://localhost:5000/cart/totalQuantity/${username}`);
       if (!response.ok) {
         throw new Error('Failed to fetch total quantity from server');
       }
@@ -56,7 +56,7 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
         console.log('User not found');
         return [];
       }
-      const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/cart/${username}`);
+      const response = await fetch(`http://localhost:5000/cart/${username}`);
       if (!response.ok) {
         throw new Error('Failed to fetch cart from server');
       }
@@ -74,7 +74,7 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
         console.log('User not found');
         return 0;
       }
-      const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/cart/itemQuantity/${username}/${_id}`);
+      const response = await fetch(`http://localhost:5000/cart/itemQuantity/${username}/${_id}`);
       if (!response.ok) {
         throw new Error('Failed to fetch item quantity from server');
       }
@@ -92,7 +92,7 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
         console.log('User not found');
         return;
       }
-      const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/cart/increase/${_id}/${username}`, {
+      const response = await fetch(`http://localhost:5000/cart/increase/${_id}/${username}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -116,7 +116,7 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
         console.log('User not found');
         return;
       }
-      const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/cart/decrease/${_id}/${username}`, {
+      const response = await fetch(`http://localhost:5000/cart/decrease/${_id}/${username}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -139,7 +139,7 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
         console.log('User not found');
         return;
       }
-      const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/cart/delete/${_id}/${username}`, {
+      const response = await fetch(`http://localhost:5000/cart/delete/${_id}/${username}`, {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json'
