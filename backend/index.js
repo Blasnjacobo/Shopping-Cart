@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
-const cookieSession = require("cookie-session"); // Import cookie-session
+const session = require("express-session");
 const passport = require("passport");
 const passportSetup = require("./passport.js");
 const dotenv = require("dotenv");
@@ -13,18 +13,18 @@ const cart = require("./routes/cart.js");
 const app = express();
 
 app.use(
-  cookieSession({
-    name: "session",
-    keys: [process.env.SESSION_SECRET],
-    maxAge: 24 * 60 * 60 * 1000, // 24 hours
-    secure: true, // if you're using HTTPS
-    httpOnly: true, // if you don't need access to the cookie on the client-side
+  session({
+    secret: process.env.SESSION_SECRET,
+    resave: false,
+    saveUninitialized: false,
+    cookie: {
+      maxAge: 24 * 60 * 60 * 1000,
+    },
   })
 );
 
 app.use(passport.initialize());
 app.use(passport.session());
-
 app.use(
   cors({
     origin: ["http://localhost:5173", "https://blasnjacobo.github.io"],
@@ -33,14 +33,12 @@ app.use(
     credentials: true,
   })
 );
-
 app.use("/auth", auth);
 app.use("/perfumes", perfumes);
 app.use("/cart", cart);
 app.get("/", (req, res) => {
-  res.send("Hola");
+  res.send("Hello, World!");
 });
-
 const PORT = process.env.PORT;
 mongoose
   .connect(process.env.mongoDBURL, {})

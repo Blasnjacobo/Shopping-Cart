@@ -10,7 +10,8 @@ passport.use(
     {
       clientID: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      callbackURL: "http://localhost:5000/auth/google/callback",
+      callbackURL:
+        "https://shopping-cart-production-4ea1.up.railway.app/auth/google/callback",
     },
     async (request, accessToken, refreshToken, profile, done) => {
       try {
@@ -18,8 +19,6 @@ passport.use(
         let user = await User.findOne({ id: profile.id });
         let cart = await Cart.findOne({ username: profile.username });
         if (user) {
-          // If user already exists, return it
-          console.log("User already created", user);
           return done(null, { user: user, cart: cart });
         } else {
           // Create a new user in the database
