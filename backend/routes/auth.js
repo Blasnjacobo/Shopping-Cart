@@ -1,32 +1,8 @@
 const express = require("express");
 const router = express.Router();
 const passport = require("passport");
-const jwt = require("jsonwebtoken");
 
 const CLIENT_URL = "http://localhost:5173/shopping-cart/";
-
-router.get("/login/success", (req, res) => {
-  if (req.user) {
-    res.status(200).json({
-      success: true,
-      message: "Successfully logged in",
-      user: req.user.user,
-      cart: req.user.cart,
-    });
-  } else {
-    res.status(401).json({
-      success: false,
-      message: "User not authenticated",
-    });
-  }
-});
-
-router.get("/login/failed", (req, res) => {
-  res.status(401).json({
-    success: false,
-    message: "failure",
-  });
-});
 
 router.get("/logout", (req, res) => {
   req.logout();
@@ -41,8 +17,8 @@ router.get(
 router.get(
   "/google/callback",
   passport.authenticate("google", {
-    successRedirect: CLIENT_URL,
-    failureRedirect: "/login/failed",
+    successRedirect: CLIENT_URL, // Redirect on success
+    failureRedirect: "/login/failed", // Redirect on failure
   })
 );
 
@@ -58,5 +34,22 @@ router.get(
     failureRedirect: "/login/failed",
   })
 );
+
+// Handle successful authentication for /google/callback route
+router.get("/login/success", (req, res) => {
+  if (req.user) {
+    res.status(200).json({
+      success: true,
+      message: "Successfully logged in",
+      user: req.user.user,
+      cart: req.user.cart,
+    });
+  } else {
+    res.status(401).json({
+      success: false,
+      message: "User not authenticated",
+    });
+  }
+});
 
 module.exports = router;

@@ -17,8 +17,8 @@ app.use(
     name: "session",
     keys: [process.env.SESSION_SECRET],
     maxAge: 24 * 60 * 60 * 1000, // 24 hours
-    // secure: true, // Uncomment this line if you're using HTTPS
-    // httpOnly: true, // Uncomment this line if you don't need access to the cookie on the client-side
+    secure: true, // if you're using HTTPS
+    httpOnly: true, // if you don't need access to the cookie on the client-side
   })
 );
 
