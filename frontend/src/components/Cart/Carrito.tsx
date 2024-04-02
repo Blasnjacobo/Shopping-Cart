@@ -37,7 +37,7 @@ const Carrito = ({ isOpen }: ShoppingCartProps) => {
 
     // Function to handle sending WhatsApp message
     const sendWhatsAppMessage = () => {
-        let message = "Cart Details:\n";
+        let message = "Cart  Details:\n";
 
         cartItem?.forEach(item => {
             const storeItem = perfumes.find(i => i._id === item.perfumeID);
