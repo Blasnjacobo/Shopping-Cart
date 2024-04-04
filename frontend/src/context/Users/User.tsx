@@ -29,9 +29,6 @@ export default function UserProvider({ children }: UserProviderProps): JSX.Eleme
         const getUser = async () => {
             try {
                 const token = localStorage.getItem('jwtToken');
-                if (!token) {
-                    throw new Error('JWT token not found in local storage');
-                }
 
                 const response = await fetch('https://shopping-cart-production-4ea1.up.railway.app/auth/login/success', {
                     method: 'GET',
