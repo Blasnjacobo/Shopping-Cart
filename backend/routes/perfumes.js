@@ -1,8 +1,9 @@
-const express = require('express');
-const { getAllPerfumes, perfumeByID } = require('../controllers/perfumes.js');
+const express = require("express");
+const { getAllPerfumes, perfumeByID } = require("../controllers/perfumes.js");
+const authenticateToken = require("../middleware/auth.js");
 const router = express.Router();
 
-router.get('/', getAllPerfumes)
-router.get('/:_id', perfumeByID)
+router.get("/", authenticateToken, getAllPerfumes);
+router.get("/:_id", perfumeByID);
 
-module.exports = router
+module.exports = router;

@@ -18,7 +18,13 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
     }
 
     try {
-      const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/cart/totalQuantity/${username}`);
+      const token = localStorage.getItem('jwtToken');
+      const headers = {
+        'Authorization': `Bearer ${token}`
+      };
+      const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/cart/totalQuantity/${username}`,{
+        headers: headers
+    });
       if (!response.ok) {
         throw new Error('Failed to fetch total quantity from server');
       }
@@ -56,7 +62,13 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
         console.log('User not found');
         return [];
       }
-      const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/cart/${username}`);
+      const token = localStorage.getItem('jwtToken');
+      const headers = {
+        'Authorization': `Bearer ${token}`
+      };
+      const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/cart/${username}`, {
+        headers: headers
+    });
       if (!response.ok) {
         throw new Error('Failed to fetch cart from server');
       }
@@ -74,7 +86,13 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
         console.log('User not found');
         return 0;
       }
-      const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/cart/itemQuantity/${username}/${_id}`);
+      const token = localStorage.getItem('jwtToken');
+      const headers = {
+        'Authorization': `Bearer ${token}`
+      };
+      const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/cart/itemQuantity/${username}/${_id}`, {
+        headers: headers
+    });
       if (!response.ok) {
         throw new Error('Failed to fetch item quantity from server');
       }
@@ -92,11 +110,13 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
         console.log('User not found');
         return;
       }
+      const token = localStorage.getItem('jwtToken');
+      const headers = {
+        'Authorization': `Bearer ${token}`
+      };
       const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/cart/increase/${_id}/${username}`, {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        }
+        headers: headers
       });
       if (!response.ok) {
         throw new Error('Failed to increase quantity on server');
@@ -116,11 +136,13 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
         console.log('User not found');
         return;
       }
+      const token = localStorage.getItem('jwtToken');
+      const headers = {
+        'Authorization': `Bearer ${token}`
+      };
       const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/cart/decrease/${_id}/${username}`, {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        }
+        headers: headers
       });
       if (!response.ok) {
         throw new Error('Failed to decrease quantity on server');
@@ -139,11 +161,13 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
         console.log('User not found');
         return;
       }
+      const token = localStorage.getItem('jwtToken');
+      const headers = {
+        'Authorization': `Bearer ${token}`
+      };
       const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/cart/delete/${_id}/${username}`, {
         method: 'DELETE',
-        headers: {
-          'Content-Type': 'application/json'
-        }
+        headers: headers
       });
       if (!response.ok) {
         throw new Error('Failed to remove item from cart on server');

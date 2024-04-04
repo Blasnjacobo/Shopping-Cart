@@ -18,7 +18,13 @@ const Item = () => {
     useEffect(() => {
         const fetchSelectByID = async () => {
             try {
-                const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/perfumes/${_id}`)
+                const token = localStorage.getItem('jwtToken');
+                const headers = {
+                    'Authorization': `Bearer ${token}`
+                };
+                const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/perfumes/${_id}`, {
+                    headers: headers
+                })
                 if (!response.ok) {
                     throw new Error('Failed to fetch data from the server');
                 }

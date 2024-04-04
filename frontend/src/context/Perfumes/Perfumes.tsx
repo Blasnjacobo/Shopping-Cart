@@ -10,9 +10,15 @@ export default function PerfumesProvider({ children }: { children: ReactNode }) 
         const fetchStoreItems = async () => {
             setLoading(true);
             try {
-                const response = await fetch('https://shopping-cart-production-4ea1.up.railway.app/perfumes/');
+            const token = localStorage.getItem('jwtToken');
+            const headers = {
+                'Authorization': `Bearer ${token}`
+            };
+            const response = await fetch('https://shopping-cart-production-4ea1.up.railway.app/perfumes/', {
+                headers: headers
+            });
                 if (!response.ok) {
-                    throw new Error('Failed to fetch perfums from the server');
+                    throw new Error('Failed to fetch perfumes from the server');
                 }
                 const data = await response.json();
                 setPerfumes(data.data);
