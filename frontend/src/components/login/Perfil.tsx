@@ -6,10 +6,9 @@ interface userPromp {
 
 const Perfil = ({ user }: userPromp) => {
     const logout = () => {
-        localStorage.removeItem('token');
+        localStorage.removeItem('jwtToken');
         window.location.href = "http://localhost:5173/shopping-cart/";
       };
-    console.log(user)
     return (
         <div>
             <ul className="list">

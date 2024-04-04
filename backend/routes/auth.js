@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const passport = require("passport");
 const jwt = require("jsonwebtoken");
+const { User } = require("../models/userSchema");
 
 const CLIENT_URL = "http://localhost:5173/shopping-cart/";
 
@@ -32,7 +33,11 @@ router.get("/google/callback", (req, res, next) => {
     }
     // Generate JWT token
     const token = jwt.sign(
-      { user: user.id, username: user.username, provider: user.provider },
+      {
+        user: user.user.id,
+        username: user.user.username,
+        provider: user.user.provider,
+      },
       process.env.JWT_SECRET,
       {
         expiresIn: "1h",
@@ -43,28 +48,27 @@ router.get("/google/callback", (req, res, next) => {
   })(req, res, next);
 });
 
-router.get("/login/success", (req, res) => {
-  if (req.user) {
-    const token = req.query.token;
+router.get("/login/success", async (req, res) => {
+  const authorizationHeader = req.headers.authorization;
+  const token = authorizationHeader.split(" ")[1];
+  try {
     if (!token) {
       res.status(401).json({
         success: false,
         message: "Token not found in query parameter",
       });
     } else {
-      // Assuming req.user contains user information after successful authentication
+      const decodedToken = jwt.verify(token, process.env.JWT_SECRET);
+      const { iat, exp, ...payload } = decodedToken;
+      const user = await User.findOne({ username: payload.username });
       res.status(200).json({
         success: true,
         message: "Successfully logged in",
-        token: token,
-        user: req.user, // Assuming `req.user` contains user information
+        user: user,
       });
     }
-  } else {
-    res.status(401).json({
-      success: false,
-      message: "User not authenticated",
-    });
+  } catch (error) {
+    console.error("Invalid token:", error);
   }
 });
 

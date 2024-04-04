@@ -7,7 +7,7 @@ interface UserProviderProps {
 }
 
 export default function UserProvider({ children }: UserProviderProps): JSX.Element {
-    const [user, setUser] = useState<User | undefined>(undefined); // Change initial state to undefined
+    const [user, setUser] = useState<User | undefined>(undefined);
 
     useEffect(() => {
         const getTokenFromUrl = () => {
@@ -16,10 +16,15 @@ export default function UserProvider({ children }: UserProviderProps): JSX.Eleme
             if (token) {
                 // Token found in the URL, store it in local storage
                 localStorage.setItem('jwtToken', token);
+
+                // Remove token from current URL and navigate back to the original URL
+                const currentUrl = new URL(window.location.href);
+                currentUrl.searchParams.delete('token');
+                window.location.href = currentUrl.origin + currentUrl.pathname;
             }
         };
 
-        getTokenFromUrl(); // Call the function to check for token in URL
+        getTokenFromUrl();
 
         const getUser = async () => {
             try {
@@ -31,21 +36,20 @@ export default function UserProvider({ children }: UserProviderProps): JSX.Eleme
                 const response = await fetch('http://localhost:5000/auth/login/success', {
                     method: 'GET',
                     headers: {
-                        Authorization: `Bearer ${token}`, // Include JWT token in the Authorization header
+                        Authorization: `Bearer ${token}`,
                         'Content-Type': 'application/json',
                     },
                 });
 
                 if (response.status === 200) {
                     const data = await response.json();
-                    console.log(data);
                     setUser(data.user);
+                    console.log(user)
                 } else {
                     throw new Error('Authentication has failed!');
                 }
             } catch (error) {
                 console.error('Error fetching user:', error);
-                // Handle error gracefully, e.g., display error message to user
             }
         };
         getUser();
