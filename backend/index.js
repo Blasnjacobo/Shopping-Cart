@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const morgan = require("morgan");
 const cors = require("cors");
-const session = require("express-session");
 const passport = require("passport");
 const passportSetup = require("./passport.js");
 const dotenv = require("dotenv");
@@ -11,20 +11,10 @@ const auth = require("./routes/auth.js");
 const cart = require("./routes/cart.js");
 
 const app = express();
-
-app.use(
-  session({
-    secret: process.env.SESSION_SECRET,
-    resave: false,
-    saveUninitialized: false,
-    cookie: {
-      maxAge: 24 * 60 * 60 * 1000,
-    },
-  })
-);
+app.use(morgan("dev"));
 
 app.use(passport.initialize());
-app.use(passport.session());
+
 app.use(
   cors({
     origin: ["http://localhost:5173", "https://blasnjacobo.github.io"],
@@ -36,9 +26,7 @@ app.use(
 app.use("/auth", auth);
 app.use("/perfumes", perfumes);
 app.use("/cart", cart);
-app.get("/", (req, res) => {
-  res.send("Hello, World!");
-});
+
 const PORT = process.env.PORT;
 mongoose
   .connect(process.env.mongoDBURL, {})

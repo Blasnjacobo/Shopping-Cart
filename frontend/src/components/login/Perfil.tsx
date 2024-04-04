@@ -6,8 +6,9 @@ interface userPromp {
 
 const Perfil = ({ user }: userPromp) => {
     const logout = () => {
-        window.open("http://localhost:5000/auth/logout", "_self");
-    };
+        localStorage.removeItem('token');
+        window.location.href = "http://localhost:5173/shopping-cart/";
+      };
     console.log(user)
     return (
         <div>

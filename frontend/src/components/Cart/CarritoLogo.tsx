@@ -8,7 +8,7 @@ const CarritoLogo = () => {
     const { openCart, quantity } = useShoppingCart();
 
     useEffect(() => {
-        console.log('Quantity changed:', quantity);
+        // console.log('Quantity changed:', quantity);
     }, [quantity]);
 
     return (

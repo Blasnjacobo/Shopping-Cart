@@ -1,19 +1,23 @@
-import jwt from 'jsonwebtoken'
-export const verifyToken = async (req, res, next) => {
-  try {
-    let token = req.header('Authorization')
-    console.log(token)
-    //* From the request in the frontend we are grabbing the authorization header and thats where the token will be setting, then we can grab it in the backend and throw this key
-    if (!token) {
-      return res.status(403).send('Access Denied')
-    }
-    if (token.startsWith('Bearer ')) {
-      token = token.slice(7, token.length).trimLeft()
-    }
-    const verified = jwt.verify(token, process.env.JWT_SECRET)
-    req.user = verified
-    next()
-  } catch (err) {
-    res.status(500).json({ error: err.message })
+const jwt = require("jsonwebtoken");
+const secretKey = process.env.JWT_SECRET;
+
+// Middleware to verify JWT token
+function authenticateToken(req, res, next) {
+  const token = req.headers["authorization"];
+
+  if (!token) {
+    return res
+      .status(401)
+      .json({ message: "Authentication token is required" });
   }
+
+  jwt.verify(token, secretKey, (err, decoded) => {
+    if (err) {
+      return res.status(403).json({ message: "Invalid token" });
+    }
+    req.user = decoded; // Store decoded token payload in request object
+    next(); // Proceed to next middleware or route handler
+  });
 }
+
+module.exports = authenticateToken;

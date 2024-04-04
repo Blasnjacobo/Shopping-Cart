@@ -7,30 +7,46 @@ interface UserProviderProps {
 }
 
 export default function UserProvider({ children }: UserProviderProps): JSX.Element {
-    const [user, setUser] = useState<User | undefined>(undefined);
+    const [user, setUser] = useState<User | undefined>(undefined); // Change initial state to undefined
 
     useEffect(() => {
-        const getUser = () => {
-            console.log('hola')
-            fetch('http://localhost:5000/auth/login/success', {
-                method: 'GET',
-                credentials: 'include',
-                headers: {
-                    Accept: 'application/json',
-                    'Content-Type': 'application/json',
-                }
-            }).then(response => {
-                console.log(response)
-                if (response.status === 200) return response.json();
-                throw new Error('Authentication has failed!');
-            }).then(data => {
-                console.log(data)
-                setUser(data.user);
-                const token = data.token;
+        const getTokenFromUrl = () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const token = urlParams.get('token');
+            if (token) {
+                // Token found in the URL, store it in local storage
                 localStorage.setItem('jwtToken', token);
-            }).catch(err => {
-                console.log(err);
-            });
+            }
+        };
+
+        getTokenFromUrl(); // Call the function to check for token in URL
+
+        const getUser = async () => {
+            try {
+                const token = localStorage.getItem('jwtToken');
+                if (!token) {
+                    throw new Error('JWT token not found in local storage');
+                }
+
+                const response = await fetch('http://localhost:5000/auth/login/success', {
+                    method: 'GET',
+                    headers: {
+                        Authorization: `Bearer ${token}`, // Include JWT token in the Authorization header
+                        'Content-Type': 'application/json',
+                    },
+                });
+
+                if (response.status === 200) {
+                    const data = await response.json();
+                    console.log(data);
+                    setUser(data.user);
+                } else {
+                    throw new Error('Authentication has failed!');
+                }
+            } catch (error) {
+                console.error('Error fetching user:', error);
+                // Handle error gracefully, e.g., display error message to user
+            }
         };
         getUser();
     }, []);
