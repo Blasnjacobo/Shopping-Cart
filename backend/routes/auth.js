@@ -48,6 +48,36 @@ router.get("/google/callback", (req, res, next) => {
   })(req, res, next);
 });
 
+router.get(
+  "/github",
+  passport.authenticate("github", { scope: ["profile", "email"] })
+);
+
+router.get("/github/callback", (req, res, next) => {
+  passport.authenticate("github", (err, user, info) => {
+    if (err) {
+      return next(err);
+    }
+    if (!user) {
+      return res.redirect("/login/failed");
+    }
+    // Generate JWT token
+    const token = jwt.sign(
+      {
+        user: user.user.id,
+        username: user.user.username,
+        provider: user.user.provider,
+      },
+      process.env.JWT_SECRET,
+      {
+        expiresIn: "1h",
+      }
+    );
+    // Redirect to the main page with token appended to URL
+    res.redirect(`${CLIENT_URL}?token=${token}`);
+  })(req, res, next);
+});
+
 router.get("/login/success", async (req, res) => {
   const authorizationHeader = req.headers.authorization;
   const token = authorizationHeader.split(" ")[1];
