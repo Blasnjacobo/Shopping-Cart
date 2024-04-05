@@ -132,12 +132,6 @@
       border-radius: 30px;
   }
 
-  .perfume-description-carrito {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-  }
-
   .perfume-description-carrito div {
       display: flex;
       justify-content: space-evenly;
@@ -169,6 +163,11 @@
       width: 85%;
   }
 
+  .flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   @media screen and (max-width: 992px) {
 

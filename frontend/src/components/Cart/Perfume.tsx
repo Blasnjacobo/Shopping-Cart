@@ -88,11 +88,12 @@ const Perfume = ({ _id, name, price, imgUrl, transfer }: StoreItemProps) => {
                 variant="top"
                 src={imgUrl}
                 height='200px'
-                style={{ objectFit: 'contain', marginTop: '1rem' }}
+                style={{ objectFit: 'contain', marginTop: '1rem', cursor: 'pointer'}}
                 onClick={() => handleItem()}
             />
             <Card.Body className="d-flex flex-column">
-                <Card.Title className="d-flex justify-content-space-between align-items-center mb-2 gap-2">
+                <Card.Title className="d-flex justify-content-space-between align-items-center mb-2 gap-2"
+                onClick={() => handleItem()} style={{ cursor: 'pointer'}}>
                     <span className="fs-0.5 w-100">{name}</span>
                     <span className="ms-2">{formatCurrency(price)}</span>
                 </Card.Title>
