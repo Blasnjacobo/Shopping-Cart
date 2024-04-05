@@ -13596,7 +13596,9 @@ function Sw({ children: e }) {
     i = async (x) => {
       if (!x) return console.log("User not found"), 0;
       try {
-        const E = await fetch(`http://localhost:5000/cart/totalQuantity/${x}`);
+        const E = await fetch(
+          `https://shopping-cart-production-4ea1.up.railway.app/cart/totalQuantity/${x}`
+        );
         if (!E.ok)
           throw new Error("Failed to fetch total quantity from server");
         return await E.json();
@@ -13621,7 +13623,9 @@ function Sw({ children: e }) {
     p = async (x) => {
       try {
         if (!x) return console.log("User not found"), [];
-        const E = await fetch(`http://localhost:5000/cart/${x}`);
+        const E = await fetch(
+          `https://shopping-cart-production-4ea1.up.railway.app/cart/${x}`
+        );
         if (!E.ok) throw new Error("Failed to fetch cart from server");
         return await E.json();
       } catch (E) {
@@ -13632,7 +13636,7 @@ function Sw({ children: e }) {
       try {
         if (!E) return console.log("User not found"), 0;
         const m = await fetch(
-          `http://localhost:5000/cart/itemQuantity/${E}/${x}`
+          `https://shopping-cart-production-4ea1.up.railway.app/cart/itemQuantity/${E}/${x}`
         );
         if (!m.ok) throw new Error("Failed to fetch item quantity from server");
         return (await m.json()).totalQuantity;
@@ -13646,10 +13650,13 @@ function Sw({ children: e }) {
           console.log("User not found");
           return;
         }
-        const m = await fetch(`http://localhost:5000/cart/increase/${x}/${E}`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-        });
+        const m = await fetch(
+          `https://shopping-cart-production-4ea1.up.railway.app/cart/increase/${x}/${E}`,
+          {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+          }
+        );
         if (!m.ok) throw new Error("Failed to increase quantity on server");
         const l = await m.json();
         return s((a) => a + l), o;
@@ -13663,10 +13670,13 @@ function Sw({ children: e }) {
           console.log("User not found");
           return;
         }
-        const m = await fetch(`http://localhost:5000/cart/decrease/${x}/${E}`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-        });
+        const m = await fetch(
+          `https://shopping-cart-production-4ea1.up.railway.app/cart/decrease/${x}/${E}`,
+          {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+          }
+        );
         if (!m.ok) throw new Error("Failed to decrease quantity on server");
         const l = await m.json();
         return s((a) => a - l), o;
@@ -13680,10 +13690,13 @@ function Sw({ children: e }) {
           console.log("User not found");
           return;
         }
-        const m = await fetch(`http://localhost:5000/cart/delete/${x}/${E}`, {
-          method: "DELETE",
-          headers: { "Content-Type": "application/json" },
-        });
+        const m = await fetch(
+          `https://shopping-cart-production-4ea1.up.railway.app/cart/delete/${x}/${E}`,
+          {
+            method: "DELETE",
+            headers: { "Content-Type": "application/json" },
+          }
+        );
         if (!m.ok) throw new Error("Failed to remove item from cart on server");
         const l = await m.json();
         return s((a) => a - l), o;
@@ -13713,7 +13726,9 @@ function kw({ children: e }) {
       (async () => {
         i(!0);
         try {
-          const s = await fetch("http://localhost:5000/perfumes/");
+          const s = await fetch(
+            "https://shopping-cart-production-4ea1.up.railway.app/perfumes/"
+          );
           if (!s.ok) throw new Error("Failed to fetch perfums from the server");
           const u = await s.json();
           n(u.data);
@@ -13732,14 +13747,17 @@ function jw({ children: e }) {
   return (
     v.useEffect(() => {
       (() => {
-        fetch("http://localhost:5000/auth/login/success", {
-          method: "GET",
-          credentials: "include",
-          headers: {
-            Accept: "application/json",
-            "Content-Type": "application/json",
-          },
-        })
+        fetch(
+          "https://shopping-cart-production-4ea1.up.railway.app/auth/login/success",
+          {
+            method: "GET",
+            credentials: "include",
+            headers: {
+              Accept: "application/json",
+              "Content-Type": "application/json",
+            },
+          }
+        )
           .then((i) => {
             if (i.status === 200) return i.json();
             throw new Error("Authentication has failed!");
@@ -16443,10 +16461,16 @@ const zw = () =>
     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgEAQAAACJ4248AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAAAGAAAABgAPBrQs8AAAAHdElNRQflCwcOMTX6KseiAAACD0lEQVRYw+2VvUsDQRTEZ0O+wEKOhBAiFioYBREJ2kr+Ae0srGwlFoKVbQoLsbERSwsLEQT7WNjYBoyFYsAI2oX4VSUq98bi0EPUc/dc0MLp7njvzW9nd++Af/1lkf395NERub5OGR836pVYjJydJXd3ye3tr+pUMECpBGxsvD6Be3tQ5TLoOMDYGFRPD+A4wNMTcHcHXlxAVatgXx+wtgY1NOT1ui6QTit1f2+YwOoqbUlGRj7ziAQjtNt2NhMAHh9DAJyd2THvdICrK6MWSiJBnp5a2wKurJgBcGHBnjlJtttkLmewBTMzduJ/VTIJTk0ZAAwP2wUA/GupBRCLWQdAImEA0GrZB2g2DQAaDfsAl5cGAJWKXXMSODjQL5dMhnx4sHcN9/dDMM/P2zFvtciBgZDBLS6SnU5480aDLBQMDItFslQis1n/XT5Pbm6SzaaeqQhZq5FLS2RXl9mKpbeXPD4mb24oExPv4ZTyYLa2Pjd2XXJujkylQsXtQ3R3k+fn5PU1JZ1+D5FMBh/OnZ0fmftG09PewJMTyuSk93fMZsnl5eD4b28tAShFOTwMde4kHrcEkUpRKhVzgI/f/K+kdIoog4NAPg+QUIUCUC4HN8TjKvL8rDM7qkUZqdeBet2DcZxvsZWIbgIR3UJ/uOtqZEbdcVoJvI2VaBTIZIBqNbhydJSs1ZTSB/nXr+kFWWiA7cYk6NAAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjEtMTEtMDdUMTQ6NDk6NTMrMDA6MDA8uoYIAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIxLTExLTA3VDE0OjQ5OjUzKzAwOjAwTec+tAAAAABJRU5ErkJggg==",
   Uw = ({ show: e, handleClose: t }) => {
     const n = () => {
-        window.open("http://localhost:5000/auth/google", "_self");
+        window.open(
+          "https://shopping-cart-production-4ea1.up.railway.app/auth/google",
+          "_self"
+        );
       },
       r = () => {
-        window.open("http://localhost:5000/auth/github", "_self");
+        window.open(
+          "https://shopping-cart-production-4ea1.up.railway.app/auth/github",
+          "_self"
+        );
       };
     return h.jsx(h.Fragment, {
       children: h.jsx(nw, {
@@ -16525,7 +16549,10 @@ const zw = () =>
   },
   Ww = ({ user: e }) => {
     const t = () => {
-      window.open("http://localhost:5000/auth/logout", "_self");
+      window.open(
+        "https://shopping-cart-production-4ea1.up.railway.app/auth/logout",
+        "_self"
+      );
     };
     return (
       console.log(e),
@@ -18608,7 +18635,9 @@ const Za = ({ _id: e, name: t, price: n, imgUrl: r, transfer: i }) => {
       v.useEffect(() => {
         (async () => {
           try {
-            const i = await fetch(`http://localhost:5000/perfumes/${n}`);
+            const i = await fetch(
+              `https://shopping-cart-production-4ea1.up.railway.app/perfumes/${n}`
+            );
             if (!i.ok) throw new Error("Failed to fetch data from the server");
             const o = await i.json();
             t(o);

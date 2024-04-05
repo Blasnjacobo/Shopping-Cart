@@ -22,7 +22,7 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
       const headers = {
         'authorization': `Bearer ${token}`
       };
-      const response = await fetch(`http://localhost:5000/cart/totalQuantity/${username}`,{
+      const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/cart/totalQuantity/${username}`,{
         headers: headers
     });
       if (!response.ok) {
@@ -66,7 +66,7 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
       const headers = {
         'authorization': `Bearer ${token}`
       };
-      const response = await fetch(`http://localhost:5000/cart/${username}`, {
+      const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/cart/${username}`, {
         headers: headers
     });
       if (!response.ok) {
@@ -90,7 +90,7 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
       const headers = {
         'authorization': `Bearer ${token}`
       };
-      const response = await fetch(`http://localhost:5000/cart/itemQuantity/${username}/${_id}`, {
+      const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/cart/itemQuantity/${username}/${_id}`, {
         headers: headers
     });
       if (!response.ok) {
@@ -114,7 +114,7 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
       const headers = {
         'authorization': `Bearer ${token}`
       };
-      const response = await fetch(`http://localhost:5000/cart/increase/${_id}/${username}`, {
+      const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/cart/increase/${_id}/${username}`, {
         method: 'POST',
         headers: headers
       });
@@ -140,7 +140,7 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
       const headers = {
         'authorization': `Bearer ${token}`
       };
-      const response = await fetch(`http://localhost:5000/cart/decrease/${_id}/${username}`, {
+      const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/cart/decrease/${_id}/${username}`, {
         method: 'POST',
         headers: headers
       });
@@ -165,7 +165,7 @@ export default function ShoppingCartProvider({ children }: ShoppingCartProviderP
       const headers = {
         'authorization': `Bearer ${token}`
       };
-      const response = await fetch(`http://localhost:5000/cart/delete/${_id}/${username}`, {
+      const response = await fetch(`https://shopping-cart-production-4ea1.up.railway.app/cart/delete/${_id}/${username}`, {
         method: 'DELETE',
         headers: headers
       });
