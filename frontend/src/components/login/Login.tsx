@@ -10,15 +10,15 @@ interface ShowProps {
 const Login: React.FC<ShowProps> = ({ show, handleClose }) => {
 
     const google = () => {
-        window.open("https://shopping-cart-production-4ea1.up.railway.app/auth/google", "_self");
+        window.open("http://localhost:5000/auth/google", "_self");
     };
 
     // const facebook = () => {
-    // window.open("https://shopping-cart-production-4ea1.up.railway.app/auth/facebook", "_self");
+    // window.open("http://localhost:5000/auth/facebook", "_self");
     // }
 
     const github = () => {
-        window.open("https://shopping-cart-production-4ea1.up.railway.app/auth/github", "_self");
+        window.open("http://localhost:5000/auth/github", "_self");
     }
 
     return (
