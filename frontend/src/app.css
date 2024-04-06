@@ -169,6 +169,12 @@
     justify-content: center;
   }
 
+  .perfume-caracteristicas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+
   @media screen and (max-width: 992px) {
 
       .wrapper {
@@ -207,6 +213,13 @@
 
       .card-body>div:first-child {
           width: 100%;
+      }
+
+      .perfume-caracteristicas {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-top: 2rem;
       }
 
   }

@@ -108,15 +108,18 @@ const Item = () => {
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt sit veniam, aspernatur modi enim excepturi ex ullam, dicta delectus distinctio iusto officia mollitia eius eveniet totam ad! Consequuntur, aspernatur atque.</p>
                             </div>
                             <div>
-                                <div>
+                                <div className="perfume-caracteristicas">
                                     <h6 className="flex-center">Categoria: {perfume.categoria.charAt(0).toUpperCase() + perfume.categoria.slice(1)}</h6>
                                     <h6 className="flex-center">Tipo: {perfume.type}</h6>
                                     <h6 className="flex-center">Aroma: {perfume.aroma}</h6>
-                                    <h6 className="bg-secondary text-light p-2 flex-center">Precio: ${perfume.price} MXN</h6>
+                                    <div className="bg-secondary text-light p-2 flex-center flex-column">
+                                        <h6>Precio:</h6>
+                                        <h6>${perfume.price} MXN</h6>
+                                    </div>
                                 </div>
                                 {(!user) ?
                                     <div style={{ width: 'fit-content', margin: 'auto auto', cursor: 'pointer' }} onClick={handleShow}>Inicia sesión para agregar al carrito<i className="bi bi-person" onClick={handleShow} style={{ fontSize: '1.5rem', cursor: 'pointer', color: 'black' }}></i></div> :
-                                    <div className="w-100">
+                                    <div className="w-100 mt-4">
                                         {quantity === 0 ? (
                                             <Button className="w-100" onClick={handleIncreaseQuantity}>+ Añadir al carrito <i className="bi bi-cart"></i></Button>
                                         ) : (
