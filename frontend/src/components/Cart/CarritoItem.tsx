@@ -79,10 +79,10 @@ const CarritoItem = ({ perfumeID, quantity, setTriggerEffect, triggerEffect }: C
                         </Button>
                     </div>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: '0.5vw' }}>
-                        <Button size="sm" style={{ fontSize: '1vw' }} onClick={handleIncreaseQuantity}>
+                        <Button size="sm" style={{ fontSize: '2rem' }} onClick={handleIncreaseQuantity}>
                             +
                         </Button>
-                        <Button size="sm" style={{ fontSize: '1vw' }} onClick={handleDecreaseQuantity}>
+                        <Button size="sm" style={{ fontSize: '2vw' }} onClick={handleDecreaseQuantity}>
                             -
                         </Button>
                     </div>
