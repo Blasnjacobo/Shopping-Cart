@@ -7,7 +7,7 @@ interface userPromp {
 const Perfil = ({ user }: userPromp) => {
     const logout = () => {
         localStorage.removeItem('jwtToken');
-        window.location.href = "https://blasnjacobo.github.io/shopping-cart/";
+        window.location.href = "http://localhost:5173/shopping-cart/";
       };
     return (
         <div>

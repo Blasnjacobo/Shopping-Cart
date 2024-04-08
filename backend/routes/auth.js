@@ -4,7 +4,7 @@ const passport = require("passport");
 const jwt = require("jsonwebtoken");
 const { User } = require("../models/userSchema");
 
-const CLIENT_URL = "https://blasnjacobo.github.io/shopping-cart/";
+const CLIENT_URL = "http://localhost:5173/shopping-cart/";
 
 router.get("/login/failed", (req, res) => {
   res.status(401).json({
