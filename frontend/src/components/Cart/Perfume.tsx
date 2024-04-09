@@ -92,10 +92,13 @@ const Perfume = ({ _id, name, price, imgUrl, transfer }: StoreItemProps) => {
                 onClick={() => handleItem()}
             />
             <Card.Body className="d-flex flex-column">
-                <Card.Title className="d-flex justify-content-space-between align-items-center mb-2 gap-2 h-100"
+                <Card.Title className="flex-columns mb-2 gap-4 h-100"
                 onClick={() => handleItem()} style={{ cursor: 'pointer'}}>
-                    <span className="fs-0.5 w-100">{name}</span>
-                    <span className="ms-2">{formatCurrency(price)}</span>
+                    <span className="fs-0.5 w-100 text-center">{name}</span>
+                    <div className="flex-center gap-5">
+                        <h5 className="text-danger text-center w-100"><h6 className="text-dark">Precio de contado:</h6>{formatCurrency(price)}</h5>
+                        <h5 className="text-center w-100"><h6>Precio a 10 pagos:</h6>{formatCurrency(price+500)}</h5>
+                    </div>
                 </Card.Title>
                 {user ? (
                     <div className="w-100">

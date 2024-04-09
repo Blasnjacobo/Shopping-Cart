@@ -1,19 +1,21 @@
+// CarritoItem.tsx
 import { useState, useEffect } from 'react';
 import { Button, Stack } from 'react-bootstrap';
 import { formatCurrency } from '../../utilities/formatCurrency';
 import useShoppingCart from '../../context/Cart/useShoppingCart';
-import usePerfumes from '../../context/Perfumes/usePerfumes';
 import useUser from '../../context/Users/useUser';
+import { Perfume } from '../../type/Perfume'; // Assuming Perfume type definition exists
 
 type CartItemProps = {
     perfumeID: string;
     quantity: number;
     setTriggerEffect: (value: boolean) => void;
-    triggerEffect: boolean
+    triggerEffect: boolean;
+    increasePrice: boolean;
+    perfumes: Perfume[];
 };
 
-const CarritoItem = ({ perfumeID, quantity, setTriggerEffect, triggerEffect }: CartItemProps) => {
-    const { perfumes } = usePerfumes();
+const CarritoItem = ({ perfumeID, quantity, setTriggerEffect, triggerEffect, increasePrice, perfumes }: CartItemProps) => {
     const user = useUser();
     const {
         removeFromCart,
@@ -21,13 +23,10 @@ const CarritoItem = ({ perfumeID, quantity, setTriggerEffect, triggerEffect }: C
         decreaseQuantity,
         itemQuantity
     } = useShoppingCart();
-    const [updatedQuantity, setUpdatedQuantity] = useState(quantity)
-
-
+    const [updatedQuantity, setUpdatedQuantity] = useState(quantity);
 
     useEffect(() => {
         setUpdatedQuantity(quantity)
-
     }, [quantity]);
 
     const item = perfumes.find(i => i._id === perfumeID);
@@ -54,6 +53,9 @@ const CarritoItem = ({ perfumeID, quantity, setTriggerEffect, triggerEffect }: C
         setTriggerEffect(!triggerEffect)
     };
 
+    const itemPrice = increasePrice ? item.price + 500 : item.price;
+    const totalPrice = itemPrice * updatedQuantity;
+
     return (
         (updatedQuantity > 0) ? (
             <Stack direction="horizontal" gap={2} className="d-flex align-items-center">
@@ -68,21 +70,21 @@ const CarritoItem = ({ perfumeID, quantity, setTriggerEffect, triggerEffect }: C
                         )}
                     </div>
                     <div className="text-muted" style={{ fontSize: '0.75rem' }}>
-                        {formatCurrency(item.price)}
+                        {formatCurrency(itemPrice)}
                     </div>
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '1vh' }}>
                     <div style={{ display: 'flex', gap: '0.5vw', alignItems: 'center' }}>
-                        <div>{formatCurrency(item.price * updatedQuantity)}</div>
+                        <div>{formatCurrency(totalPrice)}</div>
                         <Button variant="outline-danger" size="sm" style={{ height: '2rem' }} onClick={handleRemoveFromCart}>
                             x
                         </Button>
                     </div>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: '0.5vw' }}>
-                        <Button size="sm" style={{ fontSize: '2rem' }} onClick={handleIncreaseQuantity}>
+                        <Button size="sm" style={{ fontSize: '15px' }} onClick={handleIncreaseQuantity}>
                             +
                         </Button>
-                        <Button size="sm" style={{ fontSize: '2vw' }} onClick={handleDecreaseQuantity}>
+                        <Button size="sm" style={{ fontSize: '15px' }} onClick={handleDecreaseQuantity}>
                             -
                         </Button>
                     </div>

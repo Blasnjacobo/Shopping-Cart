@@ -175,6 +175,17 @@
     gap: 1rem;
   }
 
+  .flex-columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .checkbox-cart {
+    width: fit-content;
+  }
+
   @media screen and (max-width: 992px) {
 
       .wrapper {

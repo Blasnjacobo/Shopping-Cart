@@ -1,6 +1,8 @@
 const CURRENCY_FORMATTER = new Intl.NumberFormat(undefined, { 
     currency: 'MXN', 
-    style: 'currency'
+    style: 'currency',
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0
 })
 
 export function formatCurrency(number: number){
