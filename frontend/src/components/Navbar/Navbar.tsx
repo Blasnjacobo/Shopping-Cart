@@ -34,7 +34,7 @@ const Navbar = () => {
       <Container>
         <NavbarBs.Toggle aria-controls="navbarNav" onClick={toggleCollapse} />
         <NavbarBs.Collapse id="navbarNav" in={!collapsed}>
-          <CollapseNavbar />
+          <CollapseNavbar collapseHandler={() => setCollapsed(true)} /> {/* Pass down collapse handler */}
         </NavbarBs.Collapse>
         <CarritoLogo />
         {
