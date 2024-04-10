@@ -8,7 +8,6 @@ import Footer from './components/Footer/Footer'
 import Dama from './pages/Dama'
 import Caballero from './pages/Caballero'
 import Unisex from './pages/Unisex'
-import About from './pages/About'
 import Item from './pages/Item'
 import './app.css'
 
@@ -26,7 +25,6 @@ function App() {
               <Route path='/shopping-cart/dama' element={<Dama />} />
               <Route path='/shopping-cart/caballero' element={<Caballero />} />
               <Route path='/shopping-cart/Unisex' element={<Unisex />} />
-              <Route path='/shopping-cart/about' element={<About />} />
               <Route path='/shopping-cart/:_id' element={<Item />} />
             </Routes>
             <Footer />

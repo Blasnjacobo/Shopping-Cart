@@ -13,10 +13,9 @@ interface StoreItemProps {
     aroma: string;
     categoria: string;
     imgUrl: string;
-    transfer: () => void
 }
 
-const Perfume = ({ _id, name, price, imgUrl, transfer }: StoreItemProps) => {
+const Perfume = ({ _id, name, price, imgUrl }: StoreItemProps) => {
     const navigate = useNavigate();
     const user = useUser();
 
@@ -76,7 +75,6 @@ const Perfume = ({ _id, name, price, imgUrl, transfer }: StoreItemProps) => {
     const handleRemoveFromCart = async () => {
         if (user) {
             await removeFromCart(_id, user.username)
-            await transfer()
             const updatedQuantity = await getQuantity()
             await setQuantity(updatedQuantity)
         }

@@ -186,6 +186,15 @@
     width: fit-content;
   }
 
+  .searcher {
+    width: 98%;
+    border: 0.1px solid black;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    cursor: pointer;
+  }
+
   @media screen and (max-width: 992px) {
 
       .wrapper {
