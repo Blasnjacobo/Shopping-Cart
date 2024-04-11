@@ -14,7 +14,7 @@ export default function Footer() {
                                 SayMi Perfumes
                             </h6>
                             <p>
-                                Cualquier duda, aclaracion o negociacion no dudes en contactarnos en el numero de whatsapp mostrado en este apartado.
+                                Cualquier duda, aclaracion o negociacion no dudes en contactarnos en el numero de whatsapp mostrado en este apartado. xd 900
                             </p>
                         </MDBCol>
 
