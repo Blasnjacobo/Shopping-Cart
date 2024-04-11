@@ -9,7 +9,7 @@ const CollapseNavbar: React.FC<Props> = ({ collapseHandler }) => { // Use props 
     return (
         <div>
             <Nav className='me-auto flex-center gap-4'>
-                <Nav.Link to='/shopping-cart' as={NavLink} style={{ color: 'red' }} onClick={collapseHandler}>
+                <Nav.Link to='/' as={NavLink} style={{ color: 'red' }} onClick={collapseHandler}>
                     Home
                 </Nav.Link>
                 <Nav.Link to='/shopping-cart/dama' as={NavLink} style={{ fontWeight: 'bold' }} onClick={collapseHandler}>
