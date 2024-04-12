@@ -21,7 +21,7 @@ function App() {
           <Navbar />
           <div>
             <Routes>
-              <Route path='/' element={<Home />} />
+              <Route path='/shopping-cart' element={<Home />} />
               <Route path='/shopping-cart/dama' element={<Dama />} />
               <Route path='/shopping-cart/caballero' element={<Caballero />} />
               <Route path='/shopping-cart/Unisex' element={<Unisex />} />
