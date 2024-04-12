@@ -12,13 +12,13 @@ const CollapseNavbar: React.FC<Props> = ({ collapseHandler }) => { // Use props 
                 <Nav.Link to='/' as={NavLink} style={{ color: 'red' }} onClick={collapseHandler}>
                     Home
                 </Nav.Link>
-                <Nav.Link to='/shopping-cart/dama' as={NavLink} style={{ fontWeight: 'bold' }} onClick={collapseHandler}>
+                <Nav.Link to='/dama' as={NavLink} style={{ fontWeight: 'bold' }} onClick={collapseHandler}>
                     Dama
                 </Nav.Link>
-                <Nav.Link to='/shopping-cart/caballero' as={NavLink} style={{ fontWeight: 'bold' }} onClick={collapseHandler}>
+                <Nav.Link to='/caballero' as={NavLink} style={{ fontWeight: 'bold' }} onClick={collapseHandler}>
                     Caballero
                 </Nav.Link>
-                <Nav.Link to='/shopping-cart/unisex' as={NavLink} style={{ fontWeight: 'bold' }} onClick={collapseHandler}>
+                <Nav.Link to='/unisex' as={NavLink} style={{ fontWeight: 'bold' }} onClick={collapseHandler}>
                     Unisex
                 </Nav.Link>
             </Nav>

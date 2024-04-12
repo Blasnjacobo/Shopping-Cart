@@ -21,7 +21,7 @@ const Perfume = ({ _id, name, price, imgUrl }: StoreItemProps) => {
 
     const handleItem = () => {
         if (_id) {
-            navigate(`/shopping-cart/${_id}`);
+            navigate(`/${_id}`);
         }
     }
 

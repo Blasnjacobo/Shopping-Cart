@@ -5,7 +5,7 @@ const Etiqueta = () => {
                 backgroundColor: "black", color: 'white', fontSize: '18px', textAlign: 'center',
                 padding: '1rem', margin: '5px', display: 'inline'
             }}>
-            PERFUMES 100% ORIGINALES - ENVIO GRATIS - LOS MEJORES PRECIOS xd
+            PERFUMES 100% ORIGINALES - ENVIO GRATIS - LOS MEJORES PRECIOS
         </div>
     )
 }

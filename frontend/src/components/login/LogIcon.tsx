@@ -10,7 +10,7 @@ const SignInIcon = () => {
 
     return (
         <>
-            <NavbarBs as={NavLink} to='/shopping-cart/'>
+            <NavbarBs as={NavLink} to='/'>
                 <i className="bi bi-person" onClick={handleShow} style={{ fontSize: '1.5rem', marginLeft: '2rem', cursor: 'pointer', color: 'black' }}></i>
             </NavbarBs>
             <Login show={show} handleClose={handleClose} />

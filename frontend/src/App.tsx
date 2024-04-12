@@ -22,10 +22,10 @@ function App() {
           <div>
             <Routes>
               <Route path='/' element={<Home />} />
-              <Route path='/shopping-cart/dama' element={<Dama />} />
-              <Route path='/shopping-cart/caballero' element={<Caballero />} />
-              <Route path='/shopping-cart/Unisex' element={<Unisex />} />
-              <Route path='/shopping-cart/:_id' element={<Item />} />
+              <Route path='/dama' element={<Dama />} />
+              <Route path='/caballero' element={<Caballero />} />
+              <Route path='/Unisex' element={<Unisex />} />
+              <Route path='/:_id' element={<Item />} />
             </Routes>
             <Footer />
           </div>
