@@ -91,7 +91,7 @@ const Carrito = ({ isOpen }: ShoppingCartProps) => {
                     </div>
                     <label>
                         <input type="checkbox" id="myCheckbox" className='checkbox-cart' onChange={handleCheckboxChange} />
-                        Perfumes a 10 pagos
+                        Perfumes a 10 quincenas
                     </label>
                     <Button variant="primary" onClick={sendWhatsAppMessage}>Send WhatsApp Message</Button>
                 </Stack>
