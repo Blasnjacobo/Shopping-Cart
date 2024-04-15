@@ -74,6 +74,11 @@
       background-color: #507cc0;
   }
 
+  .invitado {
+    background-color: rgb(255, 222, 222);
+    color: black;
+  }
+
   .github {
       background-color: black;
   }
