@@ -5,13 +5,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function Carrusel() {
     return (
-        <Carousel
-            nextIcon={<span style={{ color: 'black', backgroundColor: 'transparent', fontSize: '2rem' }}>
-                <i className="bi bi-arrow-right-circle-fill"></i>
-            </span>}
-            prevIcon={<span style={{ color: 'black', backgroundColor: 'transparent', fontSize: '2rem' }}>
-                <i className="bi bi-arrow-left-circle-fill"></i>
-            </span>}>
+        <Carousel>
             {CarruselData.map((item) => (
                 <Carousel.Item key={item.id}>
                     <div>
