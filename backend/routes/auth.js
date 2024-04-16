@@ -27,14 +27,15 @@ router.get("/invitado", async (req, res) => {
       id: id,
       name: "Invitado",
       username: username,
-      photos: { invitado },
-      provider: invitado,
+      photos:
+        "https://github.com/Blasnjacobo/external-files/blob/main/invitado.png?raw=true",
+      provider: "invitado",
     });
     await newUser.save();
     // Create a new cart for the user
     const newCart = new Cart({
       userID: newUser.id,
-      name: invitado,
+      name: "invitado",
       username: newUser.username,
       items: [],
     });
@@ -45,15 +46,13 @@ router.get("/invitado", async (req, res) => {
         username: newUser.username,
         provider: newUser.provider,
       },
-      process.env.JWT_SECRET,
-      {
-        expiresIn: "1h",
-      }
+      process.env.JWT_SECRET
     );
     // Redirect to the main page with token appended to URL
     res.redirect(`${CLIENT_URL}?token=${token}`);
   } catch (error) {
-    return done(error);
+    console.error(error);
+    res.status(500).send({ error: "Internal Server Error" });
   }
 });
 
