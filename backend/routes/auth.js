@@ -3,8 +3,9 @@ const router = express.Router();
 const passport = require("passport");
 const jwt = require("jsonwebtoken");
 const { User } = require("../models/userSchema");
+const invitado = require("../data/invitado.png");
 
-const CLIENT_URL = "https://blasnjacobo.github.io/shopping-cart/";
+const CLIENT_URL = "https://saymi.casa/";
 
 router.get("/login/failed", (req, res) => {
   res.status(401).json({
@@ -16,6 +17,44 @@ router.get("/login/failed", (req, res) => {
 router.get("/logout", (req, res) => {
   req.logout();
   res.redirect(CLIENT_URL);
+});
+
+router.get("/invitado", async (req, res) => {
+  try {
+    const id = generateRandomString(8);
+    const username = generateRandomString(8);
+    const newUser = new User({
+      id: id,
+      name: "Invitado",
+      username: username,
+      photos: { invitado },
+      provider: invitado,
+    });
+    await newUser.save();
+    // Create a new cart for the user
+    const newCart = new Cart({
+      userID: newUser.id,
+      name: invitado,
+      username: newUser.username,
+      items: [],
+    });
+    await newCart.save();
+    const token = jwt.sign(
+      {
+        user: newUser.id,
+        username: newUser.username,
+        provider: newUser.provider,
+      },
+      process.env.JWT_SECRET,
+      {
+        expiresIn: "1h",
+      }
+    );
+    // Redirect to the main page with token appended to URL
+    res.redirect(`${CLIENT_URL}?token=${token}`);
+  } catch (error) {
+    return done(error);
+  }
 });
 
 router.get(
