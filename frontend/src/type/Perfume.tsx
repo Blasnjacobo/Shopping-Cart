@@ -6,4 +6,5 @@ export interface Perfume {
     aroma: string;
     categoria: string;
     imgUrl: string;
+    descripcion: string;
 }

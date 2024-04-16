@@ -13,6 +13,7 @@ type PerfumeProps = {
     aroma: string;
     categoria: string;
     imgUrl: string;
+    descripcion: string;
 };
 
 const Item = () => {
@@ -105,7 +106,8 @@ const Item = () => {
                             <div className="text-center">
                                 <h5 className="card-title">{perfume.name}</h5>
                                 <p className="card-text text-start" style={{ margin: 'auto' }}>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt sit veniam, aspernatur modi enim excepturi ex ullam, dicta delectus distinctio iusto officia mollitia eius eveniet totam ad! Consequuntur, aspernatur atque.</p>
+                                    {perfume.descripcion}
+                                </p>
                             </div>
                             <div>
                                 <div className="perfume-caracteristicas">
