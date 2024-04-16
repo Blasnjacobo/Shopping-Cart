@@ -20,6 +20,18 @@ router.get("/logout", (req, res) => {
 
 router.get("/invitado", async (req, res) => {
   try {
+    function generateRandomString(length) {
+      const characters =
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+      let result = "";
+      for (let i = 0; i < length; i++) {
+        result += characters.charAt(
+          Math.floor(Math.random() * characters.length)
+        );
+      }
+      return result;
+    }
+
     const id = generateRandomString(8);
     const username = generateRandomString(8);
     console.log("id: " + id);
