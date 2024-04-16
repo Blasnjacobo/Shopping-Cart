@@ -3,6 +3,7 @@ const router = express.Router();
 const passport = require("passport");
 const jwt = require("jsonwebtoken");
 const { User } = require("../models/userSchema");
+const Cart = require("../models/cartSchema");
 
 const CLIENT_URL = "https://saymi.casa/";
 
@@ -34,8 +35,6 @@ router.get("/invitado", async (req, res) => {
 
     const id = generateRandomString(8);
     const username = generateRandomString(8);
-    console.log("id: " + id);
-    console.log("username: " + username);
     const newUser = new User({
       id: id,
       name: "Invitado",
@@ -57,6 +56,7 @@ router.get("/invitado", async (req, res) => {
       username: newUser.username,
       items: [],
     });
+    console.log(newCart);
     await newCart.save();
     const token = jwt.sign(
       {
