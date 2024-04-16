@@ -3,7 +3,6 @@ const router = express.Router();
 const passport = require("passport");
 const jwt = require("jsonwebtoken");
 const { User } = require("../models/userSchema");
-const invitado = require("../data/invitado.png");
 
 const CLIENT_URL = "https://saymi.casa/";
 
