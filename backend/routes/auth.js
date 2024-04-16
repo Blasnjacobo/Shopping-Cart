@@ -22,6 +22,8 @@ router.get("/invitado", async (req, res) => {
   try {
     const id = generateRandomString(8);
     const username = generateRandomString(8);
+    console.log("id: " + id);
+    console.log("username: " + username);
     const newUser = new User({
       id: id,
       name: "Invitado",
@@ -30,6 +32,7 @@ router.get("/invitado", async (req, res) => {
         "https://github.com/Blasnjacobo/external-files/blob/main/invitado.png?raw=true",
       provider: "invitado",
     });
+    console.log(newUser);
     await newUser.save();
     // Create a new cart for the user
     const newCart = new Cart({
