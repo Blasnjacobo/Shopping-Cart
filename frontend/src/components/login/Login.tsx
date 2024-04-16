@@ -33,8 +33,8 @@ const Login: React.FC<ShowProps> = ({ show, handleClose }) => {
                     <div className="wrapper">
                         <h5 className='text-center mb-3'>Inicia sesión para poder acceder al carrito</h5>
                         <div className="left">
-                        <div className="loginButton invitado" onClick={invitado}>
-                            <i className="bi bi-person"> Invitado</i>
+                            <div className="loginButton invitado" onClick={invitado}>
+                                <i className="bi bi-person"> Invitado</i>
                             </div>
                             <div className="loginButton google" onClick={google}>
                                 <img src={Google} alt="" className="icon" />
