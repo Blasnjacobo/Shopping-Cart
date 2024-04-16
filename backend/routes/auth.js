@@ -40,8 +40,12 @@ router.get("/invitado", async (req, res) => {
       id: id,
       name: "Invitado",
       username: username,
-      photos:
-        "https://github.com/Blasnjacobo/external-files/blob/main/invitado.png?raw=true",
+      photos: [
+        {
+          value:
+            "https://github.com/Blasnjacobo/external-files/blob/main/invitado.png?raw=true",
+        },
+      ],
       provider: "invitado",
     });
     console.log(newUser);
