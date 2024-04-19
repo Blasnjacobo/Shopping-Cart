@@ -1,98 +1,1884 @@
 [
   {
-    "id": 1,
-    "name": "1- La Vida Es Bella Eau D Parfum 100ml",
-    "price": 2499,
+    "name": "Perfume DIOR Sauvage 100ml",
+    "price": 5650,
     "type": "Solo Perfume",
-    "aroma": "Citrico",
-    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1125403090_1%20p.jpg",
+    "descripcion": "Sauvage Dior es un acto de creación inspirado en los grandes espacios. Una composición marcada por una frescura cruda, potente y noble a la vez."
   },
   {
-    "id": 2,
-    "name": "2- La Vida Es Bella Eau D Parfum 100ml",
-    "price": 2499,
+    "name": "Dolce & Gabbana K 100ml",
+    "price": 3280,
     "type": "Solo Perfume",
-    "aroma": "Citrico",
-    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+    "aroma": "Amaderado",
+    "categoria": "caballero",
+    "imgUrl": "https://www.costco.com.mx/medias/sys_master/products/h9c/he0/169351784235038.webp",
+    "descripcion": "Dolce & Gabbana k 100ml edt sprayk by dolce & gabbana de dolce & gabbana es una fragancia de la familia olfativa amaderada aromática para hombres. Disfruta de sus notas:Salida: bayas de enebro, cítricos, naranja sanguina y limón siciliano. Corazón: pimiento morrón, lavanda, esclarea y geranio Fondo: vetiver, cedro y pachulí"
   },
   {
-    "id": 3,
-    "name": "3- La Vida Es Bella Eau D Parfum 100ml",
-    "price": 2499,
+    "name": "Eau de parfum intense Dolce&Gabbana K 100ml",
+    "price": 3280,
     "type": "Solo Perfume",
-    "aroma": "Citrico",
-    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1149743789_1p.jpg",
+    "descripcion": "La fragancia K por Dolce&Gabbana Eau de Parfum Intense es una fragancia masculina fuerte y carismática que combina una consonancia amaderada entre el cuero seductor con notas de azafrán e higo. El diseño del envase y la tapa de la nueva fragancia K por Dolce&Gabbana Eau de Parfum Intense es consistente con el de la fragancia original K Eau de Parfum, con el elegante gradiente azulado de medianoche que tiñe el vidrio que se deriva del nuevo color del líquido"
   },
   {
-    "id": 4,
-    "name": "4- La Vida Es Bella Eau D Parfum 100ml",
-    "price": 2499,
+    "name": "Eau de toilette Carolina Herrera Ch Men 200ml",
+    "price": 3650,
     "type": "Solo Perfume",
     "aroma": "Citrico",
-    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1030996361_1p.jpg",
+    "descripcion": "La vida del hombre CH es como un largo viaje, lleno de encuentros y emociones. Un viaje con un destino pero sin una duración exacta, un viaje plagado de nuevas sensaciones, nuevos rostros y nuevos descubrimientos. Para el hombre CH la experiencia más importante es el propio viaje, que se refleja en su intrépido aroma curtido y amaderado. La fragancia del hombre CH de Carolina Herrera, es un resumen de todos sus viajes. Es su memoria olfativa; una fragancia eterna con una personalidad única. Una nueva masculinidad contemporánea, la fragancia captura la quinta esencia de la elegancia y la habilidad de adaptarse a diferentes situaciones con un aire de espontaneidad"
   },
   {
-    "id": 5,
-    "name": "5- La Vida Es Bella Eau D Parfum 100ml",
-    "price": 2499,
+    "name": "Eau de parfum Armaf Odyssey 100ml",
+    "price": 1290,
     "type": "Solo Perfume",
     "aroma": "Citrico",
-    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1140308371_1p.jpg",
+    "descripcion": "Odyssey Mandarin Sky by Armaf is a fragrance for men. This is a new fragrance. Odyssey Mandarin Sky was launched in 2023. Top notes are Mandarin Orange, Orange, Saffron and Sage; middle notes are Caramel, Tonka Bean and Tagetes; base notes are Ambroxan, Vetiver and Cedar"
   },
   {
-    "id": 6,
-    "name": "6- La Vida Es Bella Eau D Parfum 100ml",
-    "price": 2499,
+    "name": "PARFUMS DE MARLY, Perfume Eau de Parfum Oriana, 75 ml",
+    "price": 7500,
     "type": "Solo Perfume",
-    "aroma": "Citrico",
-    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://www.elpalaciodehierro.com/dw/image/v2/BDKB_PRD/on/demandware.static/-/Sites-palacio-master-catalog/default/dw407451d1/images/42153940/large/42153940_x2.jpg?sw=2200&sh=2500",
+    "descripcion": "Parfums de Marly Perfume, Eau de Parfum Oriana; Una fragancia gourmand, floral y afrutada diseñada enteramente como una variación de textura. Un milhojas de escamosa dulzura, suavidad y sensualidad..."
   },
   {
-    "id": 7,
-    "name": "7- La Vida Es Bella Eau D Parfum 100ml",
-    "price": 2499,
+    "name": "Eau de parfum Lattafa Ishq Al Shuyukh Silver 100ml",
+    "price": 1350,
     "type": "Solo Perfume",
-    "aroma": "Citrico",
-    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+    "aroma": "Oriental",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1132691211_1p.jpg",
+    "descripcion": "Ishq Al Shuyukh Silver de Lattafa Perfumes es una fragancia ámbar para mujeres y hombres. Es una fragancia nueva que fue lanzada en 2022. Sus notas de salida son limón y bergamota; las notas medias son piña y pimienta negra; y las notas de fondo son vainilla, cedro, madera de ámbar y pachulí."
   },
   {
-    "id": 8,
-    "name": "8- La Vida Es Bella Eau D Parfum 100ml",
-    "price": 2499,
+    "name": "Perfume corporal en aerosol Galaxy Concept Naughty Girl de 200 ml 100ml",
+    "price": 350,
     "type": "Solo Perfume",
-    "aroma": "Citrico",
-    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+    "aroma": "Ámbar Floral",
+    "categoria": "dama",
+    "imgUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_892241-MLU73183306824_122023-F.webp",
+    "descripcion": "El perfume en aerosol para mujer Naughty Girl de 200 ml de Galaxy Concept es un producto de origen francés, reconocido por su calidad y sofisticación. Con un aroma femenino de ámbar floral, este perfume es llamativo y duradero, ideal para mujeres a las que les gusta dejar su huella allá donde vayan."
   },
   {
-    "id": 9,
-    "name": "9- La Vida Es Bella Eau D Parfum 100ml",
-    "price": 2499,
+    "name": "Au de parfum Lattafa Mayar 100ml",
+    "price": 1033,
     "type": "Solo Perfume",
-    "aroma": "Citrico",
-    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1140822589_2p.jpg",
+    "descripcion": "Fragancia seductora e irresistible con sus notas de lichi exóticas, agridulces, jugosas, deliciosas, que te tientan a olerla una y otra vez. El juego de flores blancas vibrantes se crea mediante una combinación de delicados jazmines, peonías y rosas blancas, que se mezclan con un velo gourmand de vainilla y frambuesa. Agregando a la complejidad hay una sutil nota de hoja de violeta verde, que aporta un toque de humedad y frescura a base de hierbas al aroma, realzado aún más por el almizcle más chispeante."
   },
   {
-    "id": 10,
-    "name": "10- La Vida Es Bella Eau D Parfum 100ml",
-    "price": 2499,
+    "name": "Hugo Reflective Edition Hugo Boss 100ml",
+    "price": 1500,
     "type": "Solo Perfume",
     "aroma": "Citrico",
-    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+    "categoria": "caballero",
+    "imgUrl": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/5703a566-7154-4230-9892-709bd4bf7640.db05399dc1b0db237689feaf3abfc301.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "descripcion": "ugo Reflective Edition de Hugo Boss es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Esta fragrancia es nueva. Hugo Reflective Edition se lanzó en 2022. La Nota de Salida es cítricos; la Nota de Corazón es ciprés; la Nota de Fondo es vetiver."
   },
   {
-    "id": 11,
-    "name": "11- La Vida Es Bella Eau D Parfum 100ml",
-    "price": 2499,
+    "name": "Perfume Game Of Spades 90ml",
+    "price": 2616,
     "type": "Solo Perfume",
-    "aroma": "Citrico",
-    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+    "aroma": "Ámbar",
+    "categoria": "unisex",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1148092695_1p.jpg",
+    "descripcion": "Esta es una fragancia de ámbar, vainilla y especias con notas altas de coñac, pimienta negra, naranja y especias que trascienden a notas medias de lavanda, canela, haba tonka y roble. Luego, la fragancia se asienta en unas notas base de ámbar, sándalo, vainilla y praliné"
   },
   {
-    "id": 12,
-    "name": "12- La Vida Es Bella Eau D Parfum 100ml",
-    "price": 2499,
+    "name": "CH Men Sport Carolina Herrera 100ml",
+    "price": 1600,
     "type": "Solo Perfume",
     "aroma": "Citrico",
-    "imgUrl": "https://resources.claroshop.com/medios-plazavip/s2/17218/4184013/64fd0c1019442-ventiapp-image-1f0e9ba5-3ca2-46c7-9eec-d7c1057a4a61_29_4_2023_20_33_28_927-1600x1600.jpg?scale=700&qlty=80"
+    "categoria": "caballero",
+    "imgUrl": "https://fimgs.net/mdimg/perfume/375x500.15633.jpg",
+    "descripcion": "CH Men Sport de Carolina Herrera es una fragancia aromática especiada para hombres. Fue lanzada en 2012. Sus notas de salida son pomelo, bergamota y salvia; las notas medias son enebro, notas marinas y pimienta de Sichuan; y las notas de fondo son vetiver, sándalo y musgo de roble."
+  },
+  {
+    "name": "Eau de toilette Yves Saint Laurent L' Homme 100ml",
+    "price": 2690,
+    "type": "Solo Perfume",
+    "aroma": "Oriental",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/57065192_1p.jpg",
+    "descripcion": "Esta fragancia fresca amaderada deja una estela magnética sensual y vibrante para el hombre en busca de su propio estilo. Con notas florales y un ligero aroma a madera para resaltar la masculinidad intensa y sensual del hombre que lo porta. L'Homme es para el hombre sofisticado con una elegancia y sensualidad única. Una fragancia de contrastes, es una combinación única de lujo, arte y modernidad que exuda una elegancia atemporal. Estilo: Fresco, amaderado y clásico, es el equilibrio perfecto entre la masculinidad y el refinamiento, ideal para el hombre del siglo XXI, urbano y carismático"
+  },
+  {
+    "name": "Eau de parfum Ariana Grande Cloud 100ml",
+    "price": 1900,
+    "type": "Solo Perfume",
+    "aroma": "Oriental",
+    "categoria": "dama",
+    "imgUrl": "https://www.sephora.com.mx/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dwd01c66a4/images/hi-res/boletos/Karla%20Nieto/ARIANA%20GRANDE/812256023289.jpg?sw=1200&sh=1200&sm=fit",
+    "descripcion": "Sumérgete en la fragancia para dama Ariana Grande Cloud 100 ml Eau de Parfum, que cuenta con notas especiales en la que se combinan aromas delicados como lavanda, pera, crema de coco y praliné con esencias más intensas como almizcle, bergamota o maderas, creando un perfume enigmático que combina contrastes exquisitos. Esta fragancia para dama Ariana Grande Cloud Eau de Parfum te dará esa esencia ideal para complementar tus estilos."
+  },
+  {
+    "name": "PARFUMS DE MARLY. Perfume, Delina Exclusif Eau de Parfum 75ml",
+    "price": 8300,
+    "type": "Solo Perfume",
+    "aroma": "Afrutado",
+    "categoria": "dama",
+    "imgUrl": "https://www.elpalaciodehierro.com/dw/image/v2/BDKB_PRD/on/demandware.static/-/Sites-palacio-master-catalog/default/dwd056f73d/images/41649818/large/41649818_x2.jpg?sw=686&sh=785",
+    "descripcion": "Parfums De Marly Perfume, Delina Exclusif Eau de Parfum; Esta nueva versión de Delina es una creación floral-oriental sin precedentes. La fragancia se abre con la frescura de un trío afrutado de bergamota, pera y lichi y crece en notas de oud quemadas antes de hundirse en un lecho de ámbar suave y embriagador. Un rico y sofisticado elixir floral. Notas de salida: Pera y lichi. Notas de corazón: Rosa damascena e incienso. Notas de fondo: Vainilla y almizcle."
+  },
+  {
+    "name": "Eau de toilette Givenchy Blue Label 100ml",
+    "price": 2700,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/35551964_1p.jpg",
+    "descripcion": "Givenchy Blue Label es una fragancia que brinda un exquisito aroma y una frescura al instante. Ideal para ese hombre rebelde que le gusta experimentar cosas nuevas, sin dejar a un lado ese delicado toque de elegancia"
+  },
+  {
+    "name": "Eau de toilette Lacoste L'Homme 100ml",
+    "price": 950,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1062474960_1p.jpg",
+    "descripcion": "l´Homme Lacoste es un perfume para el hombre que aspira a ser audaz, tenaz y elegante. La mezcla de notas masculinas y elegantes se crea para los hombres que viven por la filosofía de que ganar no es nada sin estilo"
+  },
+  {
+    "name": "Perfume Lacoste Live Para Caballero De Lacoste Eau De Toilette 100ml",
+    "price": 1200,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "caballero",
+    "imgUrl": "https://arome.mx/cdn/shop/files/perfume-lacoste-live-para-caballero-de-lacoste-eau-de-toilette-100ml-arome-mexico-1_1800x1800.jpg?v=1710887327",
+    "descripcion": "Lacoste Live de Lacoste Fragrances es una fragancia de la familia olfativa Aromática Acuática para Hombres. Lacoste Live se lanzó en 2014. La Nariz detrás de esta fragancia es Jean-Michel Duriez."
+  },
+  {
+    "name": "Eau de toilette Hugo Boss Hugo Man 200ml",
+    "price": 3350,
+    "type": "Solo Perfume",
+    "aroma": "Frutal",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1011458340_1p.jpg",
+    "descripcion": "Deja con la fragancia para caballero Hugo Boss Man Eau de Toilette una estela inolvidable a donde quiera que vayas, porque su estupenda composición incluye notas de manzana verde, aromáticas, así como bálsamo de abeto, solo tendrás que aplicar esta fragancia para caballero Hugo Boss Man Eau de Toilette en tus puntos de pulso como muñecas, pecho, además detrás de las orejas, a todos les encantará tu inigualable presencia"
+  },
+  {
+    "name": "Eau de parfum Gucci Bamboo 75ml",
+    "price": 3300,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1049970559_1p.jpg",
+    "descripcion": "Gucci Bamboo irradia las cualidades propias de la mujer Gucci: su feminidad, seguridad, perspicacia y fortaleza. La fragancia simboliza su esencia. Una fragancia fiel a su espíritu, hecha a medida precisamente para la mujer Gucci. Curiosamente hermoso, estrella emergente Gal Gadot es la cara de Gucci Bamboo. Sus ingredientes naturales reverberan y crean una estela olfatoria cautivadora. Notas cálidas y amaderadas resuenan en su corazón y su base. Sus notas altas de intenso sándalo, ámbar gris y vainilla de Tahití contrastan y se complementan con las exóticas notas florales de suave lila de Casablanca, suave azahar y delicada flor de cananga."
+  },
+  {
+    "name": "Eau de parfum Ariana Grande Thank U Next 100ml",
+    "price": 1900,
+    "type": "Solo Perfume",
+    "aroma": "Frutal",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1109740876_1p.jpg",
+    "descripcion": "Una fragancia para vivir la vida al máximo, olvidar el pasado y disfrutar el presente. Thank U Next es la perfecta oportunidad para sentirte femenina, romper las reglas y dejar ir lo que no te sirve. Dulce y llena de actitud, ¡atrévete a divertirte con Ari!"
+  },
+  {
+    "name": "Eau de parfum Coach Floral 100ml",
+    "price": 2390,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1066726181_1p.jpg",
+    "descripcion": "La nueva fragancia Coach Floral está inspirada en la colección de cuero de Coach's Rose Tea. Una fragancia floral frutal, moderna y alegre"
+  },
+  {
+    "name": "Eau de parfum Coach Floral Blush 90ml",
+    "price": 1299,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1086935658_1p.jpg",
+    "descripcion": "Coach Floral Blush es un perfume que homenajea a la mujer moderna, alegre y optimista.  Anima a que todas y cada una de ellas salga a disfrutar de los días soleados con alegría y satisfacción. Sus notas de peonía, rosa y lírio de los valles florales reviven los días soleados de primavera con toques amaderados y frescos que impregnarán tu piel con un aroma suave y fresco."
+  },
+  {
+    "name": "Perfume Coach For Men Eau De Toilette 100ml",
+    "price": 2370,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "caballero",
+    "imgUrl": "https://coachmx.vteximg.com.br/arquivos/ids/173316-720-720/1A7L003A01-MTI_1.jpg?v=637721876967430000",
+    "descripcion": "Esta fragancia inspirada en los inconformistas, rebeldes y soñadores. Coach For Men simboliza el espíritu de la marca. Compleja y masculina, se abre con energéticas notas cítricas y de pera, que dan paso a una cálida explosión de cardamomo y cilantro, antes de pasar a una base terrosa de vetiver con toques de ante y ámbar gris"
+  },
+  {
+    "name": "Gucci Guilty Absolute Edp 90 ml",
+    "price": 2150,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://resources.sanborns.com.mx/imagenes-sanborns-ii/1200/8005610344157.jpg",
+    "descripcion": "Es ciertamente más adecuada para climas fríos debido a sus notas de cuero y maderas, que le dan un carácter masculino. Además, la falta de dulzura y los matices industriales o de petróleo pueden hacer que sea más apropiada para el invierno. Es posible que con el tiempo y la exposición gradual, llegues a apreciarla más y la califiques como una fragancia de invierno de cuatro estrellas. ¡Buena suerte con tu exploración olfativa!"
+  },
+  {
+    "name": "Eau de toilette Yves Saint Laurent La Nuit De L´Homme 100ml",
+    "price": 2690,
+    "type": "Solo Perfume",
+    "aroma": "Oriental",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/76094641_1p.jpg",
+    "descripcion": "Sofisticada fragancia que te envolverá en un juego de luces y sombras en una noche intensa llena de misterio, mostrando una faceta masculina y seductora. Un velo de misterio revela la frescura de la bergamota, lavanda y cedro, que representan la fuerza varonil, mientras que el comino y vetiver en la base, garantizan un sensual y elegante cierre. Una historia de intensidad, audacia, sensualidad y seducción que se encuentra a medio camino entre la moderación y el abandono. Estilo: Fresco, sensual y misterioso para el hombre que busca un encuentro entre la frescura y la sensualidad para una noche intensa y seductora, llena de misterio"
+  },
+  {
+    "name": "Eau de toilette Hugo Boss Boss Bottled 100ml",
+    "price": 2800,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/14391690_1p.jpg",
+    "descripcion": "Haz de la fragancia para caballero Hugo Boss Bottled Eau de Toilette tu sello de distinción a donde quiera que vayas, porque la increíble estela que dejarás en cada espacio irradiará tu personalidad al máximo, ya que esta fragancia para caballero Hugo Boss Bottled Eau de Toilette posee una estupenda composición, así que percibirás en su salida un aroma a manzana, además de un corazón de geranio, así como de canela y de fondo esencias maderadas que en su conjunto hacen una excelente mezcla que se impregnará en tu piel haciéndola tan única como tú."
+  },
+  {
+    "name": "Eau de parfum Carolina Herrera Good Girl 80ml",
+    "price": 3160,
+    "type": "Solo Perfume",
+    "aroma": "Oriental",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1108256466_1p.jpg",
+    "descripcion": "Perfume de 150ml a $4100 MXN decontado. Una audaz combinación de elementos claros y oscuros. Para la mujer que celebra su lado bueno y libera su lado malo. Good Girl Eau de Parfum de Carolina Herrera, una fragancia sensual y evocadora, nacida de las bellas contradicciones y de la siempre presente dualidad de las mujeres y de la vida moderna. Ambos frescos y sombríos, esta innovadora fragancia captura la maravillosa complejidad de una mujer con ingredientes sorprendentes y excepcionales. -Notas de salida: Almendra, café, bergamota y limón. -Notas de Corazón: Nardos, jazmín sambac, flor de azahar del naranjo, raíz de lirio y rosa de bulgaria -Notas de fondo: haba tonka, cacao, vainilla, praliné, sándalo, ámbar, almizcle, madera de cachemira, canela, pachulí y cedro"
+  },
+  {
+    "name": "Fragancia para mujer Carolina Herrera Good Girl SuperStar 80 ml Eau de Parfum 80ml",
+    "price": 3245,
+    "type": "Solo Perfume",
+    "aroma": "Oriental",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1109528176_1p.jpg",
+    "descripcion": "Deja salir a la rockera que llevas dentro con Good Girl Superstars. Esta deslumbrante edición de coleccionista de la legendaria fragancia Good Girl es una celebración de la confianza que se alcanza con el estrellato. Su resplandeciente versión del icónico frasco en forma de zapato de tacón, cubierta de purpurina, brillará bajo los focos. Good Girl es una atrevida mezcla de luz y oscuridad, ideal para la mujer de contrastes. Una fragancia provocadora a la par que sofisticada, inspirada en la inconfundible visión de la dualidad de la mujer moderna de Carolina Herrera"
+  },
+  {
+    "name": "Perfume, Bad Boy Superstars Eau de Toilette 100ml",
+    "price": 2520,
+    "type": "Solo Perfume",
+    "aroma": "Oriental",
+    "categoria": "caballero",
+    "imgUrl": "https://www.elpalaciodehierro.com/dw/image/v2/BDKB_PRD/on/demandware.static/-/Sites-palacio-master-catalog/default/dw038f2c1b/images/41894898/large/41894898_x2.jpg?sw=686&sh=785",
+    "descripcion": "Carolina Herrera Perfume, Bad Boy Superstars Eau de Toilette; Evoca el carisma y el encanto magnético de las superestrellas de Hollywood con esta edición de coleccionista de la icónica fragancia Bad Boy, versionada con un acabado cromado efecto espejo. BAD BOY es una aromática expresión de dualidad, un reflejo de la naturaleza atrevida del hombre moderno. Fuerte a la par que sensible, seguro a la par que, calmado, el hombre BAD BOY acepta sus contrastes con confianza, sencillez y una distintiva sofisticación."
+  },
+  {
+    "name": "LACOSTE Perfume L.12.12 Noir 100ml",
+    "price": 1950,
+    "type": "Solo Perfume",
+    "aroma": "Maderas",
+    "categoria": "caballero",
+    "imgUrl": "https://www.elpalaciodehierro.com/dw/image/v2/BDKB_PRD/on/demandware.static/-/Sites-palacio-master-catalog/default/dwebad22d6/images/30126844/large/30126844_x1.jpg?sw=2200&sh=2500",
+    "descripcion": "L.12.12 Noir de Lacoste se presenta como una fragancia intensa con un poso final amaderado que no quiere renunciar a su origen fresco y veraniego, una mezcla interesante a juzgar por sus notas realmente curiosas. En la entrada se aprecia la sandía, piña y los frutos rojos que dan paso a su corazón impregnado de lavanda fresca, albahaca egipcia, verbena del norte de África; mientras que en sus notas de fondo se hace presente el chocolate negro, pachulí de Indonesia, madera de cachemira y cumarina."
+  },
+  {
+    "name": "Bleu De Chanel eau de parfum Pour Homme 150ml ",
+    "price": 4000,
+    "type": "Solo Perfume",
+    "aroma": "Maderas",
+    "categoria": "caballero",
+    "imgUrl": "https://i.ebayimg.com/images/g/z6wAAOSw-3FZIb1Q/s-l1600.jpg",
+    "descripcion": "Bleu de Chanel es una fragancia sofisticada y contemporánea de Chanel, dedicada a la libertad, con una composición amaderada y aromática creada por Jacques Polge, que sigue el camino original pero se adentra en un territorio oriental y sensual de ámbar, manteniendo la frescura del original con maderas ambaradas de profundidad y terciopelo."
+  },
+  {
+    "name": "CHANEL ALLURE HOMME SPORT EAU DE TOILETTE VAPORIZADOR 100ml",
+    "price": 2690,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "unisex",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/35384235.jpg",
+    "descripcion": "Un estilo libre. Una fragancia elegante y con carácter que exalta el aroma fresco y sensual de la piel desnuda al aire libre. Se recomienda vaporizar el Eau de Toilette directamente sobre la piel o la ropa para disfrutar de su generosa estela de perfume, complementada por una línea completa de productos para el afeitado y el cuerpo que intensifican su fragancia a lo largo del día."
+  },
+  {
+    "name": "Eau de toilette Givenchy L'Interdit 800ml",
+    "price": 2840,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/P069312_1.jpg",
+    "descripcion": "Givenchy presenta la versión renovada de L’ Interdit Eau de Toilette, una flor underground en una nueva adicción a flor de piel. Sucumbe al ardiente deseo de este Eau de Toilette para mujer más emocionante. Anclado en la dualidad, este perfume de Givenchy para mujer es radiante y sensual a la vez. El icónico ramo de flores blancas de L'Interdit se abre con la frescura inmediata y luminosa de un trío de notas cítricas que combinan naranja, bergamota y mandarina. En el corazón de la fragancia, la tuberosa y el jazmín se despliegan con las icónicas cuatro facetas de la flor de Naranjo: esencia, absoluto y extracto puro. En contraste, la base oscura envuelve el cálido vetiver y el pachulí en las profundidades voluptuosas de las notas coriáceas de la flor de cistus, el almizcle y el sándalo cremoso. Una fragancia claramente sensual que abraza y envuelve la piel. La emblemática botella de L'Interdit Eau de Toilette de Givenchy revela una forma más delgada con una borla 4G más afilada para un estilo de alta costura único. Diseñado con una reducción del 10 % en el peso del vidrio, el nuevo frasco de L'Interdit Eau de Toilette está elaborado en vidrio reciclado* por un vidriero francés. Experimenta la emoción de lo prohibido con L'Interdit Eau de Toilette de Givenchy, una fragancia que te invita a desafiar las convenciones y abrazar tu singularidad. *11% vidrio post reciclado. Fragancia Floral"
+  },
+  {
+    "name": "Eau de Toilette de Cacharel Amor Electric Kiss 100ml",
+    "price": 2700,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://perfumesdemarca.com.mx/cdn/shop/products/0743e150bb8c1fbdac004924355256f8_1024x1024.jpg?v=1614706922",
+    "descripcion": "El pefume para mujer Amor Amor Electric Kiss Eau de Toilette de Cacharel es es la fragancia de las mujeres jóvenes, apasionadas y amantes de la vida. Una fragancia que encarna la visión del amor de la marca Cacharel Parfums. Su fragancia, una flecha que te llega directamente al corazón. La pasión y el amor a primera vista concentrados en un frasco icónico, una granada de amor. Como una poción de amor, la composición de esta fragancia se torna rojo intenso y combina los mágicos aromas florales y afrutados. Las notas de salida de pomelo rosa y naranja sanguina y la cremosidad de la mandarina se combinan con los matices del jazmín y el melocotón fresco. Sus notas de salida embriagan los sentidos antes de ceder el paso a la voluptuosidad de la vainilla."
+  },
+  {
+    "name": "Eau de parfum Dolce&Gabbana The One 75ml",
+    "price": 3200,
+    "type": "Solo Perfume",
+    "aroma": "Floral Oriental",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/60698945_1p.jpg",
+    "descripcion": "Sensual y atemporal, Dolce&Gabbana The One es la esencia de la mujer Dolce&Gabbana. Esta fragancia floral oriental combina ingredientes frutales contemporáneos con la paleta de flores blancas de la perfumería tradicional"
+  },
+  {
+    "name": "Eau de parfum Dolce&Gabbana The One 2 100ml",
+    "price": 2940,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://www.sephora.com.mx/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw37f25ccb/images/hi-res/boletos/Jazmin/D&G/OPTIMIZACIONES/fragance-dolce&gabbana-the-only-one-2-eau-de-parfum-3423478580152c.jpg",
+    "descripcion": "The Only One 2: el segundo capítulo de la historia de The Only One, donde el cautivador maridaje entre la violeta y el café se reinterpreta evocando una rosa roja empolvada, como símbolo del amor y la seducción, con notas de salida de bayas rojas combinadas con un corazón de aroma de rosas que aporta un aura cálida y sensual, complementado por las suaves habas tonka en la base, aumentando su capacidad adictiva. Familia de la fragancia: Floriental afrutada."
+  },
+  {
+    "name": "Eau de parfum Dolce&Gabbana The One 100ml",
+    "price": 3200,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1077498199_1p.jpg",
+    "descripcion": "Esta fragancia para dama Dolce&Gabbana The Only One 100 ml Eau de Parfum se ha creado para una mujer como tú que vive cada día de una forma apasionada, que posee una personalidad fascinante, deslumbrante, audaz y chispeante. La fragancia para dama Dolce&Gabbana The Only One 100 ml Eau de Parfum con notas de violeta, café, jazmín, vainilla y patchouli es una celebración a la mujer de hoy"
+  },
+  {
+    "name": "Eau de parfum Juicy Couture Viva La Juicy 100ml",
+    "price": 1558,
+    "type": "Solo Perfume",
+    "aroma": "Fresco",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1074471915_1p.jpg",
+    "descripcion": "Expresa con la fragancia para dama Juicy Couture OUI 100 ml Eau de Parfum toda la personalidad que te distingue, porque gracias a sus notas water lemon, acaí, wild tuberose, techno woods dejarás una estela fresca, vibrante y audaz. No tengas miedo al decidir vivir al máximo cada aventura, creencia, amor y esencia de tu propio espíritu"
+  },
+  {
+    "name": "Eau de parfum Al Haramain Amber Oud Blue 100ml",
+    "price": 1787,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "unisex",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1113854789.jpg",
+    "descripcion": "La edición azul de Haramain Amber Oud; una suma de la perfección de la fragancia. Disfrute del encanto inicial de unas notas iniciales afrutadas pero especiadas que no solo le dan energía a un nivel fragante. Lo que obtienes de Amber Oud Blue Edition, va más allá de un perfume de clase mundial, es un nuevo comienzo para la vida"
+  },
+  {
+    "name": "Eau de parfum Dolce&Gabbana The One for men 100ml",
+    "price": 2520,
+    "type": "Solo Perfume",
+    "aroma": "Especias",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1040733716_2.jpg",
+    "descripcion": "The One for Men es el nuevo aroma del icónico mundo de The One, que ofrece una experiencia de fragancia más profunda para los expertos en perfumes. Esta fragancia de gran intensidad, masculina y magnética es una declaración de carisma y sofisticación"
+  },
+  {
+    "name": "Eau de toilette Salvatore Ferragamo Uomo Urban Feel 100ml",
+    "price": 1076,
+    "type": "Solo Perfume",
+    "aroma": "Madera y Cedro",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1084295970_1p.jpg",
+    "descripcion": "La mezcla de cedro, madera y un toque de comino logran crear un perfume ideal para llevarlo de día o de noche"
+  },
+  {
+    "name": "Eau de toilette Calvin Klein Eternity 100ml",
+    "price": 2500,
+    "type": "Solo Perfume",
+    "aroma": "Herbal",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/4384211_1p.jpg",
+    "descripcion": "Eternity de Calvin Klein simboliza el espíritu del hombre contemporáneo: sensible pero masculino, refinado pero fuerte. Un romántico dedicado a los valores básicos de la familia, el trabajo, el bienestar y la felicidad. Un hombre en paz consigo mismo, con sus relaciones y con su mundo. dice Klein"
+  },
+  {
+    "name": "Eau de toilette Calvin Klein Ck All 100ml",
+    "price": 753,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "unisex",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1071934861_1p.jpg",
+    "descripcion": "Audaz, inclusivo y expresivo. Una invitación a desafiar la conformidad y las limitaciones, CK All de Calvin Klein está diseñado para ser usado por todos, libre de lo convencional de la sociedad. Un limpio aroma universalmente atractivo que ofrece un lienzo en blanco olfativo para celebrar la individualidad al actuar como una forma de autoexpresión y rebelión"
+  },
+  {
+    "name": "Eau de toilette Moschino Uomo? 125ml",
+    "price": 788,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1132246161_1p.jpg",
+    "descripcion": "Esta fragancia encarna perfectamente los años 90. He comprado muchas botellas a lo largo de los años y puedo decir que esta es mi fragancia característica (todo el año). Aroma: Kumquat, Salvia, Flor Blanca y el factor ?. No es abrumadora. El aroma tiene una cualidad seca, aireada y juvenil. Finge ser un aroma natural de la piel. Lo rocío en mi cuello y he logrado que la gente crea que mi sudor huele delicioso. Lo que hace que este aroma sea tan fenomen enal es la misteriosa nota omnipresente de coca-cola de la fuente de McDonald's. Cada vez que lo huelo, me recuerda a la vida en los años 90. Es una fragancia limpia, verde y cítrica, pero tiene una calidad de almizcle dulce. Longevidad: 10/10. Esta cosa dura para siempre. Si lo rocío en una camisa, durará hasta que la lave. En la fase final, puede ser confundido con el olor a sudor fresco con un toque de perfume "
+  },
+  {
+    "name": "YVES SAINT LAURENT Libre Eau de Parfum 90 ml",
+    "price": 3600,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://www.elpalaciodehierro.com/dw/image/v2/BDKB_PRD/on/demandware.static/-/Sites-palacio-master-catalog/default/dw69a5bea2/images/40926952/large/40926952_x2.jpg?sw=2200&sh=2500",
+    "descripcion": "La nueva fragancia de la libertad, ahora en una nueva presentación. Libre es una declaración para aquellas personas que viven sus propias reglas. Una reinvención del perfume floral: combina la esencia de lavanda de Francia con la sensualidad del azahar de Marruecos para una fusión floral única, complementada con una nota atrevida de almizcle. El frasco es una declaración de alta costura con un tapón negro asimétrico como un sexy vestido Couture, cadenas doradas alrededor del cuello que recuerdan los icónicos it-bags de YSL, adornado con el atemporal logotipo de Yves Saint Laurent."
+  },
+  {
+    "name": "Eau de toilette Versace Yellow Diamond 90ml",
+    "price": 2900,
+    "type": "Solo Perfume",
+    "aroma": "Frutal",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1008116896_1p.jpg",
+    "descripcion": "Descubre con la fragancia para dama Versace Yellow Diamond 90 ml Eau de Toilette el poder de los aromas y atrévete a cautivar al mundo con el toque de sofisticación, elegancia y sutileza que solo Versace te puede brindar. Disfruta de su fascinante toque floral, delicioso grado de concentración y notas de limón, bergamota, azahar, almizcle y más. La fragancia para dama Versace Yellow Diamond 90 ml Eau de Toilette"
+  },
+  {
+    "name": "Eau de parfum Bond No. 9 Governors Island 100ml",
+    "price": 6000,
+    "type": "Solo Perfume",
+    "aroma": "Ámbar",
+    "categoria": "unisex",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1134218742_1p.jpg",
+    "descripcion": "Governors Island de Bond No 9 es una fragancia ámbar unisex. Fue lanzada en 2018. Sus notas de salida son incienso y resina; las notas medias son ambroxan y cedro; y las notas de fondo son almizcle blanco y vetiver."
+  },
+  {
+    "name": "Eau de parfum Ariana Grande R.E.M 100ml",
+    "price": 1900,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1099279270_1p.jpg",
+    "descripcion": "R.E.M. de Ariana Grande es una fragancia de la familia olfativa Ámbar Vainilla para Mujeres. R.E.M. se lanzó en 2020. Las Notas de Salida son Zéfiro, caramelo, sal, higo y membrillo; las Notas de Corazón son lavanda y flor del peral; las Notas de Fondo son almizcle, haba tonka y sándalo."
+  },
+  {
+    "name": "Eau de toilette Jean Paul Gaultier Le Male 100ml",
+    "price": 2550,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1073588910_1p.jpg",
+    "descripcion": "Perfume 200ml a $3490 MXN decontado. Jean Paul Gaultier Perfume Le Male; muestra una nueva interpretación de la masculinidad con, por primera vez, una silueta rediseñada: más hombros y una cintura más estrecha. Una nueva sensación olfativa también: una explosión de cítricos picantes choca con notas de cuero sensual sacudidas con maderas preciosas. • Notas de Salida: Lavanda, menta, cardamomo, bergamota y abrótano. • Notas de Corazón: Canela, flor de azahar del naranjo y alcaravea. • Notas de Fondo: Vainilla, Haba Tonka, ámbar, Sándalo y cedro."
+  },
+  {
+    "name": "Eau de toilette Salvatore Ferragamo Uomo Casual Life 100ml",
+    "price": 1149,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1060620373_1p.jpg",
+    "descripcion": "Una fresca y vibrante representación de masculinidad. El café es el corazón de este nuevo aroma magnético. Un aroma elegante, refinado y de gran impacto una mezcla extraordinaria para una sofisticación poderosa"
+  },
+  {
+    "name": "Eau de toilette Carolina Herrera Heroes Forever Young 90ml",
+    "price": 2199,
+    "type": "Solo Perfume",
+    "aroma": "Especias",
+    "categoria": "caballero",
+    "imgUrl": "https://www.carolinaherrera.com/cdn-cgi/image/q=80,format=auto,fit=contain,width=800/medias/sys_master/images/h07/ha5/9782063857694/9782063792158/9782063792158.jpg",
+    "descripcion": "Siéntete siempre joven con 212 Heroes de Carolina Herrera, un aroma masculino que celebra la juventud, la libertad y la autenticidad con una revolucionaria fórmula vegana, un llamativo frasco con forma de monopatín, el símbolo de la juventud rebelde, y un elenco de embajadores tan inspirador y ecléctico como sus ingredientes de vanguardia. 212 Heroes rinde tributo a los despreocupados héroes que viven la vida a tope y demuestra que nada es más heroico que ser auténtico. 212 Heroes reinventa los fougères con un nuevo género olfativo: fougère frutal y amaderado. Jóvenes notas de jengibre y elixir de pera realzadas por cannabis Lemon Haze. De corazón, aceite de geranio de Madagascar que conduce a la base de cuero y madera. Autentico hasta la médula, 212 Heroes está certificado 100% vegano y sin crueldad animal. Notas de salida: Jengibre, Pera. Notas de corazón: Salvia, Geranio. Notas de fondo: Cuero, Almizcle"
+  },
+  {
+    "name": "Eau de parfum Lattafa Emaan 100ml",
+    "price": 1370,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "unisex",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1140795191_2p.jpg",
+    "descripcion": "Un aroma con carácter cítrico, caracterizado por notas de salida de bergamota y grosella negra que conducen a un corazón del nardo más puro. Las notas terrosas de pachulí, vainilla y almizcle animan a la nariz a sentir aún más la rica bocanada del aroma. La fragancia se centra en el cedro, una de las esencias más bellas y raras de la perfumería. La suave calidez del cedro está coronada por un halo de caléndula y jazmín, dejando una fuerte huella en la piel. Notas de cabeza: azahar, bergamota, grosella negra. Notas medias: jazmín, caléndula, nardo. Las notas principales son vainilla, cedro, almizcle blanco, pachulí"
+  },
+  {
+    "name": "Eau de parfum Armaf Odyssey 100ml",
+    "price": 1159,
+    "type": "Solo Perfume",
+    "aroma": "Ámbar",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1140546638_1p.jpg",
+    "descripcion": "Odyssey Homme de Armaf es una fragancia de la familia olfativa Ámbar para Hombres. Las Notas de Salida son vainilla y ámbar; las Notas de Corazón son notas orientales, especias y iris; las Notas de Fondo son vainilla, cuero y jazmín"
+  },
+  {
+    "name": "Eau de parfum Lattafa Al Noble Wazeer 100ml",
+    "price": 736,
+    "type": "Solo Perfume",
+    "aroma": "Gourmand",
+    "categoria": "unisex",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1146320763_1p.jpg",
+    "descripcion": "Wazeer de Lattafa Perfumes es una fragancia de la familia olfativa para Hombres y Mujeres. Las Notas de Salida son menta, naranja, bergamota y enebro de Virginia; las Notas de Corazón son chocolate, caramelo, pera, frambuesa y iris; las Notas de Fondo son ámbar, vainilla, sándalo, cedro, vetiver y almizcle"
+  },
+  {
+    "name": "Eau de parfum Rabanne Invictus Platinum 100ml",
+    "price": 2800,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1118712991_2p.jpg",
+    "descripcion": "Invictus Platinum de Paco Rabanne es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Esta fragrancia es nueva. Invictus Platinum se lanzó en 2022. Las Notas de Salida son absenta y toronja (pomelo); las Notas de Corazón son menta y lavanda; las Notas de Fondo son ciprés y pachulí."
+  },
+  {
+    "name": "Eau de parfum Salvatore Ferragamo Signorina Eleganza 100ml",
+    "price": 1225,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/7554685.jpg",
+    "descripcion": "Una Eau de Parfum de acordes florales y chipre que celebra el lado más seductor de la feminidad"
+  },
+  {
+    "name": "Eau de parfum Salvatore Ferragamo Signorina Ribelle 100ml",
+    "price": 3000,
+    "type": "Solo Perfume",
+    "aroma": "Especias",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1087162075_2p.jpg",
+    "descripcion": "La fragancia para dama Salvatore Ferragamo Signorina Ribelle 100 ml Eau de Parfum 100 ml es la perfecta representación de tu juvenil personalidad, impredecible y rebelde, por lo que se convertirá en el toque que te hará más única que nunca. Sus notas como mandarina, ​pera roja,​ pimienta rosa, lang-ylang, frangipani, jazmín, leche de coco, así como helado de vainilla hacen una mezcla única que conquistará tus sentidos"
+  },
+  {
+    "name": "Eau de parfum Moschino Toy 2 100ml",
+    "price": 2550,
+    "type": "Solo Perfume",
+    "aroma": "Oriental",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1082227853_1p.jpg",
+    "descripcion": "Complementa con la fragancia para dama Moschino Toy 2 100 ml Eau de Parfum tu colección pues no solo cuenta con un diseño adorable que te fascinará, sino que posee ese aroma único con notas como magnolia, manzana verde, mandarina, jazmín, peonia y madera de ámbar creando una combinación impresionante que te dará ese toque de elegancia que necesitas"
+  },
+  {
+    "name": "Eau de parfum Valentino Uomo Intense 100ml",
+    "price": 3400,
+    "type": "Solo Perfume",
+    "aroma": "Oriental",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1103967585_1p.jpg",
+    "descripcion": "La fragancia para hombre Valentino Uomo Intense Eau de Parfum de Valentino es una auto celebración de sensualidad masculina de Roma. Dos facetas se entrelazan para crear la fusión definitiva entre carisma y seducción. Valentino Uomo Intense Eau de Parfum pertenece a la familia olfativa oriental-amaderado, compuesto por notas amaderadas de esencia de pachulí y acorde de iris que se mezclan con haba tonka y acorde de cuero. El diseño del frasco viene con las icónicas tachuelas de Valentino inspiradas por la arquitectura de Roma, que son la firma característica de Valentino"
+  },
+  {
+    "name": "Eau de toilette Calvin Klein One 200ml",
+    "price": 2850,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "unisex",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1109923326_1p.jpg",
+    "descripcion": "Fragancia unisex que revolucionó el mundo de los perfumes. CK One de Calvin Klein es naturalmente limpia, pura y contemporánea con una refrescante perspectiva. Es ligera, arriesgada y está hecha para usarse abundantemente sobre todo tu cuerpo. CK One te invita a ser tú mismo y te impulsa a conectarte con otras personas gracias a sus refrescantes aromas cítricos"
+  },
+  {
+    "name": "Eau de toilette Salvatore Ferragamo Signorina in Fiore 100ml",
+    "price": 2400,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1057162593_2p.jpg",
+    "descripcion": "Signorina in Fiore una alegre y romántica, firma olfativa. Una nueva interpretación de las más emblemáticas"
+  },
+  {
+    "name": "Eau de parfum Rabanne Olympéa 80ml",
+    "price": 2900,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1041012095_1p.jpg",
+    "descripcion": "Olympéa de Paco Rabanne, una diosa moderna. El aroma del paraiso. Icónica, chic, única. Mitad mito, mitad diosa. Sonriendole a la victoria, lista para seducir a Zeus. OLYMPEA Eau de Parfum by Paco Rabanne es potente, femenina y única. Déjate seducir por la poderosa combinación de notas de vainilla salada, mandarina verde, jazmín de agua y flor de jengibre de Olympea. La fragancia Olympea es increíblemente cautivadora y carismática"
+  },
+  {
+    "name": "Eau de parfum Lattafa Badee Al Oud 100ml",
+    "price": 1243,
+    "type": "Solo Perfume",
+    "aroma": "Especias",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1132845596_1p.jpg",
+    "descripcion": "Bade'e Al Oud Oud for Glory de Lattafa Perfumes es una fragancia amaderada ámbar unisex. Fue lanzada en 2020. Sus notas de salida son azafrán, nuez moscada y lavanda; las notas medias son madera de agar (oud) y pachulí; y las notas de fondo son madera de agar (oud), pachulí y almizcle."
+  },
+  {
+    "name": "Eau de toilette Marc Jacobs Daisy Love 100ml",
+    "price": 2990,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1073709896.jpg",
+    "descripcion": "Adictiva e irresistible, Daisy Love es una nueva faceta de la icónica fragancia Daisy de Marc Jacobs. Una oda a la icónica margarita de Marc Jacobs, Daisy Love florece con una margarita de gran tamaño que se refleja sobre el cálido brillo del jugo. Esta fragancia radiante de Gourmand revela sus primeras notas en una explosión vibrante de moras dulces. Los delicados pétalos del árbol de la margarita se mezclan con brillantes almizcles de cachemira y madera de deriva para crear un toque goloso duradero y memorable. Creado por el maestro perfumista Alberto Morillas"
+  },
+  {
+    "name": "Colonia Tous Baby 100ml",
+    "price": 1420,
+    "type": "Solo Perfume",
+    "aroma": "Frutal",
+    "categoria": "unisex",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/63346594_1p.jpg",
+    "descripcion": "Baby Tous es la primera fragancia para bebés. En el estuche queda plasmado el espíritu Tous con un color verde “aguamarina” decorado con los “amiguitos” del oso, ideal tanto para niños como para niñas. El frasco solo podía tener una forma: el oso, emblema de la marca. De bordes suaves y redondos que se adaptan a la mano de mamás y niños"
+  },
+  {
+    "name": "Eau de toilette Marc Jacobs Daisy Sweet 100ml",
+    "price": 2110,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1085880116_2p.jpg",
+    "descripcion": "Marc Jacobs Eua So Sweet fragancia de la familia olfativa floral frutal para mujeres"
+  },
+  {
+    "name": "Eau de parfum DKNY Be Delicious Collection 100ml",
+    "price": 2300,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1066727727_1p.jpg",
+    "descripcion": "Icónica. Suculenta. Sensual. Celebra la individualidad con el espíritu refrescante de Be Delicious y su aroma Floral Fresco con infusión sabor a manzana que te transporta a la ciudad de Nueva York"
+  },
+  {
+    "name": "Eau de parfum Lattafa Yara 100ml",
+    "price": 1130,
+    "type": "Solo Perfume",
+    "aroma": "Ámbar",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1139240703.jpg",
+    "descripcion": "Yara de Lattafa Perfumes es una fragancia de la familia olfativa Ámbar Vainilla para Mujeres. Yara se lanzó en 2020. Las Notas de Salida son heliotropo, orquídea y naranja tangerina; las Notas de Corazón son Acuerdo goloso y frutas tropicales; las Notas de Fondo son vainilla, almizcle y sándalo"
+  },
+  {
+    "name": "Eau de toilette Versace Crystals 100ml",
+    "price": 3300,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1025738787_2p.jpg",
+    "descripcion": "Una fragancia deliciosa y muy femenina, ideal para utilizar por la noche y en ocasiones especiales"
+  },
+  {
+    "name": "Eau de parfum gucci Flora Gardenia 100ml",
+    "price": 3800,
+    "type": "Set",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1140840790.jpg.jpg",
+    "descripcion": "Celebra esta temporada con Gucci Flora Gorgeous Gardenia Eau de Parfum para mujer. El set de regalo de perfume Gucci perfecto para mujer. Una fragancia de perfume intensamente femenina que combina la ligereza del primer capullo de la gardenia y la riqueza de su flor en plena floración, Gucci Flora Gorgeous Gardenia caracteriza a aquellas mujeres que son auténticas y curiosamente convincentes. Abriéndose con un preludio chispeante de bayas rojas, la fragancia Gucci da paso a un corazón floral opulento realzado por la calidez cremosa de la flor de frangipani y sustentado por un aroma delicioso de pachulí y azúcar moreno. La silueta de la botella en rosa lacado se realza con el patrón Flora distintivo, creado originalmente para Gucci por el artista Vittorio Accornero en 1966 y reinventado en la visión de Alessandro Michele. Este set de regalo de perfume Gucci contiene: EDP 100ml + Mini 5ml + PS 10ml"
+  },
+  {
+    "name": "Eau de parfum Coach New York 90ml",
+    "price": 2390,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1052402600_1p.jpg",
+    "descripcion": "Dale con la fragancia para dama Coach 90 ml Eau de Parfum ese giro impresionante que combina la energía vibrante con notas de frambuesa, pimienta rosa y pera, con un mood más romántico en el que intervienen aromas como rosa turca, almizcle y sándalo de gamuza. Te encantará el delicioso aroma que la fragancia para dama Coach 90 ml Eau de Parfum te podrá brindar"
+  },
+  {
+    "name": "Eau de parfum Al Haramain Amber Oud Ruby 100ml",
+    "price": 2363,
+    "type": "Solo Perfume",
+    "aroma": "Ámbar",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1124629311.jpg",
+    "descripcion": "Amber Oud Ruby Edition de Al Haramain Perfumes es una fragancia de la familia olfativa para Hombres y Mujeres. Esta fragancia es nueva. Amber Oud Ruby Edition se lanzó en 2022. Las Notas de Salida son azafrán y almendra amarga; las Notas de Corazón son cedro y jazmín egipcio; las Notas de Fondo son ámbar gris, notas amaderadas y almizcle."
+  },
+  {
+    "name": "Eau de parfum Orientica Amber Rouge 80ml",
+    "price": 1490,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "unisex",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1116466381.jpg",
+    "descripcion": "Amber Rouge de Orientica es una fragancia de la familia olfativa Amaderada Especiada para Hombres y Mujeres. Esta fragancia es nueva. Amber Rouge se lanzó en 2021. Las Notas de Salida son azafrán y jazmín; las Notas de Corazón son Amberwood y ámbar gris; las Notas de Fondo son cedro y resina de abeto"
+  },
+  {
+    "name": "Fragancia Paris Hilton Can Can 100ml",
+    "price": 900,
+    "type": "Solo Perfume",
+    "aroma": "Frutal",
+    "categoria": "dama",
+    "imgUrl": "https://http2.mlstatic.com/D_NQ_NP_705229-MLM31229397024_062019-O.webp",
+    "descripcion": "Can Can de Paris Hilton es una fragancia de la familia olfativa Floral Frutal para Mujeres. Can Can se lanzó en 2007. La Nariz detrás de esta fragrancia es Jean Claude Delville. Las Notas de Salida son nectarina, grosellas negras y clementina; las Notas de Corazón son orquídea silvestre y flor de azahar del naranjo; las Notas de Fondo son ámbar, almizcle y notas amaderadas."
+  },
+  {
+    "name": "Eau de parfum Paco Rabanne Olympéa Aqua 80ml",
+    "price": 2244,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1069922461_2p.jpg",
+    "descripcion": "Una musa moderna, una nueva odisea para Olympéa; los poderes divinos de la profundidad que afirman su superioridad comandando los elementos. Ella brilla como el mar. OLYMPEA AQUA de Paco Rabanne una fragancia sensual con vainilla salada, fresca, con sensaciones solares. Flor de limon. Sexy ambar gris. Una alquimia intrigante de flores acuáticas y ámbar profundo. Adictiva como la piel. Sumérgete"
+  },
+  {
+    "name": "RABANNE LADY MILLION EAU DE PARFUM 80ml",
+    "price": 2900,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://www.sephora.com.mx/on/demandware.static/-/Sites-masterCatalog_Sephora/es_MX/dw883f5a61/images/hi-res/mujer-paco-rabanne-paco-rabanne-lady-million-edp-80ml3349668508587C.jpg",
+    "descripcion": "Lady Million, las fragancias femeninas firmadas por Rabanne. ¿Eau de toilette o eau de parfum, el icono o la novedad? Elige tu nueva firma olfativa. Una fragancia afrutada, ámbar, floral o amaderada. ¿Su carta de presentación?: un diamante. Juega con fuego y no obedezcas a nadie, salvo a tus fantasías. Deslumbra como nunca. Y trae suerte. Lady MILLION Eau de parfum provoca un sentimiento de vértigo. Una fragancia para mujeres atrevidas y a las que les gusta llamar la atención allá donde van. Sus notas florales y amaderadas combinan flores frescas pero carnales con un toque sexy de pachuli. Un aroma fresco, seductor, sensual y adictivo que no pasa desapercibido."
+  },
+  {
+    "name": "Eau de toilette Dolce&Gabbana Light Blue 200 ml",
+    "price": 3100,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1074618588.jpg",
+    "descripcion": "Disfruta de la fragancia para caballero Dolce & Gabbana Light Blue Eau de Toilette que por su aromática esencia captura la seguridad y fuerza innata de quien la usa, con una perfecta combinación entre mandarina, pomelo, enebro, maderas ambarinas, y por último vibrantes almizcles que se combinan para formar una fragancia vibrante pero con un toque misterioso, mientras que su deliciosa estela te acompaña por horas. El impresionante aroma de esta fragancia para caballero Dolce & Gabbana Light Blue Eau de Toilette se combinará perfecto con tu personalidad para complementar cada uno de tus looks favoritos"
+  },
+  {
+    "name": "Eau de toilette Moschino Olivas 100ml",
+    "price": 2150,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/45209415_1p.jpg",
+    "descripcion": "Un torbellino de colores brillantes, la nueva fragancia desprende el aroma de un ramo fresco y luminoso con toques frutales y cítricos"
+  },
+  {
+    "name": "Eau de parfum Rabanne Fame 80ml",
+    "price": 3100,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1123985407_2.jpg",
+    "descripcion": "Descubre Fame, la nueva fragancia Femenina codiciosa: Un clásico del futro de Paco Rabanne. Fame captura el irresistible espíritu parisino de la mujer Paco Rabanne, al mismo tiempo que rinde homenaje a una nueva era de feminidad. Juguetón, sensual, empoderado. La fragancia construye una firma femenina vanguardista y distantemente lujosa. Compuesta por jazmín excepcionalmente puro, mango suculento y un incienso cremoso adictivamente sensual"
+  },
+  {
+    "name": "Eau de parfum Lattafa Badee Al Oud Sublime 100ml",
+    "price": 1298,
+    "type": "Solo Perfume",
+    "aroma": "Frutal",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1143631318_1p.jpg",
+    "descripcion": "Bade'e Al Oud Sublime de Lattafa Perfumes es una fragancia de la familia olfativa Amaderada Aromática para Hombres y Mujeres. Esta fragrancia es nueva. Bade'e Al Oud Sublime se lanzó en 2023. Las Notas de Salida son manzana, lichi y rosa; las Notas de Corazón son ciruela y jazmín; las Notas de Fondo son vainilla, musgo y pachulí"
+  },
+  {
+    "name": "Eau de parfum Dior Nuevo Miss Dior 100ml",
+    "price": 3680,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1115007820_1p.jpg",
+    "descripcion": "Despierta tus sentidos con la sensualidad de este bouquet floral. 𝐄𝐦𝐨𝐜𝐢𝐨𝐧𝐞𝐬 𝐲 𝐬𝐞𝐧𝐬𝐚𝐜𝐢𝐨𝐧𝐞𝐬 𝐪𝐮𝐞 𝐭𝐫𝐚𝐧𝐬𝐦𝐢𝐭𝐞 𝐥𝐚 𝐟𝐫𝐚𝐠𝐚𝐧𝐜𝐢𝐚 𝐌𝐢𝐬𝐬 𝐃𝐢𝐨𝐫 𝐄𝐃𝐏 𝐝𝐞 𝐃𝐢𝐨𝐫: Llamativa y elegante, así te sentirás si vaporizas Miss Dior eau de parfum de Christian Dior en tu piel, Este aroma fresco y floral hará que redescubras los resplandecientes colores del amor. Su recipiente representa la feminidad y elegancia de la mujer y su lazo es un signo de reconocimiento couture. Este elegante y poco insolente “pignard” es una creación exquisita y precisa que adorna cada lazo Jacquard con una infinidad de tonos pastel. 𝗡𝗼𝘁𝗮𝘀 𝗱𝗲 𝗼𝗹𝗼𝗿 𝗱𝗲 𝗠𝗶𝘀𝘀 𝗗𝗶𝗼𝗿 𝗘𝗗𝗣: La composición de eau de parfum Miss Dior lleva consigo elegancia, entrelaza la frescura de las notas muguete, la nota floral de la rosa centifolia y el tono amaderado de almizcles ligeros. Su perfumista François Demachy, te invita a disfrutar de esta fragancia de rosas aterciopeladas y carnales, acentuadas por un muguete fresco envueltas con un iris empolvado. 𝐂𝐨𝐧𝐬𝐞𝐣𝐨𝐬 𝐝𝐞 𝐚𝐩𝐥𝐢𝐜𝐚𝐜𝐢𝐨́𝐧: Si lo que buscas es sublimar tu fragancia Dior, te recomendamos empezar hidratando tu piel con la textura ligera de la leche corporal fundente Miss Dior. Luego, vaporiza Miss Dior eau de parfum de forma generosa en los puntos de pulso (cuello, muñecas e interior de los codos). Por último, añade más intensidad a esta fragancia fresca con el aceite corporal de rosa fresca Miss Dior. Siéntete libre de vaporizar tu fragancia Miss Dior eau de parfum cuando necesites un toque refrescante durante el día"
+  },
+  {
+    "name": "Eau de parfum Lancôme La Vie Est Belle 100ml",
+    "price": 3490,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1073385661_1.jpg",
+    "descripcion": "Disfruta de esta fragancia para dama Lancôme La Vie Est Belle Eau de Parfum que cuenta con las notas aromáticas ideales para acompañarte, desde pera, mora, hasta flor de azahar y esencia de corazón de pachulí para un toque más especiado. Esta fragancia para dama Lancôme La Vie Est Belle Eau de Parfum será ideal para destacar del resto, dejando una estela única que te haga brillar. De hecho es la favorita de mi madre Sandra"
+  },
+  {
+    "name": "Black XS Los Angeles for Him Paco Rabanne 100ml",
+    "price": 3800,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "caballero",
+    "imgUrl": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/50c7ad0c-bb2b-45cf-b551-6925f45b5515.22a81f974fe0a0cf46e1736ca1198886.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "descripcion": "Black XS Los Angeles for Him de Paco Rabanne es una fragancia de la familia olfativa Ámbar Amaderada para Hombres. Black XS Los Angeles for Him se lanzó en 2016. La Nariz detrás de esta fragrancia es Olivier Cresp. Las Notas de Salida son naranja, esclarea y limón (lima ácida); las Notas de Corazón son canela, manzana, piña y lirio de los valles (muguete); las Notas de Fondo son notas amaderadas, cumarina, vainilla y musgo de roble."
+  },
+  {
+    "name": "Eau de toilette Hugo Boss Bottled Night 200ml",
+    "price": 1800,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1003707870_1p.jpg",
+    "descripcion": "Destinado a convertirse en el arma secreta en el arsenal de seducción del hombre Boss, Boss Bottled Night infunde en él la misma presencia irresistible que sustenta su éxito de día. Una composición única de elegancia y seducción, el olor es intenso y picante con un carácter intencionado y masculino"
+  },
+  {
+    "name": "Eau de toilette Jimmy Choo Man Ice 100ml",
+    "price": 1208,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1058634201.jpg",
+    "descripcion": "Jimmy Choo Man Ice es relajado, divertido, fresco y luminoso. Una fragancia refrescante e intensa, que da a conocer hespérides notas brisa de mandarina, bergamota y la esencia cedrat"
+  },
+  {
+    "name": "Eau de toilette Polo Ralph Lauren Red 125ml",
+    "price": 2430,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1018226789_1p.jpg",
+    "descripcion": "La fragancia para hombre Polo Red Eau de Toilette de Ralph Lauren, es el reflejo de la personalidad masculina más joven de Ralph Lauren. Diseñado para el hombre seductor y atrevido, Polo Red es la velocidad, seducción y adrenalina, un diseño inspirado en los coches deportivos. Esta fragancia pertenece a la familia olfativa amaderada especiada, y su aroma se distingue por las notas únicas de toronja roja, azafrán y madera de cedro que enciende las emociones en cada hombre. Su frasco está inspirado en la adrenalina de las carreras de autos, en la pasión que hace vibrar estas carreras en cada momento y en la seducción que se emana al conducir un auto a grandes velocidades"
+  },
+  {
+    "name": "Eau de parfum Jean Paul Gaultier La Belle Le Parfum 100ml",
+    "price": 3280,
+    "type": "Solo Perfume",
+    "aroma": "Oriental",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1104521211_1p.jpg",
+    "descripcion": "La Belle Le Parfum, la nueva intensidad de la mujer original de Jean Paul Gaultier. En el Jardín de Gaultier, donde todos los pecados están permitidos, la nueva mujer original La Belle Le Parfum intensifica su poder de seducción con una adictiva sensualidad. Su feminidad, el fruto prohibido con curvas rojo oscuro que enfatizan su intensidad, se adorna con un collar de rosas doradas. Y, bajo el sol resplandeciente que baña la densa vegetación, su Eau de Parfum Intense Oriental Gourmand cautiva exquisitamente los sentidos. ¡Sucumbe a la tentación!"
+  },
+  {
+    "name": "Eau de toilette Jean Paul Gaultier Classique 100ml",
+    "price": 2900,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1059605859_1p.jpg",
+    "descripcion": "Classique, un símbolo de seducción y sensualidad extrema. El icónico frasco en forma de torso con su corsé, la pieza más emblemática del vestuario de Jean Paul Gaultier. Una fragancia femenina multifacética para mujeres con carácter. Un recuerdo de la infancia que se convirtió en una femme fatale. Este Eau de Toilette ofrece la irresistible suavidad de la flor de azahar combinada con la potencia afrodisíaca del jengibre. El aroma del polvo de arroz, recuerdo de su infancia, reinterpretado con el poder de una sensual caricia de vainilla"
+  },
+  {
+    "name": "PARFUMS DES CHAMPS Cuba Gold Eau De Toilette 100ml",
+    "price": 1768,
+    "type": "Solo Perfume",
+    "aroma": "Frutal",
+    "categoria": "caballero",
+    "imgUrl": "https://media.maxaroma.com/9cd29e92-4b8f-436f-ad1f-8e368b30dc1d/https://www.maxaroma.com/productimages/large/UP5425017732389_1.jpg?ver=1689295543",
+    "descripcion": "Cuba Milestone es una fragancia verde aromática para hombres. Sus notas de salida son grosella negra, piña, bergamota siciliana y manzana. Las notas medias incluyen abedul, pachulí, enebro y jazmín. En cuanto a las notas de fondo, encontrarás musgo de roble, ámbar gris y vainilla. Esta fragancia es conocida por su larga duración."
+  },
+  {
+    "name": "Eau de toilette Carolina Herrera 212 Sexy 100ml",
+    "price": 2390,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://m.media-amazon.com/images/I/61S7G9mOFAL.__AC_SX300_SY300_QL70_ML2_.jpg",
+    "descripcion": "212 SEXY ofrece un perfil de fragancia más seductor a la vibrante colección 212, abriendo con la energía magnética de la mandarina y la bergamota. Las notas de fondo de ámbar y maderas reflejan una sensibilidad masculina clásica, mientras que un toque de vainilla le da a la fragancia un final cautivador."
+  },
+  {
+    "name": "Eau de toilette Azzaro Pour Homme 100ml",
+    "price": 1915,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1110929567_1p.jpg",
+    "descripcion": "El Eau de Toilette Azzaro Pour Homme es un verdadero concentrado de pura seducción. Es el indiscutible accesorio y encanto de quienes optan por un estilo elegante y carismático. Esta fragancia es perfecta para los hombres que brillan cuando interactúan con otros e irradian su masculinidad descarada. Azzaro Pour Homme Eau de Toilette destaca por sus facetas potentes y sensuales que atraen y captan la atención de la mujer"
+  },
+  {
+    "name": "Eau de toilette Cartier Pasha Édition Noire 100ml",
+    "price": 2600,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1020741046_1p.jpg",
+    "descripcion": "na reinterpretación moderna y carismática de la fragancia original Pasha de Cartier Un frescor verde y hespéride, combinado con la profundidad del ámbar y el cedro. "
+  },
+  {
+    "name": "Perfume Afnan Supremacy Not Only Intense 100ml",
+    "price": 1458,
+    "type": "Solo Perfume",
+    "aroma": "Frutal",
+    "categoria": "unisex",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1112915041.jpg",
+    "descripcion": "Supremacy Not Only Intense de Afnan Perfumes es una fragancia de la familia olfativa Ámbar Especiada para Hombres. Esta fragrancia es nueva. Supremacy Not Only Intense se lanzó en 2021. Las Notas de Salida son grosellas negras, bergamota y manzana; las Notas de Corazón son musgo de roble, pachulí y lavanda; las Notas de Fondo son ámbar gris, azafrán y almizcle."
+  },
+  {
+    "name": "Perfume Yves Saint Laurent La Nuit de L'Homme LE PARFUM 100ml",
+    "price": 3300,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1147733531_1p.jpg",
+    "descripcion": "¡Descubre el encanto irresistible de la noche con La Nuit De L'Homme Le Parfum 100 ml de Yves Saint Laurent! Este perfume está diseñado para el hombre moderno y sofisticado que busca dejar una impresión duradera en cada ocasión especial. Sumérgete en una fragancia seductora y cautivadora que te envolverá en un aura de elegancia y misterio durante toda la noche. La Nuit De L'Homme Le Parfum de YSL representa la esencia misma de la elegancia y la sofisticación. Su aroma distintivo combina notas cautivadoras y atrevidas que proyectan una masculinidad refinada y atractiva. Desde el primer momento en que lo apliques, experimentarás una sensación de confianza y magnetismo que te distinguirá entre la multitud. Prepárate para despertar los sentidos y conquistar corazones con esta cautivadora fragancia. La Nuit De L'Homme Le Parfum envuelve el aire con una mezcla única de especias sensuales y notas amaderadas que despiertan pasiones. Su aroma envolvente y enigmático crea una estela memorable, dejando una impresión duradera en quienes te rodean. Ya sea para una cena romántica, una fiesta nocturna o un evento elegante, La Nuit De L'Homme Le Parfum 100 ml es el compañero perfecto para cualquier ocasión especial. Su versatilidad te permite llevarlo desde un ambiente formal hasta un encuentro más casual, siempre manteniendo una presencia magnética y sofisticada. Yves Saint Laurent es sinónimo de calidad y excelencia en el mundo de la perfumería, y La Nuit De L'Homme Le Parfum no es una excepción. Cada nota ha sido cuidadosamente seleccionada y combinada para lograr una fragancia única y de larga duración. No tendrás que preocuparte por reaplicar constantemente, ya que su fórmula de alta calidad te garantiza una experiencia aromática inolvidable durante toda la noche. Además de su cautivador aroma, el frasco de La Nuit De L'Homme Le Parfum 100ml es una obra de arte en sí mismo. Inspirado en la estética sofisticada y masculina, su diseño moderno y minimalista refleja la personalidad del hombre que lo lleva. Es una pieza de colección que se verá impresionante en tu tocador o estante de perfumes."
+  },
+  {
+    "name": "Eau de parfum Giorgio Armani Si Passione 100ml",
+    "price": 3750,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1095120012_1p.jpg",
+    "descripcion": "Sì Passione Eau de Parfum es el perfume para la mujer decidida, sensual, audaz y apasionada en todo lo que hace, es una invitación para dar rienda suelta a la pasión interior, la aventura y sensualidad."
+  },
+  {
+    "name": "VIKTOR & ROLF Good Fortune Eau de Parfum 90ml",
+    "price": 4350,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://www.elpalaciodehierro.com/dw/image/v2/BDKB_PRD/on/demandware.static/-/Sites-palacio-master-catalog/default/dwd1d2b21c/images/42834449/large/42834449_x2.jpg?sw=686&sh=785",
+    "descripcion": "Viktor & Rolf Perfume, Good Fortune Eau de Parfum; Inspirada en la colección de alta costura Spiritual Glamour, Good Fortune es la encarnación de un nuevo estilo de vida positivo, un manifiesto olfativo para la espiritualidad y la autopotencialización, que te aporta el poder de crear tu propio destino."
+  },
+  {
+    "name": "Perfume Eau De Toilette Salvatore Ferragamo Pour Homme 100ml 100ml",
+    "price": 1100,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_792149-MLM31216488128_062019-F.webp",
+    "descripcion": "Salvatore Ferragamo pour Homme de Salvatore Ferragamo es una fragancia amaderada floral almizclada para hombres. Fue lanzada en 1999. El nariz detrás de esta fragancia es Jean-Pierre Mary. Las notas de salida son hoja de higo, pomelo, palisandro brasileño, alcaravea, geranio africano, ciclamen y neroli; las notas medias son clavel, cardamomo, rosa, jazmín e iris; las notas de fondo son cedro, vetiver, sándalo, cuero, almizcle y musgo de roble."
+  },
+  {
+    "name": "Thallium Sport Limited Edition for Men by Yves De Sistelle 100ml",
+    "price": 995,
+    "type": "Solo Perfume",
+    "aroma": "Ámbar",
+    "categoria": "dama",
+    "imgUrl": "https://m.media-amazon.com/images/I/61wdYr7x4RL._AC_SL1000_.jpg",
+    "descripcion": "Las brillantes chispas de bergamota y limón realzadas con un toque de anís y pimienta le dan a la fragancia toda su frescura y luminosidad. La elegancia está dada por un delicado corazón acuático floral de lirio de agua, delicadamente calentado con un toque frutal de piña. Toda la seducción es revelada por Armonía armónica de vetiver y pachulí realzado con ámbar suave y cálida vainilla."
+  },
+  {
+    "name": "Orientica Azure Fantasy 80ml",
+    "price": 2690,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "unisex",
+    "imgUrl": "https://m.media-amazon.com/images/I/71ijV9Con1L._AC_SL1200_.jpg",
+    "descripcion": "Refrescantes ráfagas de jengibre, menta, bergamota y nuez moscada te sumergen lentamente en la alegría mientras el neroli y el jazmín elevan aún más tu espíritu hacia el crescendo creado por el ámbar gris, el almizcle y la madera de gaiac. Una experiencia nunca antes vista te espera en el momento en que tengas en tus manos esta obra maestra. Elimina tu tristeza con Exclusive Azure Fantasy"
+  },
+  {
+    "name": "CREED Virgin Island Water Eau de Parfum 100ml",
+    "price": 8800,
+    "type": "Solo Perfume",
+    "aroma": "Afrutado",
+    "categoria": "unisex",
+    "imgUrl": "https://www.elpalaciodehierro.com/dw/image/v2/BDKB_PRD/on/demandware.static/-/Sites-palacio-master-catalog/default/dwa6af3bd4/images/40626113/large/40626113_x1.jpg?sw=2200&sh=2500",
+    "descripcion": "Creed, Perfume Virgin Island Water Eau de Parfum; imagina una vida acuática, una aventura de navegación en una botella. Virgin Island Water captura el esplendor tropical llevado por los vientos alisios a través del canal Sir Francis Drake en el Caribe. Simultáneamente fresco y cálido, este aroma estimulante irradia lima y coco jamaiquinos, complementando a hombres y mujeres en los meses y climas más cálidos, o llevando un pedacito de paraíso con su usuario durante todo el año."
+  },
+  {
+    "name": "Eau de parfum Tom Ford Lost Cherry 100ml",
+    "price": 8150,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "unisex",
+    "imgUrl": "https://i5.walmartimages.com/asr/a3220f4c-6f45-44b3-a88f-0519ef913707.ca2dc82529f2299bfc07ea4f1de0bb1e.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+    "descripcion": "Mezcla la cereza negra con el licor de cereza y un toque provocativo de almendra amarga, estal"
+  },
+  {
+    "name": "Eau de parfum Jean Paul Gaultier Le Beau Le Parfum 125ml",
+    "price": 2900,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1118712974.jpg",
+    "descripcion": "Si Jean Paul Gaultier creó este nuevo Le Beau Le Parfum naturalmente perfecto, desnudo, ¡no fue para vestirlo! Aunque hay que decir que, en su Jardín del Edén, la naturaleza es tan sabia y generosa con los músculos que sobresalen ..."
+  },
+  {
+    "name": "Eau de toilette Armaf Club De Nuit Intense 100ml",
+    "price": 709,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1102385591.jpg",
+    "descripcion": "Elegante y exclusiva fragancia que impregna la personalidad aristocrática por linaje con corazón y talento que asume la seducción y busca la originalidad del hombre aroma cítrico amaderado que deja una estela de tu personalidad"
+  },
+  {
+    "name": "Fragancia para hombre Nautica Voyage 100 ml Eau de Toilette 100ml",
+    "price": 568,
+    "type": "Incluye 1 Perfume + 1 Mini Atomizador Rellenable",
+    "aroma": "Flor de loto y mimosa",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1106526911.jpg",
+    "descripcion": "Nautica Voyage de Nautica es una fragancia de la familia olfativa Amaderada Acuática para Hombres. Nautica Voyage se lanzó en 2006. La Nariz detrás de esta fragrancia es Maurice Roucel. Las Notas de Salida son manzana y hojas verdes; las Notas de Corazón son flor de loto y mimosa; las Notas de Fondo son almizcle, cedro, musgo de roble y ámbar"
+  },
+  {
+    "name": "Eau de parfum Afnan 9 Pm 100ml",
+    "price": 898,
+    "type": "Solo Perfume",
+    "aroma": "Gourmand",
+    "categoria": "unisex",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1111408170.jpg",
+    "descripcion": "9pm de Afnan Perfumes es una fragancia de la familia olfativa Amber Vanilla para hombres y mujeres. 9pm se lanzó en 2020. Las Notas de Salida son manzana, canela, lavanda silvestre y bergamota; las Notas de Corazón son azahar y lirio de los valles; las Notas de Fondo son vainilla, haba tonka, ámbar y pachulí."
+  },
+  {
+    "name": "Eau de parfum Jean Paul Gaultier Le Beau Paradise Garden 125ml",
+    "price": 2800,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "caballero",
+    "imgUrl": "https://ss881.suburbia.com.mx/xl/5009634829.jpg",
+    "descripcion": "Le Beau Paradise Garden Eau de Parfum una fragancia amaderada acuática verde celestial (de Quentin Bisch). Esta fragancia paradisíaca es un rayo de sol tropical con flores deslumbrantes y aromas seductores recogidos del jardín de Jean Paul Gaultier. El coco fresco y salado se mezcla con el higo verde y el sándalo sensual. Especiadas con jengibre, aderezadas con vigorizante menta, bañadas por el sol con haba tonka: sus notas acuáticas amaderadas verdes son tan apasionadas como el espíritu masculino que las lleva. Notas de Salida: Agua de Coco. Notas de Corazón: Higo verde. Notas de Fondo: Sándalo"
+  },
+  {
+    "name": "Eau de toilette Tommy Hilfiger for Men 100ml",
+    "price": 699,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1145429753.jpg",
+    "descripcion": "Tommy de Tommy Hilfiger es una fragancia de la familia olfativa Cítrica Aromática para Hombres. Tommy se lanzó en 1995. Tommy fue creada por Annie Buzantian y Alberto Morillas. Las Notas de Salida son menta, bergamota, toronja (pomelo) y lavanda; las Notas de Corazón son manzana Granny Smith, arándano y rosa; las Notas de Fondo son flor del algodonero, cactus y ámbar."
+  },
+  {
+    "name": "Eau de parfum Giorgio Armani Stronger With You 100ml",
+    "price": 2990,
+    "type": "Solo Perfume",
+    "aroma": "Herbal",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1086935798.jpg",
+    "descripcion": "La fragancia para hombre Stronger With You Intensely Eau de Parfum de Giorgio Armani, es la nueva intensidad que es vibrante y audaz. Este aroma se basa en una cálida esencia de vainilla y un vibrante acorde de maderas ambarinas, el cual contrasta con una audaz nota de pimienta rosa. El color coñac envejecido encarna perfectamente el carácter intenso de la fragancia. Impulsado por el éxito de sus dos primeras temporadas seguidas por más de ocho millones de espectadores de YouTube, la serie web de Emporio Armani Together Stronger crece con el lanzamiento de un nuevo episodio ambientado en el paisaje urbano veraniego de la Europa mediterránea: Together we are shooting stars. Diseñados alrededor de la misma fuerza inquebrantable de unión capturada, protagonizan a la misma joven pareja, irresistiblemente enamorada, desafiándose mutuamente todos los días emocional y físicamente, empujando los límites de su amor y fortaleciéndolo"
+  },
+  {
+    "name": "Eau de parfum Versace Eros for Men 100ml",
+    "price": 1894,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1145429524.jpg",
+    "descripcion": "Eros Eau de Parfum de Versace es una fragancia de la familia olfativa Ámbar Amaderada para Hombres. Eros Eau de Parfum se lanzó en 2020. Las Notas de Salida son menta, manzana acaramelada, limón (lima ácida) y mandarina; las Notas de Corazón son ambroxan, geranio y esclarea; las Notas de Fondo son vainilla, cedro, sándalo, naranja amarga, pachulí y cuero"
+  },
+  {
+    "name": "Eau de toilette Versace Dylan Blue Pour Homme Man 100ml",
+    "price": 1498,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1145480473_1p.jpg",
+    "descripcion": "Versace Pour Homme Dylan Blue de Versace es una fragancia de la familia olfativa Aromática Fougère para Hombres. Versace Pour Homme Dylan Blue se lanzó en 2016. La Nariz detrás de esta fragancia es Alberto Morillas. Las Notas de Salida son bergamota de Calabria, notas acuáticas, toronja (pomelo) y hojas de higuera; las Notas de Corazón son ambroxan, pimienta negra, pachulí, hojas de violeta y papiro de Egipto; las Notas de Fondo son incienso, almizcle, haba tonka y azafrán."
+  },
+  {
+    "name": "CHANEL BLEU DE CHANEL EAU DE PARFUM VAPORIZADOR 100ml",
+    "price": 3600,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1029626720.jpg",
+    "descripcion": "El elogio a la libertad, que se expresa en un aromático amaderado de estela cautivadora. Una fragancia atemporal en un frasco de un azul profundo y misterioso. El eau de parfum ofrece un perfume envolvente y se vaporiza en nubes dentro de la ropa y la piel. Para conseguir un perfume intensificado a lo largo del día, hay disponible una línea completa de productos para el afeitado y el cuerpo BLEU DE CHANEL."
+  },
+  {
+    "name": "Eau de toilette Guess Olfativa Ámbar Vainilla 100ml",
+    "price": 590,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "caballero",
+    "imgUrl": "https://ss702.liverpool.com.mx/xl/1121613049.jpg",
+    "descripcion": "Seductive Red Homme de Guess es una fragancia de la familia olfativa Ámbar Vainilla para Hombres. Las Notas de Salida son canela, Entusiasmo de limón e higo; las Notas de Corazón son flor de azahar del naranjo, kumquat (naranja enana) y geranio; las Notas de Fondo son vainilla, sándalo y ámbar."
+  },
+  {
+    "name": "Eau de toilette Calvin Klein CK 100ml",
+    "price": 656,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "unisex",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1145507321.jpg",
+    "descripcion": "CK be de Calvin Klein es una fragancia de la familia olfativa Almizcle Floral Amaderado para Hombres y Mujeres. CK be se lanzó en 1996. La Nariz detrás de esta fragancia es René Morgenthaler. Las Notas de Salida son lavanda, notas verdes, bergamota, menta, enebro de Virginia y mandarina; las Notas de Corazón son hierba verde, durazno (melocotón), jazmín, fresia, magnolia y orquídea; las Notas de Fondo son almizcle, sándalo, cedro, vainilla, ámbar y opopónaco"
+  },
+  {
+    "name": "Eau de toilette DIOR Sauvage 100ml",
+    "price": 2820,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1073589495.jpg",
+    "descripcion": "Lo que es salvaje debe durar, acentúa tu masculinidad con Sauvage eau de toilette. 𝐄𝐦𝐨𝐜𝐢𝐨𝐧𝐞𝐬 𝐲 𝐬𝐞𝐧𝐬𝐚𝐜𝐢𝐨𝐧𝐞𝐬 𝐪𝐮𝐞 𝐭𝐫𝐚𝐧𝐬𝐦𝐢𝐭𝐞 𝐥𝐚 𝐟𝐫𝐚𝐠𝐚𝐧𝐜𝐢𝐚 𝐒𝐚𝐮𝐯𝐚𝐠𝐞 𝐝𝐞 𝐃𝐢𝐨𝐫: Deja una estela con carácter y que no se desvanezca con la fragancia Sauvage eau de toilette de Christian Dior. Esta fragancia relucirá una masculinidad verdadera e inconfundible, inspirada por los magníficos espacios abiertos y salvajes del desierto bajo el intenso sol del verano. Su recipiente representa el cielo azul ozono que se extiende sobre el desierto rocoso y guarda en su poderoso interior un hombre auténtico y sincero. 𝗡𝗼𝘁𝗮𝘀 𝗱𝗲 𝗼𝗹𝗼𝗿 𝗱𝗲 𝗦𝗮𝘂𝘃𝗮𝗴𝗲: La composición de Sauvage de Dior lleva consigo poder, entrelaza la nota arrolladora de la bergamota de Reggio de Calabria, con facetas únicas ligeramente pimentadas y ácidas y las vivificantes notas marinas y amaderadas del ambrozan. Su perfumista François Demachy, decidió crear una firma a medida, intensamente afrutada y con facetas únicas. 𝐂𝐨𝐧𝐬𝐞𝐣𝐨𝐬 𝐝𝐞 𝐚𝐩𝐥𝐢𝐜𝐚𝐜𝐢𝐨́𝐧: Te recomendamos empezar tus mañanas con un afeitado perfecto con la loción After-Shave Sauvage. Luego, vaporiza Sauvage eau de toilette de forma generosa en los puntos de pulso (cuello, muñecas e interior de los codos). La eau de toilette Sauvage se vuelve recargable, su recarga ecoconcebida, fácil de usar, te permite rellenar su frasco con un sencillo gesto"
+  },
+  {
+    "name": "Eau de parfum Yves Saint Laurent Y Men 100ml",
+    "price": 3300,
+    "type": "Solo Perfume",
+    "aroma": "Herbal",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1095751888.jpg",
+    "descripcion": "Y Eau de Parfum de Yves Saint Laurent es una fragancia Aromática Fougere para hombres. Fue lanzada en 2018. El perfumista detrás de esta fragancia es Dominique Ropion. Las notas de salida son Manzana, Jengibre y Bergamota; las notas medias son Salvia, Bayas de Enebro y Geranio; y las notas de fondo son Madera de Ámbar, Habas Tonka, Cedro, Vetiver y Olibanum."
+  },
+  {
+    "name": "Eau de toilette Perry Ellis 360° Red 100ml",
+    "price": 759,
+    "type": "Solo Perfume",
+    "aroma": "Perry Ellis 360",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1132754345.jpg",
+    "descripcion": "¡Descubre la esencia de la masculinidad con el perfume 360° para Hombre de Perry Ellis Eau de Toilette en presentaciones de 100ML y 200ML! Esta fragancia Aromática para Hombres ha sido un favorito desde su lanzamiento en 1995. Conquista los sentidos desde el primer momento con una explosión de notas cítricas de bayas de enebro, limón y bergamota. Estas notas se entrelazan con la frescura de la lavanda, la salvia y el cardamomo, creando un corazón lleno de energía y vitalidad. Para finalizar, las notas amaderadas, el vetiver y el almizcle le dan un toque distintivo y masculino."
+  },
+  {
+    "name": "Eau de toilette Rabanne One Million 100ml",
+    "price": 2550,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1073588880.jpg",
+    "descripcion": "Paco Rabanne Perfume, 1 Million Eau Toilette; el aroma del éxito. En busca de oro porque la decadencia es emocionante. Hombre no tan gentil. Elegante e impertinente en igual medida, una mezcla intoxicante y poderosa que comienza se mueve en un acuerdo de cuero picante. Notas de Salida: mandarina roja, toronja (pomelo) y menta. Notas de Corazón: canela, notas especiadas y rosa. Notas de Fondo: ámbar, cuero, notas amaderadas y pachulí hindú"
+  },
+  {
+    "name": "Eau de parfum Armani Acqua Di Giò 125ml",
+    "price": 3750,
+    "type": "Solo Perfume",
+    "aroma": "Fresco",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1140836687_1p.jpg",
+    "descripcion": "Acqua Di Giò Parfum: un nuevo frescor profundo e intenso, recargable. la nueva y poderosa fragancia se distingue por sus notas de incienso, que aportan una intensidad incandescente a las emblemáticas notas marinas de Acqua Di Giò. Como resultado, una fragancia carismática y vibrante, con un aura de misterio, representativa de un paisaje agreste que se encuentra con la fuerza y la inmensidad del océano. El diseño del frasco evoca una nueva preciosidad, con su forma elegante y masculina en tonos negros degradados. El frasco de Acqua Di Giò Parfum es rellenable, lo que subraya el compromiso de la marca con el medio ambiente. En sintonía con esta dedicación a la sostenibilidad, la concepción ecológica de Acqua Di Giò Parfum abarca no sólo su frasco rellenable, sino también sus ingredientes naturales y de origen sostenible. Acqua Di Giò Parfum, la nueva fragancia poderosamente adictiva"
+  },
+  {
+    "name": "Eau de parfum Rasasi Hawas for Him 100ml",
+    "price": 1659,
+    "type": "Solo Perfume",
+    "aroma": "Frutal",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1133915431.jpg",
+    "descripcion": "Hawas for Him de Rasasi es una fragancia irresistible diseñada para el hombre moderno y seguro de sí mismo. Con sus notas aromáticas acuáticas, esta fragancia captura la esencia de la masculinidad en cada rociada."
+  },
+  {
+    "name": "Eau de toilette Montblanc Individuel 75ml",
+    "price": 846,
+    "type": "Solo Perfume",
+    "aroma": "Ámbar",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/63761281.jpg",
+    "descripcion": "Con la fragancia para caballero Montblanc Individuel 75 ml Eau de Toilette tendrás una excelente opción para dejar una estela única a donde quiera que vayas, porque este perfume creado de Francia cuenta con notas de romero, piña, cilantro, canela, lavanda, bayas de enebro, menta, bergamota y cardamomo en su salida; flor de azahar del naranjo, violeta, jazmín, además de geranio en el corazón; y como fondo sándalo, ámbar, pachulí, almizcle, frambuesa, vainilla, chocolate obscuro, musgo de roble, así como vetiver que la hacen perfecta para realzar al máximo tu presencia en cualquier lugar"
+  },
+  {
+    "name": "Eau de parfum Rabanne Phantom Intense 100ml",
+    "price": 2990,
+    "type": "Solo Perfume",
+    "aroma": "Ámbar",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1151792016.jpg",
+    "descripcion": "Capturando la energía vibrante de París al anochecer, Phantom Intense de Rabanne ingresa a un nuevo territorio para todos aquellos que se atreven. Más atrevido e intenso, está impulsado por tu lado más atrevido hasta el momento. La lavanda viva, vainilla y un toque helado de flor de naranja para capturar el aura irresistiblemente enigmática que llevas dentro. Responde al llamado de la aventura. Sigue la emoción de Phantom Intense"
+  },
+  {
+    "name": "Eau de parfum Giorgio Armani Acqua Di Gio 125ml",
+    "price": 3300,
+    "type": "Solo Perfume",
+    "aroma": "Fresco",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1119493001_1p.jpg",
+    "descripcion": "Descubre el nuevo Acqua Di Giò Eau de Parfum de Giorgio Armani; el poder infinito del mar capturado en un nuevo e innovador frasco para rellenar. Este nuevo  Acqua Di Giò Eau de Parfum encierra un potente frescor marino en el que las innovadoras notas marinas se mezclan con la mandarina verde natural, las esencias aromáticas y una estela mineral amaderada. El emblemático frasco de Acqua Di Giò se reinterpreta en este eau de parfum con líneas elegantes y masculinas, en una versión de cristal transparente y pesado. Masculino, sencillo, elegante. El frasco está coronado con un tapón de madera oscura que evoca el equilibrio entre arquitectura y naturaleza del diseño. Este precioso frasco está diseñado para rellenarse en casa con una versión de la fragancia para rellenar de 150 ml que se vende por separado."
+  },
+  {
+    "name": "Eau de parfum Dior Sauvage Eau De Parfum 100ml",
+    "price": 3420,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1109736470.jpg",
+    "descripcion": "Libera tu instinto más salvaje con Sauvage de Dior. 𝐄𝐦𝐨𝐜𝐢𝐨𝐧𝐞𝐬 𝐲 𝐬𝐞𝐧𝐬𝐚𝐜𝐢𝐨𝐧𝐞𝐬 𝐪𝐮𝐞 𝐭𝐫𝐚𝐧𝐬𝐦𝐢𝐭𝐞 𝐥𝐚 𝐟𝐫𝐚𝐠𝐚𝐧𝐜𝐢𝐚 𝐒𝐚𝐮𝐯𝐚𝐠𝐞 𝐝𝐞 𝐃𝐢𝐨𝐫: Deja una estela poderosa y noble con Sauvage eau de parfum de Christian Dior. Esta fragancia relucirá una masculinidad verdadera e inconfundible, inspirada en el desierto a la hora mágica del crepúsculo en el que las noches aproximan frescura. Su recipiente representa el cielo azul ozono que se extiende sobre el desierto rocoso y guarda en su poderoso interior un hombre auténtico y sincero. 𝐍𝐨𝐭𝐚𝐬 𝐝𝐞 𝐨𝐥𝐨𝐫 𝐝𝐞 𝐒𝐚𝐮𝐯𝐚𝐠𝐞: La composición de Sauvage de Dior lleva consigo fuerza, entrelaza la jugosidad arrolladora de la bergamota de Reggio y la atracción irresistible de los acentos ahumados del absoluto de vainilla de Papúa Nueva Guinea. Su perfumista François Demachy, decidió crear una firma reconocible, enriqueciendo cada una de sus notas dominantes para aportar nuevos colores. 𝐂𝐨𝐧𝐬𝐞𝐣𝐨𝐬 𝐝𝐞 𝐚𝐩𝐥𝐢𝐜𝐚𝐜𝐢𝐨́𝐧: Te recomendamos empezar tus mañanas con el gel de ducha vigorizante Sauvage. Luego, vaporiza Sauvage eau de parfum de forma generosa en los puntos de pulso (cuello, muñecas e interior de los codos). Por último, completa tu rutina con el desodorante en spray de fórmula fresca y protección duradera Sauvage"
+  },
+  {
+    "name": "Eau de toilette Versace The Dreamer 100ml",
+    "price": 1190,
+    "type": "The Dreamer 100 ml EDT + Cuba Royal + EDT de regalo",
+    "aroma": "Floral",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1129193049.jpg",
+    "descripcion": "The Dreamer de Versace es una fragancia de la familia olfativa para Hombres. The Dreamer se lanzó durante la 2010's. Las Notas de Salida son enebro de Virginia, estragón y abrótano; las Notas de Corazón son iris, azucena y lino; las Notas de Fondo son flor del tabaco y ámbar."
+  },
+  {
+    "name": "Eau de parfum Valentino Born In Roma Intense Uomo 100ml",
+    "price": 3450,
+    "type": "Solo Perfume",
+    "aroma": "Cuero",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1141945196.jpg",
+    "descripcion": "Born in roma intense enciende la chispa de la celebración, que recuerda a la ciudad eterna de noche. Esta fragancia toma el tono audaz del aroma original hacia una expresión más cálida y sensual: la primera provocación proviene de vanilla bourbon, infundiendo la fragancia con tonos cálidos y sensuales. La nota central proviene de lavanda, que le da a la fragancia una explosión de frescura floral. La nota base proviene del vetiver ahumado, que lleva la fragancia hacia una terrosidad ahumada, infundiéndole una sensación de elegancia atemporal. La botella, que presenta tonos degradados de negro a rosa, se mantiene fiel al código de diseño del born in roma original y simboliza la noche que cae lentamente sobre la ciudad, señalando el comienzo de la diversión"
+  },
+  {
+    "name": "Eau de parfum Rabanne Invictus Victory 100ml",
+    "price": 2950,
+    "type": "Solo Perfume",
+    "aroma": "Oriental",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1104523753.jpg",
+    "descripcion": "Rabanne Invictus Victory es un perfume para hombre que provoca un auténtico choque de sentidos. En este intenso duelo, dos fuerzas se desafían: frescura y sensualidad. Rabanne reúne dos asociaciones exclusivas para garantizar un efecto de larga duración. El combate entre un frescor contundente y una intensidad magnética. Fuerte, cautivador. Nada puede detenerlo. Paco Rabanne nos descubre un nuevo oriental fresco dotado de un vigor extremo • notas de salida: pimienta rosa y limón • notas de corazón: lavanda e incienso de olíbano • notas de fondo: vainilla, haba tonka y ámbar"
+  },
+  {
+    "name": "Eau de parfum Montblanc Explorer For Men 100ml",
+    "price": 2650,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1081937300_2p.jpg",
+    "descripcion": "Explorer de Montblanc es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Explorer se lanzó en 2019. Explorer fue creada por Jórdi Fernández, Antoine Maisondieu y Olivier Pescheux. Las Notas de Salida son bergamota, pimienta rosa y esclarea; las Notas de Corazón son vetiver de Haití y cuero; las Notas de Fondo son ambroxan, Akigalawood, hojas de pachulí de Indonesia y vaina de cacao"
+  },
+  {
+    "name": "Eau de toilette DIOR Homme 100ml",
+    "price": 2820,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1092730464_1p.jpg",
+    "descripcion": "La Eau de Toilette DIOR Homme Sport encarna una época en la que el deporte ya no es una competición de alto rendimiento, sino una filosofía. La idea de una vida en movimiento, libre e intensa, donde soñar, el amor y la risa invitan a la sensualidad. La Eau de Toilette DIOR Homme Sport juega con las facetas de una frescura afrutada y especiada, conservando las notas amaderadas y sexys de la identidad DIOR Homme. Una fragancia emblemática de DIOR Homme, la expresión de su filosofía: entre vitalidad y sensualidad, energía y elegancia. El placer inmediato de un frescor jugoso, la energía de las especias y la fragancia sensual de las maderas nobles. Una frescura que alcanza una permanencia extrema, como un eterno comienzo."
+  },
+  {
+    "name": "Eau de toilette Burberry Touch 100ml",
+    "price": 809,
+    "type": "Solo Perfume",
+    "aroma": "Especias",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1109065711.jpg",
+    "descripcion": "Touch for Men de Burberry es una fragancia de la familia olfativa Almizcle Amaderado Floral para Hombres. Las Notas de Salida son abrótano, hojas de violeta y mandarina; las Notas de Corazón son nuez moscada, pimienta blanca y cedro; las Notas de Fondo son haba tonka, vetiver y almizcle blanco. Touch for Men se lanzó en 2000. La Nariz detrás de esta fragancia es Jean-Pierre Bethouart"
+  },
+  {
+    "name": "Perfume Rabanne Phantom Le Parfum 100ml",
+    "price": 3200,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1139918980.jpg",
+    "descripcion": "Phantom Parfum de Rabanne es la esencia misma de la masculinidad, alimentada por pasiones ardientes, que revela un aura seductora. Inspirada en las diferentes facetas de la masculinidad moderna, esta mezcla intensa combina lavanda electrizante, vainilla adictiva y vetiver seductor. Phantom Parfum de Rabanne es una oda al hombre que se atreve a vivir peligrosamente: más oscuro, sulfuroso, cada vez más seductor y atractivo que nunca. Rompe con las convenciones con esta fragancia excepcional para quienes se atreven a dejarse llevar por la llamada de la noche. Elaborado con la máxima delicadeza, Phantom Parfum de Rabanne está formulado de manera responsable con los ingredientes más preciados y de origen ético "
+  },
+  {
+    "name": "Eau de toilette Rabanne Invictus 100ml",
+    "price": 1970,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1073588871.jpg",
+    "descripcion": "Paco Rabanne Perfume, Invictus Eau de Toilette; el aroma de la victoria de la esencia de los héroes. Eufóricamente adictivo, un poderoso disparo de adrenalina, para los ganadores en serie. El poder, el coraje, la victoria se destila en una atrevida explosión de frescura y calor. Cuando estás listo para ganar. Notas de Corazón: Hoja de laurel y jazmín. Notas de Salida: Pomelo, notas marinas y mandarina. Notas de Fondo: Madera de gaiac, musgo de roble, pachulí y ámbar gris"
+  },
+  {
+    "name": "Eau de parfum Rabanne One Million Royal 100ml",
+    "price": 2940,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1133813698.jpg",
+    "descripcion": "1 Million Royal de Paco Rabanne es una fragancia de la familia olfativa Ámbar Amaderada para Hombres. Esta fragancia es nueva. 1 Million Royal se lanzó en 2023. 1 Million Royal fue creada por Quentin Bisch y Christophe Raynaud. Las Notas de Salida son cardamomo, naranja tangerina y bergamota; las Notas de Corazón son lavanda, salvia y hojas de violeta; las Notas de Fondo son benjuí, cedro y pachulí."
+  },
+  {
+    "name": "Eau de toilette Versace Eros 100ml",
+    "price": 1744,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1145427432_1p.jpg",
+    "descripcion": "Eros de versace es una fragancia de la familia olfativa aromática fougère para hombres. Eros se lanzó en 2012. La nariz detrás de esta fragrancia es aurelien guichard. Las notas de salida son menta, manzana verde y limón (lima ácida); las notas de corazón son haba tonka, ambroxan y geranio; las notas de fondo son vainilla de madagascar, cedro de virginia, cedro del atlas, vetiver y musgo de roble"
+  },
+  {
+    "name": "Eau de toilette Giorgio Armani Armani Code 125ml",
+    "price": 3090,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1074307027_1p.jpg",
+    "descripcion": "La fragancia para hombre Armani Code Eau de Toilette de Giorgio Armani, es el perfume para el hombre misterioso y sensual y seductor. Perfecto para un hombre contemporáneo que destaca por su elegancia y carisma. Armani Code Eau de Toilette pertenece a la familia olfativa oriental amaderada, liberando el código de la seducción con las suaves notas de flor de olivo, haba tonka y madera de Gaiac. Ideal para usarse todos los días como símbolo de seducción y masculinidad sofisticada. Armani Code Eau de Toilette, es el primer perfume oriental de Giorgio Arman, un aroma moderno, misterioso e irresistible para un seductor atemporal"
+  },
+  {
+    "name": "Eau de toilette Guy Laroche Noir 100ml",
+    "price": 641,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1145431405_2p.jpg",
+    "descripcion": "Drakkar Noir de Guy Laroche es una fragancia de la familia olfativa Aromática Fougère para Hombres. Drakkar Noir se lanzó en 1982. La Nariz detrás de esta fragancia es Pierre Wargnye. Las Notas de Salida son lavanda, limón (lima ácida), bergamota, romero, menta, cedrón (hierba luisa, verbena de olor), albahaca y abrótano; las Notas de Corazón son enebro de Virginia, cilantro, canela, ajenjo (absenta), clavel, angélica y jazmín; las Notas de Fondo son musgo de roble, cuero, abeto, agujas de pino, sándalo, vetiver, pachulí, cedro, ámbar y resinas"
+  },
+  {
+    "name": "Eau de parfum Rabanne One Million Elixir 100ml",
+    "price": 2295,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "Amaderada",
+    "descripcion": "Descubre One Million Elixir de Rabanne, la cima de la intensidad de One Million, una nueva fragancia guiada por un deseo de calidad suprema. One Million Elixir es una mezcla de ingredientes cuidadosamente seleccionados de todo el mundo, que celebra la artesanía de nuestros perfumistas y la fusión de las mejores materias primas. Una nueva dimensión, increíblemente intensa, inconfundiblemente One Million. Notas de Salida: Manzana davana. Notas de Fondo: Absoluto de vainilla, habas tonka y pachulí. Notas de Corazón: Rosa damascena, osmanthus y madera de cedro"
+  },
+  {
+    "name": "Eau de toilette Carolina Herrera 212 Men Nyc 100ml",
+    "price": 2390,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1057783113_1p.jpg",
+    "descripcion": "Carolina Herrera Perfume, 212 Eau Toilette; Un reflejo del dinamismo urbano de Manhattan, 212 MEN de Carolina Herrera, capta la personalidad de la ciudad que nunca duerme en una fragancia moderna compleja pero clásica. Una ecléctica fusión entre la calle y los libros, 212 MEN representa una nueva generación de urbanitas, un hombre con la mente en el futuro, pero que respeta el pasado. El brillante diseño cilíndrico metálico de la botella imita el diseño arquitectónico de la ciudad, con una referencia tecnológica capturada en el cierre magnético táctil. • Notas de Salida: notas verdes, toronja (pomelo), especias, bergamota, lavanda y petit grain. • Notas de Corazón: jengibre, violeta, gardenia y salvia. • Notas de Fondo: almizcle, sándalo, incienso, vetiver, madera de gaiac y ládano."
+  },
+  {
+    "name": "Eau de parfum Lattafa Asad 100ml",
+    "price": 929,
+    "type": "Solo Perfume",
+    "aroma": "Ámbar",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1132695861_1p.jpg",
+    "descripcion": "Asad para hombre de Lattafa es una fragancia cautivadora y distintiva que evoca una sensación irresistible de masculinidad poderosa y seductora. Lattafa ha capturado la esencia de la masculinidad audaz y seductora con un aroma potente y distintivo que dejará una impresión duradera."
+  },
+  {
+    "name": "Eau de toilette Calvin Klein Obsession 125ml",
+    "price": 694,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1136671355_1p.jpg",
+    "descripcion": "Obsession for Men de Calvin Klein es una fragancia de la familia olfativa Oriental Amaderada para Hombres. Obsession for Men se lanzó en 1986. La Nariz detrás de esta fragancia es Bob Slattery. Las Notas de Salida son cilantro, lavanda, mandarina, toronja (pomelo), bergamota, lima (limón verde) y canela; las Notas de Corazón son nuez moscada, clavel, jazmín, salvia, palo de rosa de Brasil, pino, mirra y bayas rojas; las Notas de Fondo son ámbar, sándalo, pachulí, almizcle, vainilla y vetiver"
+  },
+  {
+    "name": "Eau de toilette Carolina Herrera Bad Boy 100ml",
+    "price": 2650,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1095573507_2p.jpg",
+    "descripcion": "Carolina herrera perfume, bad boy eau de toilette; bad boy de carolina herrera, es una fragante expresión de la dualidad del hombre moderno, una representación de su naturaleza audaz. Fuerte y sensible, seguro y relajado: el hombre bad boy acepta sus rasgos opuestos con confianza y sencillez. Bad boy eau de toilette es una fragancia de notas variadas, inspiradas en la complejidad del hombre bad boy y combinadas de forma armoniosa para crear una mezcla distintiva de moderna sofisticación. Representa a los hombres rebeldes que deciden su propio destino y diseñan sus principios. Notas de salida: pimienta blanca, pimienta negra y bergamota. Notas de corazón: salvia y cedro. Notas de fondo: haba tonka, cacao y amberwood"
+  },
+  {
+    "name": "Eau de toilette Rabanne Phantom 100ml",
+    "price": 2650,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1106851901_1p.jpg",
+    "descripcion": "Phantom de Rabanne, la nueva fragancia para hombre de Paco Rabanne. La esencia de la autoconfianza impulsada por las buenas energías. Una fragancia aromática futurista nacida entre el choque de la artesanía del lujo y la nueva tecnología. Usando un proceso creativo de vanguardia para seleccionar ingredientes que te hagan sentir con energía, poderosamente seguro y sexy. Radicalmente diferente, totalmente disruptivo: descubre nuestra primer fragancia conectada. ¡Coloca tu teléfono en la parte superior y despega con tu nuevo compañero! Notas de corazón: Limón. Notas de salida: Lavanda. Notas de fondo: Vainilla."
+  },
+  {
+    "name": "CHANEL ALLURE HOMME SPORT EAU EXTRÊME EAU DE PARFUM VAPORIZADOR 100ml",
+    "price": 3220,
+    "type": "Solo Perfume",
+    "aroma": "Fresco",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1007064744.jpg",
+    "descripcion": "Un estilo sin límites. Una fragancia poderosa y vigorosa. Un aromático-almizclado como una descarga de adrenalina. El Eau de Parfum ofrece una generosa estela de perfume y se vaporiza directamente sobre la piel o dentro de la ropa. Se propone una línea completa de productos para el afeitado y el cuerpo que aportan intensidad al perfume a lo largo del día."
+  },
+  {
+    "name": "Eau de parfum Jean Paul Gaultier Scandal Pour Homme Le Parfum 100ml",
+    "price": 2950,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1133438889.jpg",
+    "descripcion": "Scandal Puour Homme Le Parfum de Jean Paul Gaultier ¡El espectáculo debe continuar! Entre los aplausos de una entrada triunfal, vuelve la leyenda del cuadrilátero. Campeón de actitud presumida y coronado de sex appeal. Su mayor ventaja: un nuevo eau de parfum intenso, con una fuerza de ataque aún más sexy y escandaloso. El público, pendiente de sus puños, contiene la respiración. Las paredes se agrietan. Los sentidos se alteran. Y, por supuesto, este bello atleta se luce de forma brillante. Con el estuche teatral y su cuerpo lacado negro. Listo para arrasar contigo en cuanto vaporizas la fragancia ambarina amaderada. En sus abultados músculos, el geranio, el sándalo y el haba tonka transpiran adicción. Un verdadero espectáculo en alta tensión, hasta la victoria"
+  },
+  {
+    "name": "CHANEL BLEU DE CHANEL EAU DE TOILETTE VAPORIZADOR 100ml",
+    "price": 2690,
+    "type": "Solo Perfume",
+    "aroma": "Fresco",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/86795213.jpg",
+    "descripcion": "El elogio a la libertad, que se expresa en un aromático amaderado de estela cautivadora. Una fragancia atemporal en un frasco de un azul profundo y misterioso. El eau de toilette ofrece un perfume ligero y se vaporiza directamente sobre la ropa y dentro de la piel. Para conseguir un perfume intensificado a lo largo del día, hay disponible una línea completa de productos para el afeitado y el cuerpo BLEU DE CHANEL"
+  },
+  {
+    "name": "Eau de parfum Polo Ralph Lauren Blue 100ml",
+    "price": 3700,
+    "type": "Solo Perfume",
+    "aroma": "Herbal",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1087686074_1p.jpg",
+    "descripcion": "Polo Blue Eau de Parfum de Ralph Lauren es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Polo Blue Eau de Parfum se lanzó en 2016. La Nariz detrás de esta fragancia es Carlos Benaim. Las Notas de Salida son bergamota, cardamomo y notas marinas; las Notas de Corazón son raíz de lirio, albahaca, cedrón (hierba luisa) y esclarea; las Notas de Fondo son vetiver, gamuza, pachulí y notas amaderadas."
+  },
+  {
+    "name": "Eau de parfum Creed Aventus 100ml",
+    "price": 7989,
+    "type": "Solo Perfume",
+    "aroma": "Chipre",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1118811549.jpg",
+    "descripcion": "Aventus de Creed es una fragancia de la familia olfativa chipre frutal para hombres. Aventus se lanzó en 2010. Aventus fue creada por Olivier Creed y Erwin Creed. Las notas de salida son piña, bergamota, grosellas negras y manzana; las notas de corazón son abedul, pachulí, jazmín de marruecos y rosa; las notas de fondo son almizcle, musgo de roble, ámbar gris y vainilla"
+  },
+  {
+    "name": "Eau de toilette Armaf Club De Nuit Milestonee 100ml",
+    "price": 800,
+    "type": "Solo Perfume",
+    "aroma": "Especias",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1103142098_1p.jpg",
+    "descripcion": "Elegante y exclusiva fragancia para el Hombre amante de los grandes perfumes con clase que quiere ser libre y conquistar el mundo Esta fragancia pertenece a la familia olfativa Almizcle Amaderado Floral las notas de salida son notas afrutadas y sal de mar las notas de corazón son iris mandarina limon siciliano y bergamota las notas de fondo son almizcle notas amaderadas y notas marinas"
+  },
+  {
+    "name": "au de parfum Givenchy Givenchy Gentleman Réserve Privée 200ml",
+    "price": 4690,
+    "type": "Solo Perfume",
+    "aroma": "Ámbar",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1140607653_1p.jpg",
+    "descripcion": "Givenchy presenta una variación inédita que revela hoy la Maison: Gentleman Givenchy Réserve Privée Eau de Parfum. Una fragancia creada por los maestros perfumistas Nathalie Lorson y Olivier Cresp. Una fragancia creada en torno a un ingrediente asombroso: un whisky elaborado en Escocia, que luego de ser transformado en absoluto en Grasse, se incorpora a una composición aromática. Un sello olfativo único, dedicado a los caballeros de hoy. Givenchy Gentleman Réserve Privée es una fragancia amaderada floral ambarina, compuesta por ingredientes seleccionados por su calidad excepcional. Fascinante desde el primer momento, debido a la dualidad sorprendente entre el absoluto de whisky y el lirio, una materia emblemática de las fragancias Gentleman Givenchy. A la voluptuosidad del primero responde la elegancia distinguida del segundo"
+  },
+  {
+    "name": "Eau de toilette Issey Miyake L'eau D'issey Pour Homme 125ml",
+    "price": 1599,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1145427424_2p.jpg",
+    "descripcion": "L'Eau d'Issey Pour Homme de Issey Miyake es una fragancia de la familia olfativa Amaderada Acuática para Hombres. L'Eau d'Issey Pour Homme se lanzó en 1994. La Nariz detrás de esta fragrancia es Jacques Cavallier. Las Notas de Salida son yuzu, limón (lima ácida), bergamota, cedrón (hierba luisa, verbena de olor), mandarina, ciprés, calone, cilantro, estragón y salvia; las Notas de Corazón son flor de loto azul, nuez moscada, lirio de los valles (muguete), geranio bourbon, azafrán, canela de Ceylan y reseda (miñoneta); las Notas de Fondo son vetiver de Tahití, almizcle, cedro, sándalo, ámbar y tabaco"
+  },
+  {
+    "name": "Eau de toilette Halloween 125ml",
+    "price": 1650,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1011458391_2p.jpg",
+    "descripcion": "La fragancia para caballero Halloween Man Eau de Toilette te permitirá mostrar tu dominante y genuina personalidad a cada momento. En Liverpool queremos que experimentes increíbles sensaciones que potencialicen tu seguridad, es por eso que aquí encontrarás este diseño que cuenta con una selección perfecta de ingredientes en sus notas, mismas que en combinación, te brindarán un magnífico plus distintivo"
+  },
+  {
+    "name": "Eau de parfum Moschino Toy 100ml",
+    "price": 2550,
+    "type": "Solo Perfume",
+    "aroma": "Especias",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1093718913.jpg",
+    "descripcion": "Es la nueva fragancia masculina que reinterpreta la elegancia con un toque de ironía, es para el hombre que no teme mostrar su lado tierno y juguetón"
+  },
+  {
+    "name": "Eau de parfum Moschino Toy 2 Pearl 100ml",
+    "price": 2550,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "unisex",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1152292925_1p.jpg",
+    "descripcion": "¡Llega Toy 2 Pearl! Una fragancia brillante, sin género, en la encrucijada de una huella de jazmín hidropónico y un limón salado, crujiente y espumoso. El luminoso aroma está embotellado en un espejo etéreo, oscuro, inspirado en el fondo marino y la madreperla de tahití. La icónica botella con forma de oso y la caja están acabados en una laca de ónix iridiscente. Cada frasco tiene diferentes tonos para enfatizar el cuidado, el refinamiento y la singularidad de los productos"
+  },
+  {
+    "name": "Eau de parfum Versace Eros Flame 100ml",
+    "price": 2250,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1082734275_1p.jpg",
+    "descripcion": "Esta fragancia para caballero Versace Eros Flame 100 ml Eau de Parfum es la representación de un hombre fuerte, apasionado, seguro de sí mismo, que está profundamente en contacto con sus emociones, y que percibe simultáneamente sentimientos presentes, así como transforman sus imperfecciones en fortalezas. Cautiva, a donde quiera que vayas, con la esencia que esta fragancia para caballero Versace Eros Flame 100 ml Eau de Parfum dejará en tu piel"
+  },
+  {
+    "name": "Eau de parfum Yves Saint Laurent MYSLF 100ml",
+    "price": 3100,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1148543123_1p.jpg",
+    "descripcion": "MYSLF de Yves Saint Laurent es una fragancia aromática para hombres. Es una fragancia nueva que fue lanzada en 2023. El perfumista detrás de esta fragancia es Christophe Raynaud. Las notas de salida son Bergamota de Calabria y Bergamota; la nota media es Flor de Naranjo Tunecina; y las notas de fondo son Ambrofix™ y Pachulí."
+  },
+  {
+    "name": "Eau de parfum Bharara King 100ml",
+    "price": 1378,
+    "type": "Solo Perfume",
+    "aroma": "Oriental",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1130503591.jpg",
+    "descripcion": "Bharara King es una maravillosa fragancia masculina para el hombre moderno y elegante. Notas de Salida: Cítricos - naranja, bergamota, limón. Nota Media: Fuity - tuttifrutti. Notas de Fondo: Ámbar almizcle - almizcle blanco, ámbar, vainilla. Adecuado para el uso diario"
+  },
+  {
+    "name": "Eau de toilette Valentino Born in Roma 100ml",
+    "price": 2750,
+    "type": "Solo Perfume",
+    "aroma": "Frutal",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1138106175_1p.jpg",
+    "descripcion": "Una fragancia ambarina afrutada compuesta por un colorido acorde de manzana roja combinado con un toque de tabaco y esencia de pachuli. Su provocativo corazón se funde con las esencias de salvia y geranio para crear una fragancia fresca aunque intensa. Con el cielo de color coral sobre la Ciudad Eterna como fuente de inspiración, es el momento de una nueva expresión de fantasía. Una celebración del grandioso patrimonio de Roma en un momento muy personal"
+  },
+  {
+    "name": "Eau de toilette Nautica Voyage Sport 100ml",
+    "price": 629,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1145479629_2p.jpg",
+    "descripcion": "Nautica Voyage Sport de Nautica es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Nautica Voyage Sport se lanzó en 2016. Las Notas de Salida son notas marinas, cítricos, sal de mar y cilantro; las Notas de Corazón son manzana, geranio, hojas de palmera y pimiento verde; las Notas de Fondo son almizcle, vetiver, pachulí y secuoya roja brasileña"
+  },
+  {
+    "name": "Eau de parfum Lattafa Teriaq 100ml",
+    "price": 1777,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "unisex",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1151794731_1p.jpg",
+    "descripcion": "Lattafa Teriaq es una fragancia cautivadora que te transporta a un mundo de elegancia y distinción con solo una rociada. Esta exquisita fragancia está diseñada para aquellos que desean destacar entre la multitud y dejar una impresión duradera donde quiera que vayan. Ya sea que estés saliendo por la noche, asistiendo a una reunión importante o simplemente disfrutando de un día casual, Lattafa Teriaq es el complemento perfecto para cualquier ocasión. Eleva tu presencia con esta fragancia cautivadora y deja una impresión imborrable dondequiera que vayas. Notas de Salida son caramelo, almendra amarga, pimienta rosa y chabacano. Notas de Corazón son miel, flores blancas, rosa y ruibarbo. Notas de Fondo son vainilla, ládano, almizcle, cuero y vetiver"
+  },
+  {
+    "name": "Eau de toilette Narciso Rodriguez Soleil Blanc 100ml",
+    "price": 2630,
+    "type": "Solo Perfume",
+    "aroma": "Oriental",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/48287336_1p.jpg",
+    "descripcion": "Un clásico moderno, porque seduce con pureza, gracia y sutileza. El almizcle, el corazón del olor, es refinado por una síntesis de notas florales y notas de ámbar suave. Sensual y adictiva, For Her es la feminidad en su más poderosa expresión"
+  },
+  {
+    "name": "Kajal Dahab Fragrance 100ml",
+    "price": 3565,
+    "type": "Solo Perfume",
+    "aroma": "Frutal",
+    "categoria": "dama",
+    "imgUrl": "https://kajalperfumes.com/cdn/shop/products/02Dahab-BBcopy2_700x.jpg?v=1612650215",
+    "descripcion": "Dahab comienza con una frescura deliciosa, el esplendor distintivo de la manzana Granny Smith armoniosamente mezclada con la efervescente bergamota. A medida que emergen las notas del corazón, descubrimos una deliciosa combinación de tentadora fruta de la pasión complementada por el suave y reconfortante cedro y la sutil dulzura picante del cilantro. Dahab culmina con una fusión exquisitamente cálida y acogedora de almizcle, ámbar y pachulí. Una fragancia única y sensual que emana una riqueza lujosa."
+  },
+  {
+    "name": "Lamar By Kajal EDP 100ml",
+    "price": 3842,
+    "type": "Solo Perfume",
+    "aroma": "Ámbar Floral",
+    "categoria": "unisex",
+    "imgUrl": "https://kajalperfumes.com/cdn/shop/products/24LamarB_B_8c6a698b-962e-436d-bf3d-75d15f5d5241_700x.jpg?v=1637519206",
+    "descripcion": "LAMAR... belleza en un nombre, belleza en una botella, belleza en un aroma. Un nombre de origen francés, Lumière, que significa luz, LAMAR también se conoce como oro líquido: hipnotizante, fascinante y seductor. Un aroma creado para emular la belleza de un sol dorado que se pone en el horizonte. Las nubes distantes reflejan ricos rayos de color: tonos de rojo, destellos de amarillo y brillos de oro. El aroma de LAMAR evoca notas fragantes de rosa y jazmín que flotan en una brisa mediterránea. Un magnífico aroma."
+  },
+  {
+    "name": "Eau de parfum Hugo Boss Infinite 100ml",
+    "price": 3050,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1084111399_1p.jpg",
+    "descripcion": "Bottled Infinite, una armoniosa fragancia masculina que nos conectara con la naturaleza. Un perfume más fresco, contemporáneo y armonioso que conserva el aroma particular de la canela y las manzanas del primer perfume de 1999. En esta ocasión su aroma mezcla la frescura con la elegancia y el poder, con la única intensión de recargarnos de energía y naturaleza para poder vivir plenamente sin preocupaciones"
+  },
+  {
+    "name": "Eau de parfum Giorgio Armani Acqua Di Gio 100ml",
+    "price": 3300,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1073589428_1p.jpg",
+    "descripcion": "La fragancia para mujer Acqua di Gioia Eau de Parfum de Giorgio Armani, es para la mujer alegre que está en contacto con su interior y con la naturaleza, una invitación a vivir en felicidad y armonía. Acqua di Gioia Eau de Parfum, de la familia cítrica amaderada, está elaborada con una exquisita mezcla de jazmín radiante y sensual, limón de Amalfi para una sensación de frescura y una base de madera de cedro para un aroma balanceado que te transporta a la naturaleza todo el día. Un perfume ideal para todos los días mantener el balance y la conexión con la naturaleza. La tapa del frasco de Acqua di Gioia Eau de Parfum es una representación de una piedra semipreciosa que nos recuerda la pureza y simplicidad de la belleza natural, la esencia del Mar Mediterráneo en un frasco delicado"
+  },
+  {
+    "name": "Eau de parfum Elizabeth Arden Splendor 125ml",
+    "price": 484,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1118243974.jpg",
+    "descripcion": "Splendor de Elizabeth Arden es una fragancia floral ambarina para mujeres. Fue lanzada en 1998 y el nariz detrás de esta fragancia es James Krivda. Las notas de salida son jacinto, glicinia, fresia, peonía, guisante dulce, manzana, bergamota y piña; las notas medias son lirio de los valles, lirio, jazmín, magnolia, rosa de té, rosa, orquídea y amapola; las notas de fondo son almizcle, cedro, sándalo, notas oscuras amaderadas, palisandro brasileño y ámbar."
+  },
+  {
+    "name": "Eau de parfum Armaf Club De Nuit Sillage 100ml",
+    "price": 800,
+    "type": "Solo Perfume",
+    "aroma": "Cítrico",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1111417209.jpg",
+    "descripcion": "Club De Nuit Sillage de Armaf es una fragancia de la familia olfativa Almizcle Floral Amaderado para Hombres y Mujeres. Esta fragrancia es nueva. Club De Nuit Sillage se lanzó en 2020. Las Notas de Salida son bergamota, grosellas negras, limón (lima ácida), lima (limón verde), hojas de violeta y jengibre; las Notas de Corazón son rosa, iris y jazmín; las Notas de Fondo son ambroxan, almizcle, sándalo y cedro"
+  },
+  {
+    "name": "Eau de parfum Al Haramain Amber Oud Ultra Violeta 120ml",
+    "price": 2685,
+    "type": "Solo Perfume",
+    "aroma": "Ámbar",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1145552393_1p.jpg",
+    "descripcion": "Amber Oud Ultra Violet de Al Haramain Perfumes es una fragancia de la familia olfativa Almizcle Floral Amaderado para Mujeres. Esta fragrancia es nueva. Amber Oud Ultra Violet se lanzó en 2023. Las Notas de Salida son jengibre, rosa y bergamota; las Notas de Corazón son nardos, jazmín y flores blancas; las Notas de Fondo son pachulí, roble y almizcle"
+  },
+  {
+    "name": "Eau de parfum Lattafa Haya 100ml",
+    "price": 1219,
+    "type": "Solo Perfume",
+    "aroma": "Fresco",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1140239492_2p.jpg",
+    "descripcion": "Lattafa Haya es una fragancia floral maravillosamente romántica. Tiene muchas notas dulces y florales. Desde los primeros acordes, el perfume deleita con el frescor primaveral del ruibarbo, que se complementa con los acentos verdes amargos de la bergamota, el dulzor exótico y original del lichi y entremezclado con notas especiadas de la nuez moscada. El centro de la composición está lleno de un aroma dulce, fragante y femenino de rosa turca, que está rodeado por un excitante y fresco acorde de delicadas colinas del bosque y un brillante y pomposo acorde de peonía. El aroma de la madera preciosa, rodeado de notas sensuales de almizcle, incienso y vainilla, envuelve la composición en un aroma cálido y excitante"
+  },
+  {
+    "name": "Eau de parfum Lattafa Amethyst Bade'e Al Oud 100ml",
+    "price": 977,
+    "type": "Solo Perfume",
+    "aroma": "Ámbar",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1132718225_1p.jpg",
+    "descripcion": "Bade'e Al Oud Amethyst de Lattafa Perfumes es una fragancia ambarina con vainilla para mujeres y hombres. Fue lanzada en 2021. Las notas de salida son pimienta rosa y bergamota; las notas medias son rosa turca, rosa búlgara y jazmín; las notas de fondo son madera de agar (oud), ámbar y vainilla."
+  },
+  {
+    "name": "Eau de parfum Bharara Viking Río 100ml",
+    "price": 1951,
+    "type": "Set",
+    "aroma": "Gourmand",
+    "categoria": "unisex",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1144588963_1p.jpg",
+    "descripcion": "CONTENIDO: PARFUM 100 ML+ATOMIZADOR DE BOLSILLO. Descubre la deliciosa esencia de Bharara Viking Rio. Este perfume cautivador te transportará a un viaje olfativo, inolvidable con sus notas exquisitas y duraderas. Con toques de elegancia y frescura, el perfume Bharara Viking Rio es la elección perfecta para quienes buscan una fragancia distintiva y sofisticada. Disfruta de la exclusividad de este aroma único, en el que encontramos notas de coco, caramelo, jazmin y avellana"
+  },
+  {
+    "name": "Eau de parfum Lattafa Yara Moi 100ml",
+    "price": 878,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1140667753.jpg",
+    "descripcion": "Yara Moi de Lattafa Perfumes es una fragancia de la familia olfativa para Mujeres. Esta fragrancia es nueva. Yara Moi se lanzó en 2022. Las Notas de Salida son durazno (melocotón) y jazmín; las Notas de Corazón son caramelo y ámbar; las Notas de Fondo son pachulí y sándalo"
+  },
+  {
+    "name": "Eau de parfum Orientica Velvet Gold 80ml",
+    "price": 1842,
+    "type": "Solo Perfume",
+    "aroma": "Oriental",
+    "categoria": "unisex",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1122609151.jpg",
+    "descripcion": "Como un velo de novia morado adornado con bordados dorados exuberantes, el Perfume Velvet Gold Unisex de Orientica edp 80mL te invita a sumergirte en una experiencia olfativa única. Este perfume cautivador y lujoso está diseñado para aquellos que buscan la plenitud y desean llevar el amor en el aire convertido en vientos de pasión y obsesión. Las cautivadoras notas de jazmín y naranja encienden la primera chispa, envolviéndote en una fragancia que es tanto dulce como floral. El azafrán y el praliné en su corazón palpitante agregan una dosis picante y tentadora, creando una composición irresistible."
+  },
+  {
+    "name": "Eau de parfum Matin Martin Silky Saffron 100ml",
+    "price": 1319,
+    "type": "Solo Perfume",
+    "aroma": "Cuero",
+    "categoria": "unisex",
+    "imgUrl": "https://ss702.liverpool.com.mx/xl/1146963885_1p.jpg",
+    "descripcion": "Silky saffron eau de parfum de matin martin es una fragancia de la familia olfativa amaderada especiada para hombres y mujeres. Silky saffron eau de parfum se lanzó en 2021. Las notas de salida son azafrán, limón (lima ácida) y toronja (pomelo); las notas de corazón son cuero, violeta y raíz de lirio; las notas de fondo son cachemira, sándalo y vetiver"
+  },
+  {
+    "name": "Eau de parfum Matin Martin Shahama 100ml",
+    "price": 1620,
+    "type": "Solo Perfume",
+    "aroma": "Frutal",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1146925274_1p.jpg",
+    "descripcion": "Shahama eau de parfum de matin martin es una fragancia de la familia olfativa ámbar para hombres. Shahama eau de parfum se lanzó en 2021. Las notas de salida son notas afrutadas, notas especiadas y notas ozónicas; las notas de corazón son madera de oud, clavel y geranio; las notas de fondo son cuero, notas amaderadas y notas balsámicas"
+  },
+  {
+    "name": "Eau de parfum Matin Martin Wild & Spicy 100ml",
+    "price": 1615,
+    "type": "Solo Perfume",
+    "aroma": "",
+    "categoria": "",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1146820901_1p.jpg",
+    "descripcion": "WILD & SPICY EAU DE PARFUM de Matin Martin es una fragancia de la familia olfativa Ámbar Especiada para Hombres. WILD & SPICY EAU DE PARFUM se lanzó en 2021. Las Notas de Salida son bergamota y pimienta rosa; las Notas de Corazón son rosa, heliotropo y fresia; las Notas de Fondo son almizcle, vainilla y haba tonka"
+  },
+  {
+    "name": " 100ml",
+    "price": 1615,
+    "type": "Solo Perfume",
+    "aroma": "Cítrico",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1146820901_1p.jpg",
+    "descripcion": "WILD & SPICY EAU DE PARFUM de Matin Martin es una fragancia ambarina y especiada para hombres. Fue lanzada en 2021. Sus notas de salida son bergamota y pimienta rosa; las notas medias son rosa, heliotropo y fresia; y las notas de fondo son almizcle, vainilla y haba tonka."
+  },
+  {
+    "name": "Eau de parfum Matin Martin Limitless 100ml",
+    "price": 1616,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1146925142_1p.jpg",
+    "descripcion": "Limitless eau de parfum de matin martin es una fragancia de la familia olfativa amaderada aromática para hombres. Limitless eau de parfum se lanzó en 2021. Las notas de salida son bayas de enebro, naranja sanguina y cítricos; las notas de corazón son geranio, pimiento morrón y lavanda; las notas de fondo son cedro, vetiver y pachulí"
+  },
+  {
+    "name": "Ameerat Al Arab Prive Rose Asdaaf 100ml",
+    "price": 725,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_836964-MLU72257904924_102023-F.webp",
+    "descripcion": "Ameerat Al Arab Prive Rose de Asdaaf es una fragancia floral afrutada para mujeres. Esta es una fragancia nueva que fue lanzada en 2023. Sus notas de salida son fresa, uvas y naranja; las notas medias son rosa, almizcle blanco, jazmín, gardenia, lirio y ylang-ylang; las notas de fondo son haba tonka, ámbar y sándalo."
+  },
+  {
+    "name": "Eau de parfum Lattafa Hayaati 100ml",
+    "price": 956,
+    "type": "Solo Perfume",
+    "aroma": "Oriental",
+    "categoria": "unisex",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1132876998_1p.jpg",
+    "descripcion": "Hayaati de Lattafa Perfumes es una fragancia amaderada aromática para mujeres y hombres. Fue lanzada en 2020. Sus notas de salida son manzana y bergamota; las notas medias son canela y notas amaderadas; las notas de fondo son almizcle y vainilla."
+  },
+  {
+    "name": "Eau de parfum Lattafa Ameer Al Oud Intense 100ml",
+    "price": 1099,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "unisex",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1132741723_1p.jpg",
+    "descripcion": "Ameer Al Oudh Intense Oud de Lattafa Perfumes es una fragancia ámbar para mujeres y hombres. Fue lanzada en 2021. Sus notas de salida son notas amaderadas y madera de agar (oud); las notas medias son azúcar y vainilla; las notas de fondo son madera de agar (oud), sándalo y notas herbales."
+  },
+  {
+    "name": "Maahir Legacy Lattafa 100ml",
+    "price": 1425,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "caballero",
+    "imgUrl": "https://fimgs.net/mdimg/perfume/375x500.82727.jpg",
+    "descripcion": "Maahir Legacy de Lattafa Perfumes es una fragancia para hombres. Las notas de salida son lima, menta, pomelo, lavanda y piña; las notas medias son bayas de enebro, pimienta negra, romero, geranio e incienso; las notas de fondo son ambroxan, musgo de roble, vetiver, haba tonka y cashmeran."
+  },
+  {
+    "name": "Eau de parfum Lattafa Maahir Black 100ml",
+    "price": 1425,
+    "type": "Solo Perfume",
+    "aroma": "Ámbar",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1132725558_1p.jpg",
+    "descripcion": "Lattafa Maahir Black Edition es una fragancia cálida, suave, oscura y amaderada con toques de cuero. Maahir Black es el perfume ideal para los amantes de los perfumes ahumados oscuros y resinosos y es muy adecuado para la noche."
+  },
+  {
+    "name": "Eau de parfum Lattafa Yara Tous 100ml",
+    "price": 898,
+    "type": "Solo Perfume",
+    "aroma": "Gourmand",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1144512827_1p.jpg",
+    "descripcion": "Yara Tous de Lattafa Perfumes es una fragancia de la familia olfativa para Mujeres. Esta fragancia es nueva. Yara Tous se lanzó en 2023. Las Notas de Salida son mango, coco y maracuyá (fruta de la pasión); las Notas de Corazón son jazmín, heliotropo y flor de azahar del naranjo; las Notas de Fondo son vainilla, almizcle y cachemira"
+  },
+  {
+    "name": "Eau de parfum Lattafa Fakhar Extrait 100ml",
+    "price": 1048,
+    "type": "Solo Perfume",
+    "aroma": "Especias",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1145263081.jpg",
+    "descripcion": "Fakhar Extrait de Lattafa Perfumes es una fragancia de la familia olfativa para Mujeres. Esta fragrancia es nueva. Fakhar Extrait se lanzó en 2023. Las Notas de Salida son toronja (pomelo), pimienta rosa y cardamomo; las Notas de Corazón son notas solares, abrótano y nardos; las Notas de Fondo son ládano, cachemira, ámbar y cuero"
+  },
+  {
+    "name": "ARMAF CABALLO 100ml",
+    "price": 990,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "caballero",
+    "imgUrl": "https://m.media-amazon.com/images/I/5130sdrMZBL._AC_SL1200_.jpg",
+    "descripcion": "Caballo Pour Homme de Armaf es una fragancia de la familia olfativa para Hombres. Esta fragrancia es nueva. Caballo Pour Homme se lanzó en 2022. Las Notas de Salida son toronja (pomelo), limón (lima ácida) y bergamota; las Notas de Corazón son jengibre, violeta y almizcle ambreta; las Notas de Fondo son ambroxan, almizcle, vetiver y pachulí."
+  },
+  {
+    "name": "Eau de parfum Creed Himalaya 100ml",
+    "price": 7800,
+    "type": "Solo Perfume",
+    "aroma": "Cítrico",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1113599070.jpg",
+    "descripcion": "Himalaya de Creed es una fragancia de la familia olfativa Ámbar Amaderada para Hombres. Himalaya se lanzó en 2002. Himalaya fue creada por Olivier Creed y Erwin Creed. Las Notas de Salida son bergamota de Calabria, toronja (pomelo) y limón siciliano (lima siciliana); la Nota de Corazón es sándalo; las Notas de Fondo son almizcle, ámbar gris y cedro"
+  },
+  {
+    "name": "Eau de parfum Creed Green Irish Tweed 100ml",
+    "price": 7465,
+    "type": "Solo Perfume",
+    "aroma": "Cítrico",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1110803334.jpg",
+    "descripcion": "Green Irish Tweed de Creed es una fragancia de la familia olfativa Almizcle Amaderado Floral para Hombres. Green Irish Tweed se lanzó en 1985. La Nariz detrás de esta fragrancia es Olivier Creed. Las Notas de Salida son cedrón (hierba luisa, verbena de olor) y iris; la Nota de Corazón es hojas de violeta; las Notas de Fondo son ámbar gris y sándalo."
+  },
+  {
+    "name": "Eau de parfum Creed Aventus 100ml",
+    "price": 7989,
+    "type": "Solo Perfume",
+    "aroma": "Chipre",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1118811549.jpg",
+    "descripcion": "Aventus de Creed es una fragancia de la familia olfativa chipre frutal para hombres. Aventus se lanzó en 2010. Aventus fue creada por Olivier Creed y Erwin Creed. Las notas de salida son piña, bergamota, grosellas negras y manzana; las notas de corazón son abedul, pachulí, jazmín de marruecos y rosa; las notas de fondo son almizcle, musgo de roble, ámbar gris y vainilla"
+  },
+  {
+    "name": "Eau de parfum Yves Saint Laurent Opium 100ml",
+    "price": 3490,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1036513329_1p.jpg",
+    "descripcion": "Black Opium Eau de Parfum es la fragancia para mujer altamente adictivo de Yves Saint Laurent, ahora en un nuevo tamaño lleno de fascinantes y embriagadoras notas olfativas. Con notas iniciales del café rico en adrenalina y vainilla, integra la suavidad de las flores blancas para una interpretación moderna, joven y vibrante de la adicción. Una fragancia que es como una dosis de adrenalina, aporta la energía necesaria para una vida más intensa donde el exceso nunca es suficiente. Creado para la mujer enérgica y única"
+  },
+  {
+    "name": "Eau de parfum Giorgio Armani Sì 100ml",
+    "price": 3490,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1021343796_1p.jpg",
+    "descripcion": "La fragancia para mujer Sì Eau de Parfum de Giorgio Armani, revela a la mujer Armani: elegante, fuerte, con actitud que descubre su intimidad, emoción y sensibilidad. Ella dice Sí a la audacia, Sí al amor, Sí a la vida. Sì Eau de Parfum pertenece a la familia olfativa chipre frutal. Su esencia está formulada con acordes de néctar de grosella negra, chipre moderno reinventado y maderas blancas almizcladas. El frasco de este perfume, con sus formas y colores, representa perfectamente la dualidad entre la plenitud personal y el éxito profesional de la mujer Giorgio Armani; además de incorporar una alianza dorada como promesa de eternidad"
+  },
+  {
+    "name": "Eau de toilette Viktor&Rolf Spicebomb 100ml",
+    "price": 1770,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1110803369.jpg",
+    "descripcion": "Spicebomb de Viktor&Rolf es una fragancia de la familia olfativa Amaderada Especiada para Hombres. Spicebomb se lanzó en 2012. La Nariz detrás de esta fragrancia es Olivier Polge. Las Notas de Salida son pimienta rosa, elemí, bergamota y toronja (pomelo); las Notas de Corazón son canela, azafrán y pimentón dulce (paprika); las Notas de Fondo son tabaco, cuero y vetiver."
+  },
+  {
+    "name": "Eau de parfum Marc Jacobs Perfect 100ml",
+    "price": 3580,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1104398851_1p.jpg",
+    "descripcion": "La nueva fragancia divertida e inesperada, Perfect Marc Jacobs Eau de Parfum para ella, es una fragancia floral reconfortante que celebra el optimismo, la autoaceptación y la originalidad. El perfume se inspiró en el mantra de Marc Jacobs: Soy perfecto como soy, que está simbolizado por un tatuaje de la palabra perfecto en su muñeca. Al igual que su tatuaje, Perfect Marc Jacobs se trata de abrazar y expresar el verdadero yo. Moderno, brillante y femenino, Perfect es un choque armonioso y poco convencional de notas florales frescas y suaves calmantes. La fragancia se abre con jugosas notas de ruibarbo y narciso brillante que revelan un corazón reconfortante de leche de almendras. La fragancia termina con un suave secado de madera de cedro y cachemira. Perfecto no es nada que puedas esperar y todo lo que necesita ser. #MJPerfect #PerfectAsIAm"
+  },
+  {
+    "name": "Eau de toilette Tommy Hilfiger Classic 100ml",
+    "price": 1450,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "caballero",
+    "imgUrl": "https://m.media-amazon.com/images/I/71JagLVUTmL.__AC_SX300_SY300_QL70_ML2_.jpg",
+    "descripcion": "Tommy Eau de Toilette es una fragancia amaderada efervescente, que captura la libertad y el optimismo de un viaje por carretera. Contiene notas de manzana crujiente y canela cálida que añaden un hilo de nostalgia y confort. En el corazón, la refrescante y alegre mandarina contrasta con el enérgico pachulí. Equilibrada por la relajante lavanda y el ámbar de la madera de cedro."
+  },
+  {
+    "name": "Eau de parfum Dolce&Gabbana Garden 100ml",
+    "price": 2900,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1068416511_2.jpg",
+    "descripcion": "Dolce Garden llega para esa chica juguetona, divertida, moderna, romántica la Ragazza Dolce&Gabbana. Es una fragancia elegante, glamurosa, con estilo y color. Es una invitación a un tiempo familiar en un cálido jardín siciliano"
+  },
+  {
+    "name": "Vince Camuto Ciao Vince Camuto Eau De Parfum 100ml",
+    "price": 1120,
+    "type": "Solo Perfume",
+    "aroma": "Ámbar Floral",
+    "categoria": "dama",
+    "imgUrl": "https://assets.vincecamuto.com/is/image/vincecamuto/8200000000485487_000_ss_01?impolicy=qlt-medium-high&imwidth=640&imdensity=2",
+    "descripcion": "Romántica, coqueta e intrépida, la mujer que lleva Ciao saluda y abraza al mundo con un espíritu libre y una actitud positiva y fresca. La historia del aroma de Ciao comienza con notas de mandarina italiana y pomelo rosa, ancladas por fresa silvestre y mora reluciente. Un corazón floral se despliega con un ramo de rosa, peonía, suave muguet, madreselva italiana, jazmín rosa y flor de la pasión. Las notas de base de ámbar brillante, cashmeran, licor amargo, sándalo y patchouli indonesio crean un final ardiente."
+  },
+  {
+    "name": "Eau de parfum Guess 75ml",
+    "price": 1300,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/71927202.jpg",
+    "descripcion": "Guess for Women de Guess es una fragancia de la familia olfativa Floral Frutal para Mujeres. Guess for Women se lanzó en 2006. La Nariz detrás de esta fragancia es Maurice Roucel. Las Notas de Salida son manzana verde, bergamota, fresa y naranja tangerina; las Notas de Corazón son peonía, magnolia, fresia, durazno (melocotón), jazmín, ylang-ylang, lirio de los valles (muguete) y bayas rojas; las Notas de Fondo son ámbar, almizcle, musgo de roble y cedro."
+  },
+  {
+    "name": "Eau de parfum Viktor&Rolf Floerbomb 100ml",
+    "price": 2925,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1110802877.jpg",
+    "descripcion": "Flowerbomb de Viktor&Rolf es una fragancia de la familia olfativa Ámbar Floral para Mujeres. Flowerbomb se lanzó en 2005. Flowerbomb fue creada por Olivier Polge, Carlos Benaim, Domitille Michalon Bertier y Dominique Ropion. Las Notas de Salida son té, bergamota y osmanto (olivo oloroso); las Notas de Corazón son orquídea, jazmín, rosa, fresia y flor del naranjo africano; las Notas de Fondo son pachulí, almizcle y vainilla. Este perfume es el ganador del premio FiFi Award Best National Advertising Campaign / Print 2006."
+  },
+  {
+    "name": "Eau de toilette Marc Jacobs Daisy Vaporisateur 100ml",
+    "price": 2058,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1071936988_1p.jpg",
+    "descripcion": "Derramada de delicadas margaritas, la botella de vidrio transparente revela una fragancia azul cielo, el color de un sueño. Luminosa y espaciosa, Daisy Dream cautiva con su personalidad afrutada y floral. Daisy Dream te atrae con su amuleto fácil es una mezcla irresistiblemente femenina. La fragancia persiste en la piel, secándose hasta un final de ensueño. Para una joven etérea, inocente y encantadora, que se deleita en el ensueño, Marc Jacobs ha creado una dulce fragancia de autor: Daisy Dream"
+  },
+  {
+    "name": "Eau de parfum Yves Saint Laurent Mon Paris 100ml",
+    "price": 3490,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1066970066_1p.jpg",
+    "descripcion": "Una fragancia espumosa inspirada en París, la ciudad del amor intenso. Las bayas rojas y la pera exudan inmediatamente la sensualidad y feminidad. La exótica flor blanca de Datura, el alma de la fragancia, encarna el deseo y seduce los sentidos. Por último, este aroma floral moderno y atrevido se equilibra con cremoso almizcle blanco y pachulí. La experiencia es un apasionante e inolvidable viaje en torbellino a París. Estilo: apasionado, sensual, sofisticado"
+  },
+  {
+    "name": "Eau de toilette Halloween Man Hero 100ml",
+    "price": 1650,
+    "type": "Solo Perfume",
+    "aroma": "Fresco",
+    "categoria": "caballero",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1103484487_1p.jpg",
+    "descripcion": "Halloween Man Hero es un salto a la vida, a disfrutar, a los amigos de verdad, a conseguir retos reales, a sobrellevar obstáculos, aunque va más allá…es un salto a comerse el mundo. Con Halloween Man Hero, la adrenalina se convierte en fragancia"
+  },
+  {
+    "name": "Eau de toilette Davidoff Cool Water 100ml",
+    "price": 1008,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1141438511_2p.jpg",
+    "descripcion": "Esta fragancia fresca captura la sensación única de belleza que evoca el océano. Las notas florales y afrutadas se elevan como una brisa fresca, trayendo una sensual mezcla de sandía y lirio de los valles sobre una suave caricia de almizcle. Haz tu llamada con Cool Water Woman, la máxima celebración de feminidad, frescura y la seducción."
+  },
+  {
+    "name": "Eau de toilette Jesus Del Pozo 100ml",
+    "price": 1199,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1115451266.jpg",
+    "descripcion": "Halloween de Halloween es una fragancia de la familia olfativa Ámbar Floral para Mujeres. Halloween se lanzó en 1997. La Nariz detrás de esta fragrancia es Max Gavarry. Las Notas de Salida son violeta, notas marinas, hoja de plátano y petit grain; las Notas de Corazón son violeta, magnolia, lirio de los valles (muguete), nardos y pimienta; las Notas de Fondo son incienso, vainilla de Madagascar, sándalo y mirra."
+  },
+  {
+    "name": "Attrape-Rêves Louis Vuitton 100ml",
+    "price": 7750,
+    "type": "Solo Perfume",
+    "aroma": "Citrico",
+    "categoria": "dama",
+    "imgUrl": "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-attrape-r%C3%AAves-collections--LP0083_PM2_Front%20view.png?wid=2400&hei=2400",
+    "descripcion": "Attrape-Rêves de Louis Vuitton es una fragancia floral ambarina para mujeres. Fue lanzada en 2018 y el nariz detrás de esta fragancia es Jacques Cavallier. Las notas de salida son lichi, jengibre y bergamota; las notas medias son peonía, rosa turca y cacao; la nota base es pachulí."
+  },
+  {
+    "name": "Eau de parfum Dior J'Adore 100ml",
+    "price": 3680,
+    "type": "Solo Perfume",
+    "aroma": "Cítrico",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/14320504_1p.jpg",
+    "descripcion": "La fragancia emblema de Dior y el gran floral femenino de todos los tiempos. 𝐄𝐦𝐨𝐜𝐢𝐨𝐧𝐞𝐬 𝐲 𝐬𝐞𝐧𝐬𝐚𝐜𝐢𝐨𝐧𝐞𝐬 𝐪𝐮𝐞 𝐭𝐫𝐚𝐧𝐬𝐦𝐢𝐭𝐞 𝐥𝐚 𝐟𝐫𝐚𝐠𝐚𝐧𝐜𝐢𝐚 𝐉’𝐚𝐝𝐨𝐫𝐞 𝐝𝐞 𝐃𝐢𝐨𝐫: J'adore de Christian Dior enciende los sentidos, este cautivador aroma floral hará que explores tu sensualidad. Su dulzura exótica acentuará tu feminidad y tu lado más atrevido. La icónica fragancia J’adore de la Maison Dior es una flor hecha a medida, diseñada con notas florales icónicas que evocan elegancia y dejan un sello imborrable. Su recipiente cuidadosamente diseñado rememora el poder de la silueta femenina recreando las curvas del ánfora mítica y el legendario collar masai reproduce las joyas que se posan en el cuello de una mujer. 𝐍𝐨𝐭𝐚𝐬 𝐝𝐞 𝐨𝐥𝐨𝐫 𝐝𝐞 𝐉’𝐚𝐝𝐨𝐫𝐞: La composición del eau de parfum J’adore lleva consigo misterio, entrelazando las flores más hermosas del mundo, la esencia estimulante de Ylang-Ylang de las Comores, la intensidad de la esencia de la Rosa de Damasco y la dulzura del Jazmín Sambac, esta mezcla de flores aportan fuerza y originalidad. Su diseñador François Demachy recalca que es una fragancia carnal, sin ser abrumadora. 𝐂𝐨𝐧𝐬𝐞𝐣𝐨𝐬 𝐝𝐞 𝐚𝐩𝐥𝐢𝐜𝐚𝐜𝐢𝐨́𝐧: Si lo que buscas es sublimar tu fragancia Dior, te recomendamos aplicar en primer lugar, la leche corporal embellecedora J’adore. Luego, vaporiza J’adore eau de parfum en los puntos de pulso (cuello, muñecas e interior de los codos). Por último, añade más intensidad con el aceite seco corporal J’adore. Siéntete libre de vaporizar tu fragancia J’adore cuando necesites un toque de dulzura durante el día"
+  },
+  {
+    "name": "Eau de parfum Guerlain Legendaires 100ml",
+    "price": 3280,
+    "type": "Solo Perfume",
+    "aroma": "Frutal",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1107949271_1p.jpg",
+    "descripcion": "Insolence forma parte de la colección de fragancias Les Légendaires de Guerlain. Una colección formada por fragancias emblemáticas creadas hace más de un siglo por cinco generaciones de perfumistas. Perfumes míticos y profundamente innovadores para su época, que componen una biblioteca olfativa única, un tesoro incomparable e inigualable que la Maison Guerlain se compromete a perpetuar. Eau de Parfum Insolence es una creación atrevida con acentos empolvados, construida en torno al dúo floral de violeta y lirio, combinado con flor de naranjo"
+  },
+  {
+    "name": "Eau de parfum Prada Paradoxe 100ml",
+    "price": 3550,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1149534675_1p.jpg",
+    "descripcion": "Paradoxe eau de parfum es la nueva fragancia icónica de prada. Esta fragancia femenina floral es una invitación a descubrir y celebrar la autoexpresión multidimensional de las mujeres; la celebración de ser nunca igual pero siempre tu misma. Una fragancia floral ambarina que abraza las paradojas de ingredientes icónicos para revelar nuevas sensaciones perfumadas. Con notas dominantes de neroli y jazmín, el ramo de flores blancas de prada paradoxe eau de parfum se entrelaza con una firma olfativa vanguardista de acordes ambrofix y serenolide moléculas creadas para crear una estela íntima y duradera liderada por una calidez vibrante. Encapsulando la esencia misma de prada en un frasco recargable. Paradoxe reinventa el código más icónico de la marca: su logo triangular. Femenino y a la vez disruptivo. Inmediatamente reconocible. Prada paradoxe para una mujer imposible de encasillar"
+  },
+  {
+    "name": "Eau de parfum Valentino Born In Roma Classic 100ml",
+    "price": 3490,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1103967607.jpg",
+    "descripcion": "El perfume para mujer Donna Born in Roma Eau de Parfum de Valentino es una moderna fragancia de alta costura. Born in Roma es una actitud ante la vida y una declaración de personalidad, raíces y tus propias reglas. Donna Born in Roma Eau de Parfum pertenece a la familia olfativa floriental - amaderado, compuesto por flores de jazmín, que aportan un toque femenino y lujoso, y con vainilla Bourbon, uno de los extractos más exclusivos. Todo ello se combina con un radiante trío de maderas para obtener un aire atrevido que recuerda a la cultura urbana de Roma. El diseño del frasco viene con las icónicas tachuelas de Valentino inspiradas por la arquitectura de Roma, que son la firma característica de Valentino"
+  },
+  {
+    "name": "CHANEL COCO MADEMOISELLE EAU DE PARFUM INTENSE VAPORIZADOR 200ml",
+    "price": 5730,
+    "type": "Solo Perfume",
+    "aroma": "Amaderada",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1084983844.jpg",
+    "descripcion": "COCO MADEMOISELLE Eau de Parfum Intense. La esencia de una mujer libre y cautivadora. Una fragancia oriental amaderada y ambarina de carácter intenso: sensual, profundo, adictivo. El Eau de Parfum Intense se presenta en vaporizador para un gesto amplio y flexible, sobre la piel o la ropa. Para una estela aún más sensual, aplicar todos los días, en todas las citas y todas las noches, en las muñecas, detrás de las orejas y en la parte posterior de las rodillas. Se puede amplificar la intensidad de la estela gracias al ritual perfumado completo para el baño y el cuerpo."
+  },
+  {
+    "name": "Eau de parfum Carolina Herrera Good Girl Blush 100ml",
+    "price": 3478,
+    "type": "Solo Perfume",
+    "aroma": "Floral",
+    "categoria": "dama",
+    "imgUrl": "https://ss701.liverpool.com.mx/xl/1133291225_2p.jpg",
+    "descripcion": "Good Girl Blush Eau de Parfum de Carolina Herrera es una explosión de contrastes fresca y floral que da paso a una expresión empolvada de feminidad. Esta ingeniosa reinvención de la icónica fragancia Good Girl, presentada en un stiletto de delicado color rosa, revela la naturaleza polifacética de la mujer moderna con una dosis doble de vainilla y el romanticismo pastel de la peonía, evocados con dos formas de ylang ylang y agua de rosas reacondicionada. Sensual y fuerte; romántica y empoderada: te hará creer en el poder del rosa"
   }
+  
 ]
